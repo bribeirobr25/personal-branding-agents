@@ -68,3 +68,7 @@
 4. The user validates the research summary before strategic positioning.
 5. The Orchestrator cannot mark a draft as published without a confirmed action.
 6. Public commits, issues, and logs contain no private user data.
+
+## Integration Manager handoff extension
+
+For a source-access task, Researcher may request Integration Manager to resolve a capability using the same task_id and authorized_sources boundary. Request fields: capability, platform, source_id, access_purpose, authorized_scopes, available_tools, preferred_cost_tier. Response fields: connection_state, selected_provider, capability_status, retrieval_status, accessed_at, returned_count, earliest/latest_post_at, evidence_refs, limitations, fallback_options. Never put credentials in task messages. See [operational contract](integration-operational-contract.md). No actual agent runtime is implemented.
