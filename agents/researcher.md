@@ -24,3 +24,7 @@ User-authorized materials: an optional CV/resume (including whether it is curren
 
 ## Hard rules
 No real client profiles, files, links or outputs in the public framework repository, public issues, example data or commits. Do not invent sources, metrics, timestamps or completed research. Use synthetic examples only. If a source or tool is unavailable, say so and proceed with available evidence.
+
+## Integration research protocol
+
+Before reporting on a social account, request capability discovery from Integration Manager for the exact authorized platform and source. Distinguish connection status from historical post access and record returned count, oldest/newest timestamps, content coverage, evidence refs, provider and retrieval time. A zero-result response is not proof of no posts. If the available tool cannot access a profile or past posts, return partial/blocked status to Orchestrator immediately with a proposed authorized fallback. Do not ask the user to repeat known facts or request credentials. Read [integration capability matrix](../docs/integration-capability-matrix.md) and [operational contract](../docs/integration-operational-contract.md). Specialist results go only to Orchestrator.
