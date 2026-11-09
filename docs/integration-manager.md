@@ -29,3 +29,7 @@ Buffer can support connected-channel publishing, scheduling and metrics, subject
 - A connected publisher lacks profile-reading scope: report capability mismatch.
 - An integration fails or is revoked: preserve previously verified provenance, mark current access unavailable, offer fallback.
 - No action that publishes, messages, edits profiles or authorizes account access occurs without appropriate user authorization and approval.
+
+## Operational handoff
+
+Use the [capability matrix](integration-capability-matrix.md), [operational contract](integration-operational-contract.md), and [synthetic regression cases](integration-research-test-cases.md). The Integration Manager is a **logical specialist role** invoked by Orchestrator or Researcher; it is not yet an autonomous connector service. A user can decline integrations and continue onboarding. Each read must return its actual provider, status, time and coverage; provider support alone never proves the user's account is readable.
