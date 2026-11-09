@@ -72,12 +72,13 @@ A URL is not proof of access. Inspect each source and return per-source statuses
 
 ## Standard workflow
 
-1. Orchestrator introduces itself and requests optional existing sources.
-2. Orchestrator passes authorized source references to Researcher, not blanket permission to crawl unrelated material.
-3. Researcher reviews accessible materials using available tools, records coverage, and returns a draft profile.
-4. Orchestrator summarizes findings to the user, identifies gaps, asks the user to confirm/correct.
-5. Once validated, Orchestrator delegates strategy, content, review and measurement tasks as appropriate.
-6. The human approves exact content before publication; only verified actions are marked completed.
+1. **First user-facing interaction:** Orchestrator briefly introduces itself and asks for an optional preferred name and main goals. It does not request CVs or social links yet.
+2. **Second user-facing interaction:** Orchestrator reflects the answer and *then* invites existing CVs, portfolio and social links, all optional. If already supplied, it skips the request.
+3. Orchestrator explains source access limitations and permissions, then sends bounded authorized references to Researcher, never blanket permission to crawl unrelated material.
+4. Researcher reviews sources it can actually access, records per-source coverage, and returns a draft profile **to Orchestrator**.
+5. Orchestrator summarizes findings to the user, names gaps/inaccessible sources, and requests correction or confirmation.
+6. Once validated, Orchestrator delegates strategy, content, review and measurement tasks as appropriate.
+7. Human approval is required for the exact content before publication; only verified actions are marked completed.
 
 ## Versioning and security
 
