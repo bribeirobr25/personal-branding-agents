@@ -1,38 +1,93 @@
-# Architecture — v0.1
+# Architecture — v0.3 (conversation-led agent system)
+
+## Core principle: one user-facing agent
+
+**The Orchestrator (Head of Personal Branding) is the sole conversational point of contact for the user.** The user should not have to select or switch between specialist agents.
+
+The Orchestrator receives input, decides which specialist should work, delegates with a constrained task brief, checks the specialist's result, and explains the finding and next decision in plain language. Specialist-to-specialist communication goes through the Orchestrator and shared task contracts rather than bypassing the user-facing layer.
+
+## Logical architecture
+
+```text
+User (text / ChatGPT voice / external speech-to-text interface)
+       |
+       v
+Interaction adapter (normalizes input; optional, host-dependent)
+       |
+       v
+ORCHESTRATOR / HEAD OF PERSONAL BRANDING  <---->  Private client workspace
+       |    (sole user-facing agent)               (history, permissions,
+       |                                           source references, drafts,
+       |                                           decisions, approvals)
+       +--> Researcher / Evidence Auditor
+       |        +--> Source-access adapters (if available and authorized)
+       |                +--> Public webpages / search
+       |                +--> Uploaded documents / CV
+       |                +--> Official connected accounts / APIs
+       |                +--> User-supplied exports
+       +--> Positioning Strategist
+       +--> Storyteller
+       +--> Channel Editor
+       +--> Quality & Privacy Reviewer
+       +--> Performance Analyst
+       |
+       v
+Human validation / explicit approval gates
+       |
+       v
+Manual publishing in v0.1; connectors are future work
+```
+
+**Voice is an interface, not a separate brand strategist.** A host may transcribe speech (for example through a voice assistant or a third-party dictation tool such as Wispr Flow). The same Orchestrator should handle the normalized text/transcript while preserving user intent. This repository does **not** implement voice, Wispr Flow, or native ChatGPT adapters.
+
+## Orchestrator ↔ specialist contract
+
+See [delegation contract](agent-contracts.md). In summary:
+
+**Task request** (Orchestrator → specialist): `task_id`, `specialist`, `objective`, `authorized_sources`, `allowed_tools`, `minimum_needed_context`, `expected_output`, and `privacy_constraints`.
+
+**Task response** (specialist → Orchestrator): `task_id`, `status`, `findings`, `evidence_refs`, `access_report`, `uncertainties`, `privacy_flags`, and `next_recommended_step`.
+
+Only the Orchestrator decides how to present results and when to ask the user to validate or correct findings. A specialist must never claim sources were accessed if they were not.
+
+## Source connectors are capabilities, not assumed permissions
+
+The Researcher is responsible for synthesis; source-access adapters handle interactions with documents, webpages or provider APIs. The Orchestrator authorizes a bounded task; the Researcher uses only capabilities actually present in the execution environment.
+
+A URL is not proof of access. Inspect each source and return per-source statuses such as `accessed`, `partial`, `blocked`, `not_supported`, or `not_attempted`. Respect authentication, provider policies and user permission. Never collect account credentials in prompts. Do not promise complete social-media access.
 
 ## Separation of responsibilities
 
-**Public core (this repository):** reusable prompts, stage contracts, quality gates, blank templates, generic examples and documentation.
+**Public core (this repository):** agent role prompts, contracts, workflow guidance, blank templates, fictional data, and future adapter specifications.
 
-**Private client workspace (outside this repository):** factual biography, goals, source documents, project links, audience constraints, tone choices, drafts, approval decisions, outreach details and results.
+**Private client implementation (separate workspace):** documents, sources, real profile data, state, authorized connections, audit logs, approvals and outcomes.
 
-**Optional future runtime:** integrations for research, storage, scheduling, analytics and approvals. These are **not implemented** in v0.1.
+**Optional runtime (future):** actual subagent execution, session management, connector API calls, voice adapters, validation and persistence. **None of these automation capabilities are shipped in the current prompt-first implementation.**
 
-## Contract between layers
-Inputs should be selected, minimum-necessary fields drawn from a private workspace. Outputs should be stored back in that private workspace. Never log sensitive inputs or outputs into public build artifacts or issues.
+## Execution modes
 
-## Execution model: prompt-first
-A single LLM can run the seven specialist roles *sequentially*. Multi-model delegation is optional; the specification does not assert that parallel AI processes exist. The owner remains accountable for facts, consent and publishing.
+- **Supported conceptually now:** a person runs one LLM sequentially through the role prompts and workflow, documenting outputs manually. This simulates delegation.
+- **Future multi-agent execution:** orchestrator invokes distinct workers through an agent runtime, enforces schemas, manages failures/retries and persists state. Not yet implemented.
+- **Future channels:** speech-to-text, chat, messaging, or app interfaces may connect through an adapter. No adapters currently provided.
 
-## Stages and required deliverables
-| Stage | Role | Output | Gate |
-| --- | --- | --- | --- |
-| Intake | Orchestrator | Profile + scope + consent boundaries | Required fields or explicit gaps |
-| Research | Researcher | Evidence inventory | Sourced / user-reported / unverified tags |
-| Positioning | Strategist | Positioning narrative and audiences | Owner review |
-| Story mining | Storyteller | Cases and narrative angles | Evidence/permissions check |
-| Content | Channel Editor | Channel-specific drafts | Editorial checks |
-| Review | Quality Reviewer | Pass/fail report with fixes | All critical findings resolved |
-| Approval | Human owner | Approval for exact revision | Explicit decision |
-| Publication | Human / authorized integration | Canonical link and timestamp | Proven action completion |
-| Learning | Analyst | Observations, hypotheses and next test | Source timestamps provided |
+## Standard workflow
 
-## Versioning principles
-- Keep templates backward compatible when reasonable.
-- Version any future machine-readable schema; record migration instructions.
-- A public framework upgrade must never require committing client data.
-- Don't silently sync data across repositories.
-- Public examples must not be derived from identifiable private cases.
+1. Orchestrator introduces itself and requests optional existing sources.
+2. Orchestrator passes authorized source references to Researcher, not blanket permission to crawl unrelated material.
+3. Researcher reviews accessible materials using available tools, records coverage, and returns a draft profile.
+4. Orchestrator summarizes findings to the user, identifies gaps, asks the user to confirm/correct.
+5. Once validated, Orchestrator delegates strategy, content, review and measurement tasks as appropriate.
+6. The human approves exact content before publication; only verified actions are marked completed.
 
-## Non-goals of v0.1
-Not a production-grade agent platform, no automatic publishing, no OAuth management, no platform APIs, no persistent memory service, no built-in engagement metrics.
+## Versioning and security
+
+- Preserve stable task IDs and explicit state transitions.
+- Minimize context passed between workers, including private identifiers and data.
+- Store source inventories and raw results in the private workspace only.
+- A public framework upgrade never requires committing client data.
+- Public examples must be independently synthetic.
+- Tool availability and authorization must be checked at runtime.
+
+## Non-goals today
+
+No production agent runtime, no social network API connectors, no automated login, no OAuth, no voice integration, no persistent memory service, no automatic publishing, and no built-in metrics.
