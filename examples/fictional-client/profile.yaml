@@ -1,0 +1,30 @@
+# ENTIRELY FICTIONAL TEST PROFILE. Do not replace with real user data in public.
+schema_version: "0.1"
+profile_id: "fictional-alex"
+display_name: "Alex Morgan (fictional)"
+professional_summary: "Operations leader exploring advisory work in sustainable retail."
+goals:
+  - "Build credibility for operational transformation advisory"
+  - "Meet peers in sustainable retail"
+target_audiences:
+  - "Retail founders and operations leads"
+markets:
+  - "International / English-speaking"
+channels:
+  - platform: "LinkedIn"
+    language: "English"
+    voice: "Practical, clear, evidence-led"
+expertise_pillars:
+  - "Operational decision-making"
+  - "Sustainable retail systems"
+  - "Learning by building"
+approved_public_sources: []
+topics_to_avoid:
+  - "Unverified environmental impact claims"
+confidentiality_rules:
+  - "Avoid all real-world client identifiers"
+publication_policy:
+  requires_explicit_approval: true
+  auto_publish: false
+open_questions:
+  - "Which actual projects could support the proposed positioning? (fictional exercise)"

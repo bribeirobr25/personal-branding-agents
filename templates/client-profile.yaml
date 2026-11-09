@@ -1,0 +1,25 @@
+# TEMPLATE ONLY. Fill in a separate PRIVATE workspace, never in this public repository.
+schema_version: "0.1"
+profile_id: "replace-with-internal-id"
+display_name: ""
+professional_summary: ""
+goals:
+  - ""
+target_audiences:
+  - ""
+markets:
+  - ""
+channels:
+  - platform: ""
+    language: ""
+    voice: ""
+expertise_pillars:
+  - ""
+approved_public_sources: []
+topics_to_avoid: []
+confidentiality_rules:
+  - "No private client information in public repositories"
+publication_policy:
+  requires_explicit_approval: true
+  auto_publish: false
+open_questions: []
