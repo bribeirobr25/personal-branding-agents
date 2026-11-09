@@ -28,3 +28,12 @@ Status: proposed governance policy (2026-11-09). Applies to the reusable public 
 
 ## Future automation
 A version-aware updater or CI workflow may later open private upgrade PRs, but only after explicit implementation, least-privilege permissions, privacy review, tests and human approval. No such automation exists today.
+
+## Versioning policy
+Use Semantic Versioning tags `vMAJOR.MINOR.PATCH`. During the pre-1.0 phase, PATCH denotes compatible documentation/bug corrections and MINOR denotes feature or contract evolution, with any breaking change prominently declared. Version numbers alone do not guarantee compatibility before 1.0. Tags and release notes are published after reviewed merges, not before.
+
+## Objective release acceptance gates
+A public PR must document: (1) scope and synthetic acceptance scenarios, (2) changed interfaces, role contracts and migration guidance, (3) evidence from repeatable onboarding and content-cycle simulations, (4) privacy review of the complete diff and metadata, (5) factual/quality review, (6) independent reviewer and owner approval. Record PASS, FAIL or NOT RUN for each gate. A FAIL blocks merge; NOT RUN must be resolved or explicitly accepted as a documented exception before merge. Never label manual prompt simulations as automated tests.
+
+## Future compatibility automation
+Start with a machine-readable release manifest, synthetic fixtures and expected state transitions. Later CI may check schema compatibility, missing links, release tags, prompt regression scenarios and accidental sensitive data, and propose private upgrade PRs. CI is not implemented today and must not automatically merge or access private client content.
