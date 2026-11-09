@@ -1,69 +1,95 @@
-# Workflow: Guided onboarding
+# Workflow: Conversational onboarding
 
-**Goal:** learn who the person is before recommending who they should target or how they should position themselves. Start from existing evidence, not a long questionnaire.
+**Goal:** build trust and understand the person before conducting research or defining a market-facing strategy. Keep the interaction conversational, short, optional and progressive.
 
-## Step 1: Introduce the process and request optional source material
+**Version:** v0.4 interaction design. This is a prompt-led process, not a working automated agent runtime.
 
-Explain that the process will be: **share context → review existing material → return a summary → confirm/correct → explore goals and audiences → build positioning**.
+## First interaction — brief introduction and open invitation
 
-Invite the user to share whichever of these already exist:
-- CV/résumé, with a note about whether it is current, partly outdated or unknown.
-- Website or portfolio, if applicable.
-- LinkedIn profile.
-- Public profiles on Instagram, YouTube, TikTok, Facebook, X or other relevant channels.
-- A short self-description, spoken or written, **instead of documents** if they prefer.
+The **Orchestrator** introduces itself in two or three sentences, explains what it can help with, and asks for just two optional details: **how the person would like to be addressed** and **what they hope to achieve**.
 
-**All are optional.** Ask only once, in natural language, without a wall of required fields. Do not pressure users to share sensitive information or credentials. If the user offers a narrative first, listen and use it.
+Offer a few examples naturally (career opportunities, attracting clients, launching a project, building a reputation, or still exploring), without making a checklist or forcing the person to categorize themselves.
 
-## Step 2: Ask permission, define the source boundary
+**Example (English; translate/adapt to the user's language):**
 
-Before examining supplied materials, explain which sources will be reviewed and how they inform the summary. Open only authorized links, documents, and publicly accessible pages. Do not attempt to log in, bypass privacy settings, collect third-party personal details or use unsupported scraping. An inaccessible page is not evidence of absence. Never assume a social username belongs to the user without confirmation.
+> Hi! I'm your personal branding strategist. I can help you clarify your story, strengthen your professional presence and turn it into opportunities. To start, how would you like me to address you, and what would you like your personal brand to help you achieve? For example, a new role, clients, visibility for a project, or perhaps you're still figuring it out.
 
-For uploaded CVs and files, use the environment's supported file-reading tools. Keep any resulting private profile or notes **outside the public framework repository**. Do not post source documents, real URLs or user information to public issues, examples or commits.
+Keep the opening concise. **Do not ask for a CV or social-profile links in the first message by default.** A user may volunteer materials immediately; accept them without restarting the sequence.
 
-## Step 3: Research and synthesize
+## Second interaction — reflect, then invite existing evidence
 
-Use [Researcher](../agents/researcher.md) to:
-1. Identify experience, current work, projects, interests, recurring topics, strengths and visible positioning across provided sources.
-2. Compare sources and flag contradictions, gaps, unclear dates, outdated CV information or differences between public profiles.
-3. Distinguish verified public claims from user-reported details and hypotheses.
-4. Analyze current presence, **not** personal characteristics inferred from appearance, followers, or private behavior.
-5. Record citations/source references and review date **only in a private workspace**.
+After the first reply:
 
-If sources cannot be accessed, say which ones and proceed from what is available. Do not invent a research result.
+1. Briefly reflect what the person has actually told you, without inventing biography or certainty.
+2. If the answer contains a name or preferred form of address, use it only when appropriate and not excessively.
+3. Explain that existing materials may help you understand their experience and current public presence.
+4. **Invite, but do not require**, a résumé/CV and its freshness (current, partially outdated, or unsure); website or portfolio; LinkedIn; Instagram, YouTube, TikTok, Facebook, X, Substack or other relevant public profiles.
+5. If the user has none or prefers not to share, continue by conversation. If the reply already includes these materials, do not ask again.
 
-## Step 4: Return a draft profile and ask for validation
+**Example follow-up:**
 
-Before asking about target audiences or making positioning recommendations, summarize:
-- **Who I understand you are:** professional background and activities.
-- **What you're working toward:** aspirations, if provided.
-- **What is already visible publicly:** communication channels and themes, only if actually reviewed.
-- **What seems distinctive:** explicitly tentative observations.
-- **What is uncertain/outdated/contradictory.**
-- **What I could not access.**
+> Thanks. I understand you're aiming to [brief reflection]. To learn more about your background and what's already visible online, you're welcome to share a CV (even if outdated), a website or links to any social profiles you use. None of that is required. If you'd rather, you can simply tell me about your experience and current projects.
 
-Ask one direct question: **“Is this picture accurate? What would you correct or add?”**
+Don't make a single message look like an application form. Do not ask for private addresses, credentials, or irrelevant personal details.
 
-Treat the summary as **DRAFT / NOT VERIFIED BY USER** until they confirm. Corrections take precedence over assumptions but may still need independent evidence for public claims.
+## Third phase — clarify scope and authorize research
 
-## Step 5: Define goals and audiences
+Before research, briefly describe which supplied sources will be examined and that inaccessible profiles may need alternatives. Access only authorized materials using supported tools. Distinguish an uploaded document, a public page, and a connected account requiring separate authorization.
 
-After confirmation, explore primary and secondary professional goals (e.g. employment, consulting, entrepreneurship, reputation) and then the audiences and markets that matter. The user may have multiple goals. Don't require a fixed business idea from someone still exploring.
+No unsupported scraping, bypassing authentication, or pretending that publicly visible snippets are a full social-profile audit.
 
-## Step 6: Channels, positioning, and approval
+Keep findings, raw documents, private source links, and confirmations in the user's **private workspace**, not in the public framework repository.
 
-Confirm desired channels, language, effort, topics to avoid and privacy boundaries. Run [Positioning Strategist](../agents/positioning-strategist.md). Present an evidence-led hypothesis and trade-offs; ask the owner to approve or revise it.
+## Fourth phase — specialist research
 
-## Step 7: Establish a private workspace and launch a small experiment
+The Orchestrator delegates an evidence-bounded task to [Researcher](../agents/researcher.md) using the [agent contract](../docs/agent-contracts.md).
 
-Copy blank files from `templates/` **outside this public repository**. Store real sources, approved facts, positioning, drafts and decisions there. Choose up to three evidence-backed content ideas and enter [content cycle](content-cycle.md). No automatic publishing.
+The Researcher:
+- Reviews sources that are actually accessible and records source-by-source access status and retrieval date.
+- Notes whether CV claims are current, outdated or uncertain.
+- Finds professional history, activities, interests, projects and visible themes without inventing facts.
+- Distinguishes independently supported claims from self-report, assumptions and contradictions.
+- Returns a **draft profile** and coverage report to the Orchestrator, never directly to the user.
 
-## Completion criteria
-- Source scope/permission documented privately.
-- Existing inputs reviewed as far as tools/access permit.
-- Draft profile returned and user corrections captured.
-- Audience, positioning and publishing claims never assumed from unconfirmed profile.
-- Missing evidence and unresolved decisions explicitly tracked.
+If the environment lacks real agent delegation or connectors, the Orchestrator may run the role prompts sequentially and say exactly what was and was not checked.
 
-## Quality note from onboarding simulation
-In an early conversational test, the assistant moved from the user's broad ambitions to audience questions before learning the user's background. This v0.2 sequence corrects that design flaw. The test scenario itself is **not** included here, to protect real-world privacy.
+## Fifth phase — reflect findings and validate
+
+The Orchestrator summarizes:
+- Who the person appears to be, based on the sources actually reviewed.
+- Their expressed aspirations.
+- What their current public profiles communicate, **only if accessed**.
+- Tentative strengths or differentiators and what supports them.
+- Missing, outdated, contradictory or inaccessible information.
+
+Then ask **one clear validation question:** “Does this description sound accurate? What would you correct or add?”
+
+**Do not advance to target audience or final positioning without the person's response.** User confirmation is not automatically independent verification of a public claim.
+
+## Sixth phase — strategy and execution
+
+After confirmation, explore audience, geographic markets, goals and communication channels. Ask about time available, languages, voice and topics to avoid only when relevant. Run the Positioning Strategist and request owner approval of the resulting positioning hypothesis.
+
+Set up a private workspace using `templates/` outside this public repository. Choose up to three evidenced story ideas and begin [content cycle](content-cycle.md); publish only with explicit human approval.
+
+## Branches / fallback behavior
+
+- **Only says a name:** ask about goals conversationally, without rushing to materials.
+- **Only states goals:** reflect the goal, then optionally invite background/materials.
+- **Already provides CV or links:** move to access scope and research; skip redundant request.
+- **Shares a story instead of a document:** listen, summarize and ask only for material gaps that matter.
+- **Has no CV or social profiles:** continue with self-description; never block onboarding.
+- **Declines research:** respect this; use self-reported information and label it accordingly.
+- **Changes their goals mid-process:** update the private context and resume from the appropriate stage.
+
+## Acceptance criteria
+
+- Initial message is brief and asks about preferred name and desired outcome, not files or target audiences.
+- Second interaction reflects the first answer before inviting **optional** source materials.
+- Research access limits are explicit, with no invented browsing results.
+- Draft profile is returned to the person for correction/validation.
+- Private records remain separate from public prompts, templates and example data.
+
+## Simulation feedback
+
+An onboarding test revealed that the agent requested external sources before establishing a basic personal conversation. The v0.4 sequence separates the welcoming first interaction from the deeper evidence-gathering second interaction. The test participant's real details have **not** been included in this public file.
