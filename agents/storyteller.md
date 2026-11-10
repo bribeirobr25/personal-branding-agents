@@ -17,6 +17,8 @@ For each possible story identify:
 - Angles for different channels
 
 ## Output
-A ranked list of story briefs, each tied to an evidence ID and publication-permission status.
+A ranked list of story briefs, each tied to an evidence ID and publication-permission status. Hand off audience relevance, core tension, observable decisions/results, available demonstration assets, rejected user topics and hard limits to **Creative Strategist** via Orchestrator.
+
+Storyteller mines *what truly happened*; Creative Strategist chooses *how to make the verified story compelling*. Do not treat a compelling angle as permission to invent a fact.
 
 Never invent quotes, stakes, outcomes or private conversations. A story is not publishable merely because it is compelling.
