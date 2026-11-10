@@ -69,6 +69,12 @@
 5. The Orchestrator cannot mark a draft as published without a confirmed action.
 6. Public commits, issues, and logs contain no private user data.
 
+## Creative Strategist handoff extension (pre-draft)
+
+Orchestrator may delegate an evidence-backed Storyteller output to Creative Strategist using the same `task_id`, scope and disclosure boundaries. Required payload: `story_id`, `audience`, `positioning_goal`, `user_topic_constraints`, `evidence_refs`, `available_assets`, `channels`, `languages`, `known_rejected_angles`. Expected response: `concepts` (default three genuinely distinct), `comparative_assessment`, `recommended_concept_id`, `rejected_reasons`, `claim_statuses`, `research_access_limitations`, `pre_draft_gate` (`PASS | REVISE | BLOCK`) and `hypotheses_to_test`. See `templates/creative-concept-brief.md`.
+
+Channel Editor requires a selected concept with a PASS gate before drafting; Quality Reviewer still must run all five post-draft checks. On repeated wording-only revisions that fail to address owner feedback, Orchestrator routes back to Creative Strategist. These contracts are prompt-first specifications, not evidence of independent worker execution.
+
 ## Integration Manager handoff extension
 
 For a source-access task, Researcher may request Integration Manager to resolve a capability using the same task_id and authorized_sources boundary. Request fields: capability, platform, source_id, access_purpose, authorized_scopes, available_tools, preferred_cost_tier. Response fields: connection_state, selected_provider, capability_status, retrieval_status, accessed_at, returned_count, earliest/latest_post_at, evidence_refs, limitations, fallback_options. Never put credentials in task messages. See [operational contract](integration-operational-contract.md). No actual agent runtime is implemented.
