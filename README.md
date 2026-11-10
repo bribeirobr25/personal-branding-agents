@@ -23,6 +23,10 @@ Posting more is not the same as building a reputation. This project structures t
               |                   |                   |
               +-------------------+-------------------+
                                   |
+                       CREATIVE STRATEGIST
+                                  |
+                         CREATIVE CONCEPT GATE
+                                  |
                           CHANNEL EDITOR
                                   |
                           QUALITY REVIEWER
@@ -45,7 +49,7 @@ The public repository contains **methods and fictitious examples**, not real cli
 3. Read [AGENTS.md](AGENTS.md), [architecture](docs/architecture.md) and [privacy guidance](docs/security-and-privacy.md).
 4. In your AI assistant, use [the orchestrator](agents/orchestrator.md) to coordinate the stages in [onboarding](workflows/onboarding.md). Feed it **only information you are authorized to share with the AI service**.
 5. Produce a documented positioning strategy using [positioning template](templates/positioning.md).
-6. Use the [content workflow](workflows/content-cycle.md) to draft, review and request human approval. Publication is **manual** for this version.
+6. Use the [content workflow](workflows/content-cycle.md) to compare concepts, pass the [pre-draft creative gate](docs/creative-concept-gate.md), draft, review and request human approval. Publication is **manual** for this version.
 7. Record actual links, outcomes and learning in your **private** copy of [publication tracker](templates/publication-tracker.csv).
 
 Start with the [fictional walkthrough](examples/fictional-client/README.md) to see the flow without exposing personal information.
@@ -57,7 +61,8 @@ Start with the [fictional walkthrough](examples/fictional-client/README.md) to s
 | [Researcher](agents/researcher.md) | Evidence gathering and claim verification |
 | [Positioning Strategist](agents/positioning-strategist.md) | Audience, differentiation and narrative |
 | [Storyteller](agents/storyteller.md) | Find stories and lessons from verified evidence |
-| [Channel Editor](agents/channel-editor.md) | Adapt voice and formats by platform |
+| [Creative Strategist](agents/creative-strategist.md) | Research attention patterns, compare distinct concepts and pre-draft creative hypotheses |
+| [Channel Editor](agents/channel-editor.md) | Adapt selected concepts into native platform scripts and copy |
 | [Quality & Privacy Reviewer](agents/quality-reviewer.md) | Factual, strategic, editorial and confidentiality checks |
 | [Performance Analyst](agents/performance-analyst.md) | Review observed results and propose experiments |
 
@@ -66,9 +71,10 @@ These are **roles specified as prompts**, not separately executing software agen
 ## Repository map
 - `agents/` reusable agent instructions
 - `workflows/` step-by-step guided processes
-- `templates/` blank reusable deliverables
+- `templates/` blank reusable deliverables, including a [creative concept brief](templates/creative-concept-brief.md)
 - `docs/` architecture, quality standards, security
 - `examples/fictional-client/` invented non-sensitive example
+- `docs/creative-strategy-simulation-tests.md` unexecuted fictional regression scenarios
 
 ## Operating rules
 - **Human approval is required** before publishing, messaging people, or modifying public profiles.
