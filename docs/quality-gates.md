@@ -1,5 +1,7 @@
 # Five-gate review standard
 
+**Separate pre-draft gate:** Creative Strategist must first review the *concept* via [creative-concept-gate.md](creative-concept-gate.md). That pre-draft check complements, but never replaces, the **five post-draft gates** below.
+
 Any draft must pass **all five gates** before requesting human publication approval.
 
 ## Gate 1 — Factual accuracy
