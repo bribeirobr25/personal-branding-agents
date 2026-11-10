@@ -6,6 +6,9 @@
 **Target audience:**  
 **Strategic pillar:**  
 **Goal:**  
+**Selected concept ID / pre-draft gate status:**  
+**Creative concept brief reference:**  
+**Rejected angles and user constraints (private only):**  
 
 ## Central insight
 [One statement]
@@ -22,6 +25,14 @@
 - Action/example:
 - Result or candid lesson:
 - Audience takeaway:
+
+## Creative hypothesis and demonstration
+- Audience promise / hook:
+- Concrete contrast, decision, reveal:
+- First seconds / first screen:
+- Visual or real demo evidence actually available:
+- How platform version differs from other channels:
+- Experimental hypothesis and success signal:
 
 ## Voice and packaging
 - Format:
