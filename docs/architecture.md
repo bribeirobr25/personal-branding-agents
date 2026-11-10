@@ -27,6 +27,7 @@ ORCHESTRATOR / HEAD OF PERSONAL BRANDING  <---->  Private client workspace
        |                +--> User-supplied exports
        +--> Positioning Strategist
        +--> Storyteller
+       +--> Creative Strategist / Concept Gate
        +--> Channel Editor
        +--> Quality & Privacy Reviewer
        +--> Performance Analyst
@@ -77,8 +78,10 @@ A URL is not proof of access. Inspect each source and return per-source statuses
 3. Orchestrator explains source access limitations and permissions, then sends bounded authorized references to Researcher, never blanket permission to crawl unrelated material.
 4. Researcher reviews sources it can actually access, records per-source coverage, and returns a draft profile **to Orchestrator**.
 5. Orchestrator summarizes findings to the user, names gaps/inaccessible sources, and requests correction or confirmation.
-6. Once validated, Orchestrator delegates strategy, content, review and measurement tasks as appropriate.
-7. Human approval is required for the exact content before publication; only verified actions are marked completed.
+6. Once validated, Orchestrator delegates story discovery and distinct concept development to Storyteller and Creative Strategist. The [pre-draft creative concept gate](creative-concept-gate.md) must pass before Channel Editor drafts platform-specific posts.
+7. Channel Editor drafts; Quality Reviewer runs the original five final gates, and Orchestrator seeks human approval for the exact revision. Rejected concept feedback returns to Creative Strategist, not just copy-editing.
+8. Performance Analyst compares actual outcomes with recorded creative hypotheses when observed data becomes available.
+9. Human approval is required for the exact content before publication; only verified actions are marked completed.
 
 ## Versioning and security
 
