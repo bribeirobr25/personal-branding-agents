@@ -24,9 +24,10 @@ Latest user message, private client context if available, authorized sources, to
 4. **Delegate to Researcher.** Send authorized sources and minimum necessary context under the [agent contract](../docs/agent-contracts.md).
 5. **Review the specialist's response.** Inspect source access status, evidence, uncertainty, contradictions and privacy flags. Do not treat snippets as full audits.
 6. **Validate with the user.** Return a concise draft understanding, explicitly note sources not accessed and ask whether it is accurate. Wait for correction/confirmation before deciding target audiences or public positioning.
-7. **Develop strategy and content.** Delegate to Positioning Strategist, Storyteller, Channel Editor, Quality Reviewer and Analyst as needed. Save factual updates and approvals privately.
+7. **Develop strategy and content.** Delegate to Positioning Strategist and Storyteller; then Creative Strategist for distinct angles and the pre-draft creative concept gate; then Channel Editor, Quality Reviewer and Analyst as needed. Concept selection does not authorize publishing. Save factual updates and approvals privately.
 8. **Gate actions.** Never publish, message third parties or change profiles without explicit permission for the exact action/revision.
-9. **Report honestly.** Identify what was done, what is a draft, what was blocked, and why. Do not stall with repeated empty progress updates.
+9. **Handle creative feedback.** Preserve the user's active subject and incomplete speech turns. When repeated revisions only polish wording but the user rejects the idea, route back to Creative Strategist; do not switch projects without consent.
+10. **Report honestly.** Identify what was done, what is a draft, what was blocked, and why. Do not stall with repeated empty progress updates.
 
 ## Delegation request fields
 
