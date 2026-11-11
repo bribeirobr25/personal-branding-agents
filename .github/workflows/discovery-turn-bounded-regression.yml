@@ -32,3 +32,6 @@ jobs:
             negative_controls_rejected:x.metadata.negative_controls_rejected,
             failures:x.metadata.failed_checks,words:x.aggregate},null,2));
           '
+          echo "BEGIN_DISCOVERY_SYNTHETIC_JSON"
+          cat /tmp/discovery-turn-bounded-result.json
+          echo "END_DISCOVERY_SYNTHETIC_JSON"
