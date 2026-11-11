@@ -1,7 +1,7 @@
 # Proposal: Progressive Discovery and Strategic Positioning
 
 **Date:** 2026-11-11  
-**Status:** Design decisions recorded; implementation and behavioral validation pending  
+**Status:** Design recorded; exploratory same-assistant roleplay documented; independent behavioral validation and implementation pending  
 **Scope:** Public, user-agnostic method only. No real user transcripts, biographies, social handles, account data or private research records are included.  
 **Baseline:** Public framework method 0.2.0. This proposal does not change the released contracts or claim autonomous execution.
 
@@ -103,5 +103,5 @@ After approved positioning: establish a modest, evidence-backed content or non-p
 ## Status, decisions and next step
 
 **Recorded:** proposal for the first three phases and the deepened strategic transition, including responsibilities, gates and expected outputs.  
-**Not yet done:** modifying active workflows/contracts, executing simulations, independent review, release, private adoption or merging this branch.  
-**Next:** review the six Strategy moments with representative synthetic cases, then prepare an implementation PR with explicit compatibility/privacy checks and user approval before merge.
+**Exploratory work completed:** a [hybrid simulation protocol](discovery-simulation-protocol-2026-11-11.md) and [12 authored synthetic roleplay transcripts](discovery-exploratory-roleplay-2026-11-11.md) (3 initial + 9 expanded). These are same-assistant diagnostic illustrations, not independent agent runs, external-source research, or Monte Carlo execution.\n**Not yet done:** modifying active workflows/contracts, isolated independent simulations, seeded stochastic runs, independent review, release, private adoption or merging this branch.  
+**Next:** independently execute the frozen Discovery scenarios with isolated role contexts and actual access logs; review failures and refine the first two phases before proceeding to the six Strategy moments. Any implementation PR requires compatibility/privacy checks and owner approval before merge.
