@@ -1,19 +1,20 @@
-# Quality review (template)
+# Final five-gate review (private working copy)
 
-**Draft ID:**  
-**Revision identifier:**  
-**Reviewer:**  
-**Date:**  
+Artifact ID / version / hash:
+Brief / selection / claim-map references:
+Channel / language / proposed action / destination:
+Reviewer / mode (self, same-model role, independent):
+Media review coverage (complete or sampled, with limits):
 
-| Gate | PASS / REVISE / BLOCK | Evidence / reason | Required change |
+| Gate | PASS / REVISE / BLOCK | Evidence and reason | Remediation |
 | --- | --- | --- | --- |
-| 1 Factual accuracy | | | |
-| 2 Strategic relevance | | | |
-| 3 Editorial clarity | | | |
-| 4 Privacy and rights | | | |
-| 5 Authenticity and channel fit | | | |
+| Factual accuracy | | | |
+| Strategic relevance | | | |
+| Editorial clarity | | | |
+| Privacy, rights and safety | | | |
+| Authenticity and channel fit | | | |
 
-**Overall status:** NOT READY / READY FOR HUMAN APPROVAL  
-**Unresolved risks:**  
-**Approval for exact text received?** NO (human decision required)  
-**Published?** NO (confirm separately)
+All five must PASS before requesting owner approval.
+Owner approval: absent until an explicit record exists for the exact artifact/action.
+Changes after approval: new version and new review/approval where material.
+Publication receipt: absent until actual action is confirmed.

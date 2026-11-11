@@ -1,0 +1,29 @@
+name: Framework documentation validation
+
+on:
+  push:
+    branches: [main, feat/creative-strategist-concept-gate-20261110]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: framework-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the exact revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Check the complete checkout, not an inventory substitute
+        run: python3 tools/check_documentation.py
+      - name: Offline maintenance and owner-authority regression
+        run: python3 -m unittest discover -s tests -p 'test_repository_maintenance.py' -v

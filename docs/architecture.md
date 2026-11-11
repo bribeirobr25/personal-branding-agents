@@ -1,94 +1,47 @@
-# Architecture — v0.3 (conversation-led agent system)
+# Architecture: prompt-first method 0.2.0
 
-## Core principle: one user-facing agent
+## One conversational interface
 
-**The Orchestrator (Head of Personal Branding) is the sole conversational point of contact for the user.** The user should not have to select or switch between specialist agents.
-
-The Orchestrator receives input, decides which specialist should work, delegates with a constrained task brief, checks the specialist's result, and explains the finding and next decision in plain language. Specialist-to-specialist communication goes through the Orchestrator and shared task contracts rather than bypassing the user-facing layer.
-
-## Logical architecture
+The Orchestrator is the sole user-facing agent. It checks authorization, delegates minimum context, validates results and asks the user to confirm important findings. Specialist-to-specialist requests return through it. Integration Manager is a capability-resolution role, not an additional public persona.
 
 ```text
-User (text / ChatGPT voice / external speech-to-text interface)
-       |
-       v
-Interaction adapter (normalizes input; optional, host-dependent)
-       |
-       v
-ORCHESTRATOR / HEAD OF PERSONAL BRANDING  <---->  Private client workspace
-       |    (sole user-facing agent)               (history, permissions,
-       |                                           source references, drafts,
-       |                                           decisions, approvals)
-       +--> Researcher / Evidence Auditor
-       |        +--> Source-access adapters (if available and authorized)
-       |                +--> Public webpages / search
-       |                +--> Uploaded documents / CV
-       |                +--> Official connected accounts / APIs
-       |                +--> User-supplied exports
-       +--> Positioning Strategist
-       +--> Storyteller
-       +--> Channel Editor
-       +--> Quality & Privacy Reviewer
-       +--> Performance Analyst
-       |
-       v
-Human validation / explicit approval gates
-       |
-       v
-Manual publishing in v0.1; connectors are future work
+User / optional host transcription -> Orchestrator <-> private workspace
+                                      |-> Researcher
+                                      |-> Positioning Strategist
+                                      |-> Storyteller
+                                      |-> Creative Strategist
+                                      |-> Channel Editor
+                                      |-> Quality Reviewer
+                                      |-> Performance Analyst
 ```
 
-**Voice is an interface, not a separate brand strategist.** A host may transcribe speech (for example through a voice assistant or a third-party dictation tool such as Wispr Flow). The same Orchestrator should handle the normalized text/transcript while preserving user intent. This repository does **not** implement voice, Wispr Flow, or native ChatGPT adapters.
+Voice is an input interface. No voice adapter, account API, worker runtime or persistent memory service is implemented. One LLM can execute these prompts sequentially with human supervision; do not call that independent multi-agent execution.
 
-## Orchestrator ↔ specialist contract
+## Separate layers
 
-See [delegation contract](agent-contracts.md). In summary:
+| Layer | Included now | Not implied |
+| --- | --- | --- |
+| Public method | Prompts, contracts, blank templates, synthetic examples and evaluation protocols | Real client sources or results |
+| Private workspace | Maintained separately by each user; current goals, evidence, drafts, permissions and observations | Automatic synchronization or access from the public repo |
+| Optional host | Actual tools and persistence supplied by the user's environment | Availability, authorization, coverage or safe isolation merely because a connector is named |
+| Optional adapters | Capability contracts and future requirements | Working publishers, crawlers, local inference or video renderers |
 
-**Task request** (Orchestrator → specialist): `task_id`, `specialist`, `objective`, `authorized_sources`, `allowed_tools`, `minimum_needed_context`, `expected_output`, and `privacy_constraints`.
+## Workflow boundaries
 
-**Task response** (specialist → Orchestrator): `task_id`, `status`, `findings`, `evidence_refs`, `access_report`, `uncertainties`, `privacy_flags`, and `next_recommended_step`.
+Progressive onboarding introduces the role and optional name/goals, then invites optional evidence, scopes access, researches, returns findings for user validation and only then positions. Reuse already supplied information. A conversation-only route is valid. See [onboarding](../workflows/onboarding.md).
 
-Only the Orchestrator decides how to present results and when to ask the user to validate or correct findings. A specialist must never claim sources were accessed if they were not.
+After a validated goal: evidence/interest -> StoryBrief -> CreativeBrief -> distinct concepts -> SELECT -> channel draft -> five final PASS results -> owner approval of the exact artifact/action -> confirmed manual publication -> measured learning. Scheduling is optional and needs its own authorization and receipt.
 
-## Source connectors are capabilities, not assumed permissions
+Knowledge stores are logically separate evidence, credibility, interest, voice and reference records; they can start as files. They do not require five databases or agents. A reference library must not become an unlicensed media archive. See [knowledge](knowledge-and-positioning.md).
 
-The Researcher is responsible for synthesis; source-access adapters handle interactions with documents, webpages or provider APIs. The Orchestrator authorizes a bounded task; the Researcher uses only capabilities actually present in the execution environment.
+The [delegation contract](agent-contracts.md) preserves task IDs, authorized sources, allowed tools and evidence references. A zero result does not prove that an account is empty. A fetched post does not prove every achievement in its text. Missing access and unsupported facts are different states.
 
-A URL is not proof of access. Inspect each source and return per-source statuses such as `accessed`, `partial`, `blocked`, `not_supported`, or `not_attempted`. Respect authentication, provider policies and user permission. Never collect account credentials in prompts. Do not promise complete social-media access.
+## Progress and versioning
 
-## Separation of responsibilities
+`framework-manifest.json` identifies method/contract versions, not an installed runtime or published tag. Earlier architecture/onboarding version headings described document iterations, not semantic releases. Private users adopt an explicit public release and resolved SHA after compatibility review; moving main is not an automatic dependency.
 
-**Public core (this repository):** agent role prompts, contracts, workflow guidance, blank templates, fictional data, and future adapter specifications.
+Useful generic improvements may be published using independently fictional scenarios. Private identities, metrics, unpublished stories, source links, transcripts and decision histories remain private. Client-specific languages, priorities and goals are configuration, not public defaults.
 
-**Private client implementation (separate workspace):** documents, sources, real profile data, state, authorized connections, audit logs, approvals and outcomes.
+## Non-goals and next boundaries
 
-**Optional runtime (future):** actual subagent execution, session management, connector API calls, voice adapters, validation and persistence. **None of these automation capabilities are shipped in the current prompt-first implementation.**
-
-## Execution modes
-
-- **Supported conceptually now:** a person runs one LLM sequentially through the role prompts and workflow, documenting outputs manually. This simulates delegation.
-- **Future multi-agent execution:** orchestrator invokes distinct workers through an agent runtime, enforces schemas, manages failures/retries and persists state. Not yet implemented.
-- **Future channels:** speech-to-text, chat, messaging, or app interfaces may connect through an adapter. No adapters currently provided.
-
-## Standard workflow
-
-1. **First user-facing interaction:** Orchestrator briefly introduces itself and asks for an optional preferred name and main goals. It does not request CVs or social links yet.
-2. **Second user-facing interaction:** Orchestrator reflects the answer and *then* invites existing CVs, portfolio and social links, all optional. If already supplied, it skips the request.
-3. Orchestrator explains source access limitations and permissions, then sends bounded authorized references to Researcher, never blanket permission to crawl unrelated material.
-4. Researcher reviews sources it can actually access, records per-source coverage, and returns a draft profile **to Orchestrator**.
-5. Orchestrator summarizes findings to the user, names gaps/inaccessible sources, and requests correction or confirmation.
-6. Once validated, Orchestrator delegates strategy, content, review and measurement tasks as appropriate.
-7. Human approval is required for the exact content before publication; only verified actions are marked completed.
-
-## Versioning and security
-
-- Preserve stable task IDs and explicit state transitions.
-- Minimize context passed between workers, including private identifiers and data.
-- Store source inventories and raw results in the private workspace only.
-- A public framework upgrade never requires committing client data.
-- Public examples must be independently synthetic.
-- Tool availability and authorization must be checked at runtime.
-
-## Non-goals today
-
-No production agent runtime, no social network API connectors, no automated login, no OAuth, no voice integration, no persistent memory service, no automatic publishing, and no built-in metrics.
+No autonomous publishing, scraping, cold outreach, credential collection, production worker isolation, actual local model stack or scheduled analytics. [Optional capabilities](optional-capabilities.md) gives conditions for future implementations without expanding the first content cycle.

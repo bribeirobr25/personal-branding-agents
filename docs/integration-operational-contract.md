@@ -2,17 +2,19 @@
 
 **Status:** prompt-first role specification, not working connector code or independently running agents.
 
+**Method 0.2.0 routing clarification:** all capability requests and results are dispatched through the Orchestrator. References below to a Researcher request or Integration Manager return describe payload ownership, not direct specialist-to-specialist calls. The stable fields and capability/connection states are unchanged.
+
 ## Ownership
-- Orchestrator alone talks to the user, selects timing, captures consent, and validates outputs.
-- Integration Manager determines available providers, account connection status, scope, cost and per-capability coverage. It does not interpret professional positioning or publish content.
-- Researcher requests access capabilities, examines only retrieved evidence, and reports provenance, uncertainty and confidentiality flags back to Orchestrator.
+- Orchestrator alone talks to the user, selects timing, captures consent, dispatches capability tasks and validates outputs.
+- Integration Manager determines available providers, account connection status, scope, cost and per-capability coverage. It returns to Orchestrator and does not interpret professional positioning or publish content.
+- Researcher requests access capabilities through Orchestrator, examines only retrieved evidence, and reports provenance, uncertainty and confidentiality flags back to Orchestrator.
 - Quality Reviewer checks privacy, consent, claims and evidence before any public content; publication remains a separately approved action.
 
 ## Flow
 1. Orchestrator receives optional profile URL or account description, identifies research purpose and approved scope.
-2. Researcher requests `read_public_profile`, `read_authorized_account`, `read_historical_posts` or `read_post_metrics` for each source.
-3. Integration Manager checks environment tools and provider capabilities in [matrix](integration-capability-matrix.md); may propose Metricool, Buffer, native API, export or no-connector fallback. User authorization is required before connecting an account.
-4. Integration Manager returns provider, connection state, capability state, retrieval status, checked timestamp, count and earliest/latest available dates, limits, evidence references, and fallback.
+2. Researcher submits a scoped request to Orchestrator for `read_public_profile`, `read_authorized_account`, `read_historical_posts` or `read_post_metrics` for each source.
+3. Orchestrator dispatches it to Integration Manager, which checks environment tools and provider capabilities in [matrix](integration-capability-matrix.md); it may propose Metricool, Buffer, native API, export or no-connector fallback. User authorization is required before connecting an account.
+4. Integration Manager returns provider, connection state, capability state, retrieval status, checked timestamp, count and earliest/latest available dates, limits, evidence references and fallback to Orchestrator, which passes the authorized result to Researcher.
 5. Researcher evaluates actual evidence. Distinguishes verified source data, user reports, hypotheses and unknowns; flags gaps and no-results ambiguities.
 6. Orchestrator explains the findings and blocked access promptly, offers alternatives without repeatedly requesting known facts, and delivers a provisional useful assessment when possible.
 7. No private client data, URLs, credentials or raw results are committed to this public framework.

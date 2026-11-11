@@ -1,12 +1,13 @@
-# Fictional walkthrough: Alex Morgan
+# Fictional walkthroughs
 
-**Everything in this folder is invented for demonstration.** This is not a real client's biography, metrics or case study.
+Everything in this folder is invented for demonstration, not a real client profile or market result.
 
-Alex is a fictional operations leader transitioning to a sustainable-retail consulting practice. The exercise demonstrates how one input produces positioning, an evidence checklist and a draft with human approval still required.
+## Current creative-method example
 
-1. Read [profile.yaml](profile.yaml), then compare the hypothetical positioning in [positioning.md](positioning.md).
-2. Check the sample [content brief and draft](sample-content.md).
-3. Apply [five review gates](../../docs/quality-gates.md).
-4. Keep any real-world adaptation and authentic evidence in a separate private workspace.
+[Creative cycle](creative-cycle.md) uses an independently invented beginner and a synthetic game glossary. It covers goal, interest/evidence, distinct concepts, claim limits and unapproved draft status. It is illustrative, not an executed test.
 
-No platform accounts are connected, no automated agents execute, and no post has been published by this example.
+## Retained foundation example
+
+[Profile](profile.yaml), [positioning](positioning.md) and [sample draft](sample-content.md) preserve the earlier fictional operations-leader example. They illustrate the foundation, not evidence that the new concept/approval contracts were applied or that schema 0.1 is a new release. Apply the current [content cycle](../../workflows/content-cycle.md) and [five gates](../../docs/quality-gates.md) to any new adaptation.
+
+No real accounts, private client data, independent agents, publication or measured outcomes are demonstrated here. Keep real adaptations in a separate private workspace.
