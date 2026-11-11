@@ -71,6 +71,10 @@ The [six previously outstanding scenarios](../../tests/results/discovery-remaini
 
 One decision requires further review: unresolved numerical claims should be excluded from public positioning, but may not block a limited, user-validated Discovery when immaterial to the actual strategic discussion. Do not silently change the hard gate; clarify and test the boundary first.
 
+## Claim-scoped contradiction decision and checks
+
+The [candidate contradiction rule and nine deterministic focused checks](../../tests/results/discovery-contradiction-scope-decision-2026-11-11.md) clarify when a disputed assertion must be quarantined and when the remaining, user-validated profile can support further strategy. **9/9** expected outputs matched a reference decision predicate, **not** observed LLM agent behavior. The next model-based test should revisit S11 with the disputed claim excluded, then with an attempted downstream use.
+
 ## Execution and evidence hierarchy
 
 The companion result ledger must identify the execution mode per scenario: `scripted illustration`, `same-assistant exploratory roleplay`, `independent tool/model run`, or `not run`. A scripted illustration is a design example, not an observed test of an autonomous framework. Report count per mode. Do not equate rule-based coverage, invented dialogues, and independent behavioral observations.
