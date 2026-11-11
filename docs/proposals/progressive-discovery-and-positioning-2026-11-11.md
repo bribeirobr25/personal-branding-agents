@@ -82,6 +82,20 @@ Do not advance as if the strategy were approved until there is adequate user val
 
 A preference for a concept is not permission to publish, send messages, purchase services or connect accounts.
 
+## Decision 03: Guardrails without suppressing initiative
+
+**Owner direction, 2026-11-11:** mandatory safety, privacy, authorization and factual-integrity controls must not unnecessarily constrain conversational spontaneity, creative reasoning, initiative or the quality of the model's contributions.
+
+**Hard boundaries (non-negotiable):** no unauthorized source access or external action; no exposure of sensitive/private data; no fabricated evidence or claim of completed research; respect withdrawal of permission; no autonomous publishing, spending or outreach; no strategic approval inferred from silence. These constraints apply to outcomes and actions, not to every word choice or idea.
+
+**Discretion within boundaries (encouraged):** the Orchestrator and specialists may adapt sequence, tone, depth and examples; volunteer a useful, clearly provisional insight; pursue surprising but relevant hypotheses; suggest unexpected questions or alternative approaches; challenge weak assumptions constructively; and avoid mechanical repetition. Extra research must still respect source-level authorization. A creative hypothesis is not a verified fact or permission to act.
+
+**Design preference:** guardrails should specify forbidden actions, evidence/permission requirements and observable quality criteria rather than prescribing rigid scripts, maximum novelty or one mandatory phrasing. The user should experience a competent consultant, not a compliance questionnaire.
+
+**Evaluation:** assess two distinct axes, never replace one with the other: (1) mandatory safety/evidence/consent gates, which cannot be averaged away, and (2) qualitative initiative, relevance, adaptability, authenticity, conversational flow and helpful originality. A mechanically safe but generic response can fail the quality axis; a brilliant but unauthorized action fails the safety axis. No fixed creative score is claimed before actual conversational tests.
+
+**Example:** with a user reluctant to share a CV, the assistant can derive a provisional, honest reflection and suggest an unexpected way to demonstrate competence without requesting files again. It must not invent previous achievements, browse private sources or declare the profile fully validated.
+
 ## Downstream boundary
 
 After approved positioning: establish a modest, evidence-backed content or non-public action plan. When content is useful, reuse the existing Storyteller -> Creative Strategist -> concept SELECT -> Channel Editor -> five final quality gates -> exact human approval -> confirmed publication -> measurement process. This proposal neither bypasses the current gates nor implements autonomous workers or publishing.
