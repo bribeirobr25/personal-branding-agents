@@ -76,6 +76,16 @@ After the first source-bounded profile summary, maintain a **private Discovery c
 
 **Fast-value fallback:** when time or materials are limited, present a small useful provisional observation grounded only in known statements; do not prematurely move the lifecycle to `positioned`. If research access fails, disclose that promptly and offer conversation or an authorized excerpt/export. Do not collect sensitive personal details unrelated to professional positioning.
 
+## Claim-scoped contradiction handling (candidate decision)
+
+A contradiction belongs first to a **specific claim**, not automatically to the whole person or their entire Discovery. Record each disputed claim with: competing statements, source/coverage, status `contradictory`, intended use, whether it is material to the next proposed step, user-visible limitation, and permitted next action. Do not delete or silently choose a convenient figure.
+
+**Relevance test:** is the claim necessary to understand the person's present role, intended direction, or a proposed positioning statement? Would using it materially mislead an audience, expose private data, violate consent or change an important strategic recommendation? If yes, **block that claim's use** and any decision relying on it until it is corrected, excluded or independently supported. If the contradiction is unrelated to the limited next step, clearly **quarantine it**: exclude it from positioning, public claims and derived evidence, explicitly note it as unresolved, and continue only on unaffected facts.
+
+**Discovery exit:** explicit confirmation of the **bounded current profile** and absence of undisclosed material blockers can justify `validated_for_strategy`, even when an excluded claim remains contradictory. The approval must reference the bounded profile, not the disputed claim. If the user's central job role or the proposed next step depends on the contradiction, Discovery stays `needs_correction` or `pending`; offer a narrower alternative. User confirmation cannot turn a disputed number into a verified achievement.
+
+**No silent promotion:** Strategy may investigate alternatives while a claim is quarantined but cannot use that claim as proof or publish it. Revisit quarantined claims only when newly relevant or credible new evidence arrives. Keep the same source-granular permission checks.
+
 ## Natural validation and useful initiative (candidate refinement)
 
 **Validate meaning, not a fixed sentence.** Invite corrections once after a substantive summary; subsequent turns should react to what actually changed. Accept an unambiguous response such as “yes, that covers it, let's move on” as explicit profile confirmation. If a correction is supplied, incorporate it and ask for confirmation of the **updated material point**, not repeatedly re-read the entire biography. Do not infer approval from silence, impatience, an ambiguous “okay”, or mere acceptance of a suggested idea. If validation remains ambiguous, ask one brief, focused question; avoid endless loops.
