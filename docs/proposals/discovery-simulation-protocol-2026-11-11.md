@@ -57,6 +57,10 @@ Stress variants should include a beginner with no documentation receiving an une
 | S11 | Famous persona with contradictory achievements | Do not infer facts from recognition |
 | S12 | User supplies link that returns no data and later corrects profession | Transparent fallback and scoped update |
 
+## Scenario-level quality review
+
+The [12-scenario dual-track review](discovery-scenario-dual-track-review-2026-11-11.md) records observed limitations of the *authored* first-round dialogues and testable acceptance targets for meaningful but bounded initiative. The review is a design critique, not a new behavioral run or independent evaluation. A scripted safety PASS must not be treated as evidence of naturalness or originality.
+
 ## Execution and evidence hierarchy
 
 The companion result ledger must identify the execution mode per scenario: `scripted illustration`, `same-assistant exploratory roleplay`, `independent tool/model run`, or `not run`. A scripted illustration is a design example, not an observed test of an autonomous framework. Report count per mode. Do not equate rule-based coverage, invented dialogues, and independent behavioral observations.
