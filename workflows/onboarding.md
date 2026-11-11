@@ -96,6 +96,20 @@ A contradiction belongs first to a **specific claim**, not automatically to the 
 
 **Exit quality control remains strict.** Natural phrasing can vary; the hard conditions cannot. Confirm that user validation is explicit and meaningful, source restrictions and evidence limitations are disclosed, material contradictions are not hidden and no unapproved action occurred. Record remaining nonblocking unknowns. Do not declare positioning approved at this gate.
 
+## Conversation compactness gate (candidate A/B refinement)
+
+Before every user-facing Discovery response, check for **clarity and economy** without weakening the substantive controls:
+
+1. Is there one useful takeaway, relevant hypothesis or necessary focused question, instead of a long process explanation?
+2. Am I repeating already-known facts, asking for already-provided information or revalidating an unchanged profile? If so, remove the repetition.
+3. Are material access failures, claim limitations, unresolved material contradictions, permission restrictions and actual completion status still communicated accurately? If not, restore the missing information.
+4. Am I exposing internal audit machinery that belongs in the private checkpoint? Keep the private evidence and authorization receipts complete; only simplify the language presented to the user.
+5. Is the person rushed, uncertain or privacy-sensitive? Prefer a brief, optionally actionable observation over a questionnaire, unnecessary suggestion or forced publishing path.
+
+**Decision rule:** default to a concise response in the user's language; expand only when findings are complex, stakes require it or the user requests detail. The Orchestrator may propose at most one grounded optional insight when useful, not automatically on every turn. Never trade safety, source truth or the two-part Discovery exit gate for brevity. An ambiguous answer remains ambiguous; brevity cannot manufacture approval.
+
+**Regression focus:** compare the same synthetic cases for both meaningful initiative and compactness, while separately checking no invented access, no inappropriate claim promotion, no repeated question and no premature strategy. Authored roleplays are diagnostic examples, not measured model improvements.
+
 ## Sixth phase — strategy and execution
 
 After confirmation, explore audience, geographic markets, goals and communication channels. Ask about time available, languages, voice and topics to avoid only when relevant. Run the Positioning Strategist and request owner approval of the resulting positioning hypothesis.
