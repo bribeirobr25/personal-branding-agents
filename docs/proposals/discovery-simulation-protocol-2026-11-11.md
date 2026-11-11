@@ -65,6 +65,12 @@ The [12-scenario dual-track review](discovery-scenario-dual-track-review-2026-11
 
 The [six-case exploratory retest](../../tests/results/discovery-targeted-retest-2026-11-11.md) records authored roleplay dialogues for S01, S02, S03, S07, S09 and S12 following candidate revisions to natural validation, bounded initiative, and source-granular permission/evidence handling. The revised texts are illustrative and not independent prompt executions; no quantitative improvement claim is warranted, and other scenarios have not been rerun.
 
+## Completion of the 12-scenario exploratory retest set
+
+The [six previously outstanding scenarios](../../tests/results/discovery-remaining-six-retest-2026-11-11.md) cover S04, S05, S06, S08, S10 and S11, complementing the [first six targeted retests](../../tests/results/discovery-targeted-retest-2026-11-11.md). The full set of **12 scenario identities** now has revised authored dialogue and separate safety/quality observations. Neither file is an independent execution of agents or a matched baseline comparison.
+
+One decision requires further review: unresolved numerical claims should be excluded from public positioning, but may not block a limited, user-validated Discovery when immaterial to the actual strategic discussion. Do not silently change the hard gate; clarify and test the boundary first.
+
 ## Execution and evidence hierarchy
 
 The companion result ledger must identify the execution mode per scenario: `scripted illustration`, `same-assistant exploratory roleplay`, `independent tool/model run`, or `not run`. A scripted illustration is a design example, not an observed test of an autonomous framework. Report count per mode. Do not equate rule-based coverage, invented dialogues, and independent behavioral observations.
