@@ -28,7 +28,7 @@ jobs:
           node tests/discovery_turn_bounded_regression.js > /tmp/discovery-turn-bounded-result.json
           node -e '
           const x=require("/tmp/discovery-turn-bounded-result.json");
-          if(x.metadata.failed_checks!==0 || x.rows.length!==36 || x.metadata.checks.negative_controls!==6) process.exit(1);
+          if(x.metadata.failed_checks!==0 || x.rows.length!==36 || x.metadata.checks.negative_controls!==10) process.exit(1);
           console.log(JSON.stringify({mode:x.metadata.mode,scenarios:x.metadata.scenario_count,
             generated_responses:x.rows.length,checks:x.metadata.checks,
             negative_controls_rejected:x.metadata.negative_controls_rejected,
