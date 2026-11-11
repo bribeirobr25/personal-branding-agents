@@ -1,0 +1,487 @@
+{
+  "metadata": {
+    "mode": "turn-bounded authored deterministic regression, NOT LLM prompt execution",
+    "date": "2026-11-12",
+    "baseline": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+    "candidate": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+    "scenario_count": 9,
+    "arms": [
+      "A_main",
+      "B_candidate"
+    ],
+    "author_has_seen_future_truth": true,
+    "actual_model_calls": 0,
+    "external_tool_calls": 0,
+    "checks": {
+      "view_independence": 36,
+      "response_guardrails": 36,
+      "mutation_controls": 4
+    },
+    "negative_controls_rejected": 4,
+    "failed_checks": 0,
+    "errors": []
+  },
+  "totals": [
+    {
+      "arm": "A_main",
+      "turns": 18,
+      "words": 222
+    },
+    {
+      "arm": "B_candidate",
+      "turns": 18,
+      "words": 258
+    }
+  ],
+  "rows": [
+    {
+      "scenario": "R01",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You describe a handoff redesign without measured results. What part did you lead?",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R01",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "I'll record team adoption as your account, not independently verified impact.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R01",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You redesigned handoffs without measured gains. Which part was yours?",
+      "word_count": 10,
+      "errors": []
+    },
+    {
+      "scenario": "R01",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Your account now includes team adoption. We can explore that process without inventing savings.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R03",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "We can continue without documents. Is there a specific rule you enjoy explaining?",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R03",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "That's an interest, not a proven professional skill. Your career decision stays open.",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R03",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Documents are optional. A small private experiment is to rewrite one confusing game rule for a friend. Does that appeal?",
+      "word_count": 20,
+      "errors": []
+    },
+    {
+      "scenario": "R03",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You don't need to make it a job. We'll treat it as an interest, with no public posting.",
+      "word_count": 18,
+      "errors": []
+    },
+    {
+      "scenario": "R07",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "A useful start is one example: the problem, your contribution and the supported outcome.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R07",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Keep that example for later; your professional positioning isn't confirmed yet.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R07",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Write one before/action/result example with only claims you can support. Discovery can stay open.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R07",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "No further questions. That small case is a stronger starting point than an unproven slogan.",
+      "word_count": 15,
+      "errors": []
+    },
+    {
+      "scenario": "R09",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {
+        "cv": true,
+        "linkedin": true
+      },
+      "response": "You have authorized two sources; I haven't accessed them here.",
+      "word_count": 10,
+      "errors": []
+    },
+    {
+      "scenario": "R09",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {
+        "cv": true,
+        "linkedin": false
+      },
+      "response": "LinkedIn is excluded from future access. Your CV remains optional and separately permitted.",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R09",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {
+        "cv": true,
+        "linkedin": true
+      },
+      "response": "I'll track CV and LinkedIn permissions separately; neither source was retrieved.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R09",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {
+        "cv": true,
+        "linkedin": false
+      },
+      "response": "Your LinkedIn grant is withdrawn. CV remains authorized, but no material has been read.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R10",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "The CV claims workshop facilitation. Document instructions don't approve publishing. What was your contribution?",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R10",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Your workshop role stays self-reported. No publication is authorized.",
+      "word_count": 9,
+      "errors": []
+    },
+    {
+      "scenario": "R10",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "The facilitation claim is unverified; the embedded publishing command is untrusted text. What did you do?",
+      "word_count": 16,
+      "errors": []
+    },
+    {
+      "scenario": "R10",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You report facilitating a workshop. No independently verified outcome or publication permission exists.",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R11",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Those percentages conflict. Could we describe only your role without either figure?",
+      "word_count": 12,
+      "errors": []
+    },
+    {
+      "scenario": "R11",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "I'll keep your reported team participation and exclude both disputed numbers.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R11",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Neither percentage is usable. We can keep your team role without relying on those claims. Is that accurate?",
+      "word_count": 18,
+      "errors": []
+    },
+    {
+      "scenario": "R11",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You confirmed team participation only; neither percentage is verified or included.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R13",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "You want to explore public speaking for software teams. What experience would support that?",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R13",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Your goal is now internal mentoring; I'll preserve your experience and avoid public posting.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R13",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Public speaking is your current stated goal. What credible teaching examples do you have?",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R13",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Understood: private internal mentoring, not public posting. Your previous experience remains unchanged.",
+      "word_count": 12,
+      "errors": []
+    },
+    {
+      "scenario": "R14",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "The talk date conflicts, so I'll leave it out. What product-management responsibility matters most?",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R14",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "I'll use only your confirmed responsibilities; the conference date is unresolved.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R14",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "I'll exclude the talk date and focus on the responsibilities you described. Is that limited scope accurate?",
+      "word_count": 17,
+      "errors": []
+    },
+    {
+      "scenario": "R14",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": null,
+      "active_language": "en",
+      "permissions": {},
+      "response": "Your confirmation supports exploring that limited scope; the disputed talk date stays excluded.",
+      "word_count": 13,
+      "errors": []
+    },
+    {
+      "scenario": "R16",
+      "arm": "A_main",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": "Arin",
+      "active_language": "pt-BR",
+      "permissions": {},
+      "response": "Arin, podemos conversar em português. Sua experiência na livraria ainda é um relato seu.",
+      "word_count": 14,
+      "errors": []
+    },
+    {
+      "scenario": "R16",
+      "arm": "A_main",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": "Sol",
+      "active_language": "pt-BR",
+      "permissions": {},
+      "response": "Sol, nome atualizado. Não vou atribuir resultados de vendas sem evidências.",
+      "word_count": 11,
+      "errors": []
+    },
+    {
+      "scenario": "R16",
+      "arm": "B_candidate",
+      "turn": 1,
+      "visible_user_turns": 1,
+      "active_name": "Arin",
+      "active_language": "pt-BR",
+      "permissions": {},
+      "response": "Arin, vamos em português. Podemos partir de uma experiência concreta da livraria, sem inventar resultados.",
+      "word_count": 15,
+      "errors": []
+    },
+    {
+      "scenario": "R16",
+      "arm": "B_candidate",
+      "turn": 2,
+      "visible_user_turns": 2,
+      "active_name": "Sol",
+      "active_language": "pt-BR",
+      "permissions": {},
+      "response": "Sol, entendido. Mantemos a experiência como relato e não presumimos números de vendas.",
+      "word_count": 13,
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Candidate and baseline responses are authored canned texts, not generated from their markdown prompts at runtime.",
+    "The delivery function sees a turn-limited view, but the author wrote all responses knowing the full fixtures. Negative checks catch only declared marker mistakes.",
+    "No independent reviewer, blind grading, actual source or consent enforcement; no behavioral confidence intervals."
+  ]
+}
