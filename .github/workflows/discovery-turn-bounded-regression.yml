@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - feat/onboarding-strategic-discovery-20261111
-    paths:
-      - 'tests/discovery_turn_bounded_regression.js'
-      - 'tests/discovery_turn_bounded_worker.js'
-      - '.github/workflows/discovery-turn-bounded-regression.yml'
   workflow_dispatch:
 permissions:
   contents: read
