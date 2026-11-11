@@ -39,3 +39,7 @@ Quality assessed qualitatively on 0–3 anchored rubric: naturalness, grounded i
 3. Maintain branch-only; do not merge without independent review and owner authorization under repository policy.
 
 **Do not mark RUN as complete until the generated dialogues and reviews have actually been committed and verified.**
+
+## Execution receipt (2026-11-11)
+
+The [12-case same-model roleplay ledger](results/discovery-second-battery-same-model-roleplay-2026-11-11.md) was committed after this runbook. It records all generated fictional dialogue, 8 simulated validations, 4 still-pending scenarios, and a qualitative safety/quality assessment. These are authored conversations in a single model context, not separate agent invocations, so no observed compliance rate or independent model performance can be inferred. The main branch was not updated.
