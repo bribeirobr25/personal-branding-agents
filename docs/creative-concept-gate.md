@@ -1,31 +1,34 @@
-# Creative concept gate (pre-draft)
+# Creative concept gate: pre-draft
 
-**Purpose:** reject weak or misaligned *ideas before writing*, while preserving the existing five final quality gates and the owner's explicit approval.
+After a StoryBrief and before channel drafting, compare candidates using evidence and explicit criteria. Orchestrator retains the decision record. This gate does not replace the five final quality gates or exact owner approval.
 
-## Trigger and place in workflow
-After verified story discovery, and **before** a platform-specific draft. Orchestrator receives Storyteller output, delegates bounded concept work to Creative Strategist and sends a selected concept to Channel Editor only after this pre-draft gate passes.
+## Anchored ordinal rubric
 
-## Criteria (each must be explained)
-1. **Audience value:** names one concrete benefit, surprise, consequential choice or lesson for a defined audience. Not an abstract slogan.
-2. **Narrative distinctiveness:** contains an authentic tension, contrast, discovery, transformation or compelling demonstration. The submitted alternatives must be meaningfully different.
-3. **Evidence and reveal:** states what can be shown or sourced and flags any claims that require verification (including "live", "production", speed, team sizes and audience outcomes). No impressive-sounding invented numbers.
-4. **Strategic fit and topic fidelity:** supports the owner's positioning and preserves the user's chosen project, rejected angles, language constraints and intent. Reach alone is insufficient.
-5. **Presentation hypothesis:** explains how a person encounters the story in each intended medium, including hook, early visuals, accessibility and feasible assets. Don't require video when none exists.
-6. **Integrity:** no fabricated urgency, manipulative engagement bait, confidentiality violation, fake case study or unsupported certainty about algorithms or virality.
+Scores are editorial judgments, not probabilities or a statistically validated index. Explain each score. Privacy, rights, authorization and fabricated facts are hard blockers and cannot be compensated by other scores.
 
-## Decision protocol
-For each criterion record `PASS | REVISE | BLOCK`, evidence and remediation. Overall:
-- **PASS:** concept can be handed to Channel Editor for drafting; the final five gates and owner approval remain mandatory.
-- **REVISE:** fix concept development, proof plan or channel strategy before drafting.
-- **BLOCK:** material contradiction, privacy risk, fabricated achievement or ignored owner constraint prevents progress until resolved.
+| Criterion | 0 | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| Evidence and scope | Fabricated/contradictory | Material unsupported claim | Supported or clearly qualified | Context, attribution and limits explicit |
+| Audience value | No relevant purpose | Generic relevance | Specific useful problem/lesson | Helps an identified decision or action |
+| Clarity | Incoherent | Essential context missing | One understandable idea | Efficient structure and clarifying example |
+| Promise/payoff | Bait or no delivery | Promise exceeds piece | Promise delivered | Value arrives early and develops coherently |
+| Defensible distinction | Copy or false exclusivity | Generic | Own relevant angle/example | Specific judgment/proof/form combination |
+| Authenticity | Fabricated identity/emotion | Conflicts with current voice | Consistent | Recognizable and natural, without imitation |
+| Format/accessibility | Unusable/illegible | Mechanical adaptation | Readable and contextual | Intentional and self-contained treatment |
+| Useful sharing hypothesis | Manipulative | Vague | Plausible recipient benefit | Specific reason to pass it on, without prediction |
 
-An unsupported fact can be removed or clearly qualified without blocking a different verifiable concept. A concept score, if used, is relative editorial judgment, not a percent chance of virality.
+## Decision
 
-## Feedback-driven reset
-If the owner rejects the angle, preserve the rejection and why. If two revisions address only phrasing but the owner still finds the content generic, **stop copy polishing** and return to Creative Strategist to create a materially different concept. Do not assume a phrase such as "I think..." is final approval. For partial voice transcripts, allow the user to finish their thought.
+**BLOCK:** false achievement, material contradiction, missing rights/authorization, prohibited disclosure or promise inconsistent with evidence. Remove/qualify the claim or obtain the needed proof; a different valid concept may proceed.
 
-## Research contract
-Use dated relevant samples, platform documentation and actual account metrics **when tools and permissions allow**; name inaccessible sources. Correlations and third-party case studies are not predictions for this client. Record references privately if they include user-specific information.
+**REVISE:** safe but insufficiently clear, relevant, authentic, feasible or supported. Return to the concept rather than only polishing wording.
 
-## Relationship to other gates
-The existing `docs/quality-gates.md` five-gate review is a separate **post-draft** check (facts, strategy, clarity, privacy, authenticity/channel). Neither gate authorizes publication; approval applies only to the exact final revision. No automatic publication is implemented.
+**SELECT:** no blockers; evidence, value, clarity, promise, authenticity and format score at least 2, with reasons. Distinction and sharing assist comparison, not a requirement to sensationalize. In a tie prefer utility, lower risk and lower cost; ask the owner when the unresolved issue is preference or goal.
+
+Record all candidates, scores/explanations, selected ID, rejected reasons, evidence, review mode and uncertainties in [the template](../templates/creative-concept-brief.md). Default limit: two revision rounds, then revisit the brief or request a focused decision. Unsupported platform claims or invented virality percentages fail.
+
+## Compatibility and downstream gates
+
+Legacy pre-draft `PASS` means selection eligibility and maps to `SELECT` with retained rationale; it is never owner approval. Keep per-criterion final `PASS | REVISE | BLOCK` in the five-gate review. Reject unknown values instead of silently coercing them.
+
+A concept preference is not final content approval. A partial voice transcript is not consent. Every material change after final approval requires reapproval of the new exact artifact.

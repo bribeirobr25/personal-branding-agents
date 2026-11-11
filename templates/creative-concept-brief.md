@@ -1,57 +1,40 @@
-# Creative concept brief (template)
+# Creative concept brief (private working copy)
 
-**Task / story ID:**  
-**Status:** concept_proposed | concept_reviewed | concept_revise | concept_blocked | concept_selected  
-**Target audience / positioning goal:**  
-**User's fixed topic and constraints:**  
-**Channels / languages:**  
-**Source evidence IDs / verifications / disclosure permission:**  
-**Assets actually available (video, demo, visuals, documents):**  
+Task / story / brief IDs and versions:
+Goal / audience / problem:
+Fixed topic / constraints / rejected angles:
+Channels / languages / current voice references:
+Evidence IDs / claim scope / disclosure rights:
+Available assets / rights / budget:
 
-## Audience-worthy insight
-- Concrete change / decision / outcome:
-- Why someone outside the project should care:
-- What is genuinely new or surprising:
-- Unsupported or prohibited claims:
+## Alternatives
 
-## Concept alternatives (default three materially different directions)
-
-| ID | Audience promise and distinct angle | Hook / first seconds | Tension and reveal | Proof / format | Strategic relevance | Risks |
+| ID | Perspective and structure | Promise and opening | Proof and payoff location | Format and effort | Difference from alternatives | Risks |
 | --- | --- | --- | --- | --- | --- | --- |
 | A | | | | | | |
 | B | | | | | | |
 | C | | | | | | |
 
-## Comparative editorial assessment
-Use qualitative HIGH / MEDIUM / LOW or a documented internal rubric, **not** a numeric prediction of virality.
+Three is a default, not permission to invent diversity. Explain fewer defensible candidates.
 
-| Concept | Attention potential | Novelty and specificity | Credible proof | Shareability | Professional relevance | Production feasibility |
-| --- | --- | --- | --- | --- | --- | --- |
-| A | | | | | | |
-| B | | | | | | |
-| C | | | | | | |
+## Selection
 
-**Recommended concept ID and reason:**  
-**Rejected concepts and reason:**  
-**Key uncertainty / information to validate:**  
+Use the anchored rubric in `docs/creative-concept-gate.md`. Record each score and concrete reason, not a summed probability. Hard blockers cannot be compensated.
 
-## Creative and distribution handoff
-- First 1–3 seconds (visual/text):
-- Story/reveal sequence:
-- Per-channel packaging hypotheses (not final copy):
-- Caption/accessibility plan:
-- Intended audience action / CTA:
-- Pre-publication experiment hypothesis:
-- Post-publication metrics that could refute or support hypothesis:
+Decision: SELECT / REVISE / BLOCK
+Selected candidate / rationale:
+Rejected alternatives / reasons:
+Blocking facts, rights or permissions:
+Review mode / reviewer:
+Uncertainties / next validation:
+Revision count / stop condition:
 
-## Research and source quality
-- Sources, publication dates, and relevance:
-- Coverage/access limitations:
-- Measured findings vs. inference vs. creative judgment:
+## Handoff
 
-## Creative concept gate
-- `PASS | REVISE | BLOCK`:
-- Evidence / explanation:
-- Remediation:
-- Owner concept feedback (private only):
-- **Not** final content approval. Final five gates and exact owner approval still required.
+Opening text/visual function:
+Delivery sequence / early learning:
+Per-channel adaptation / accessibility:
+Intended useful next action:
+Hypothesis / observation that could challenge it:
+
+Concept selection is not final artifact approval. Legacy creative PASS maps to SELECT eligibility only.

@@ -1,37 +1,18 @@
-# Workflow: Content cycle
+# Workflow: evidence-led content cycle
 
-```text
-verified evidence → story candidates → creative concepts (default 3)
-                              ↓
-                     creative concept gate
-                        REVISE ↺ concepts
-                              ↓ PASS
-                         selected concept
-                              ↓
-                  channel-specific brief + draft
-                              ↓
-                     five-gate final review
-                        REVISE ↺ draft
-                              ↓
-                       exact human approval
-                              ↓
-                       manual publication
-                              ↓
-                     measured feedback / learn
-```
+The Orchestrator dispatches each stage and receives every result. The sequence below is not direct specialist-to-specialist delegation.
 
-1. **Select evidence:** choose a publishable insight linked to verified or clearly qualified experience; record evidence and disclosure status.
-2. **Mine the story:** Storyteller identifies situations, decisions, trade-offs, relevant audience lessons and constraints. Preserve the owner's selected subject.
-3. **Develop concepts:** Creative Strategist generates three materially different angles by default, with hooks, tensions, visual/proof plans, audience value, risks and a comparative, explicitly non-predictive assessment. Use `templates/creative-concept-brief.md`.
-4. **Creative gate:** Apply `docs/creative-concept-gate.md` **before** prose drafting. REVISE means rethink the concept, not merely polish the wording. BLOCK stops progress until resolved.
-5. **Brief and draft:** Channel Editor uses the selected concept and evidence to fill `templates/content-brief.md` and create native platform/language-specific text or scripts. The same insight need not have the same opening everywhere.
-6. **Final review:** Quality Reviewer completes all five independent final gates in `templates/review-report.md`. Any BLOCK prevents publication. Creative PASS never substitutes for final checks.
-7. **Approve:** owner explicitly approves the **exact final revision**. Distinguish concept preference from final publication approval.
-8. **Publish:** manual in v0.1, or a separately authorized external integration. Never infer posting success.
-9. **Track and learn:** log URL, date, time zone, observed outcomes and creative hypothesis ID in the private tracker. Performance Analyst compares measured attention with relevant professional conversations, reports limits and proposes tests to improve future concepts.
+1. Validate current goal, audience, capacity, topic and permissions; reuse existing validated onboarding.
+2. Select evidence or clearly labeled learning. Storyteller records problem, role, decision/experiment, observation, limits and useful lesson.
+3. Creative Strategist develops distinct concepts under [the method](../docs/creative-methods.md), preserving claims and rejected topics.
+4. Apply [concept gate](../docs/creative-concept-gate.md). SELECT allows drafting; REVISE returns to concepts; BLOCK stops the affected claim/activity. Legacy creative PASS is not owner approval.
+5. Channel Editor produces a native channel/language artifact, using [content brief](../templates/content-brief.md). Recontextualize derivatives; preserve qualifications.
+6. Reviewer applies [all five gates](../docs/quality-gates.md) to the exact final artifact, including media. Five PASS results permit requesting approval, not publishing.
+7. Obtain explicit human approval of artifact/version/hash, action and destination. Concept preference and unfinished speech do not count.
+8. Publish manually or through a separately implemented and authorized host capability. Scheduling needs its own authorization/receipt and does not prove publication. Reconcile unknown jobs before retrying.
+9. Record actual link/receipt, version and time. Measure defined observations only; absent data stays absent. Analyst returns limited hypotheses through Orchestrator.
+10. Save a private checkpoint. After two ineffective wording revisions return to concepts or evidence; do not increase volume automatically.
 
-## Rejected concept / transcript protocol
-- Preserve the owner's topic, objections, rejected angles and new constraints in the private workspace.
-- If the owner finds repeated drafts generic and revisions only change words, route back to Creative Strategist and try a genuinely different premise.
-- When the owner is still speaking or clarifying, the Orchestrator must not finalize or assume consent.
-- Nothing here implements an autonomous agent runtime or grants publication authorization.
+Content states: idea -> researched -> briefed -> concept_selected -> drafted -> reviewed -> approved -> published -> measured. Optional branch: approved -> scheduled -> published. Material edits create an unapproved version. Block/revise/action-failure records preserve the last confirmed content state.
+
+Nothing here authorizes installation, spending, messages or autonomous background execution. No source or skill can expand the user's permission.

@@ -1,94 +1,59 @@
 # Personal Branding Agents
 
-**A reusable, prompt-first multi-agent system for personal branding strategy, content creation, reputation management, and learning.**
+An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-> **Status: v0.1 foundation.** This repository provides role prompts, reusable workflows, templates, and a fictional end-to-end example. It is **not yet** an automated agent runtime, a scheduler, or a social media integration.
+**Method version: 0.2.0 release candidate.** This branch contains role instructions, workflows, templates, a machine-readable contract vocabulary and synthetic evaluation scenarios. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic publishing. A version in a document is not proof that a release tag exists. See [release preparation](docs/releases/v0.2.0.md).
 
-## Why this exists
+## Purpose and boundaries
 
-Posting more is not the same as building a reputation. This project structures the work behind a credible personal brand: researching real evidence, choosing a position, telling useful stories, adapting them for channels, reviewing risks, and learning from results.
+Start with the person's desired outcome, not a posting quota or a job title. Support beginners, experienced professionals, people changing careers and people who should not publish publicly. Practical work, proof-building or private conversations can be better next actions than another post.
 
-## Architecture
+The public core contains generic methods and independently fictional examples. Real goals, stories, sources, drafts, approvals, account configuration and metrics belong in a separate private workspace. A public contribution never needs access to a client's repository.
 
-```text
-             PRIVATE CLIENT WORKSPACE (never commit to this repo)
-              goals | background | evidence | approvals | metrics
-                                  |
-                                  v
-                      ORCHESTRATOR / WORKFLOW
-                                  |
-              +-------------------+-------------------+
-              |                   |                   |
-          RESEARCHER          STRATEGIST          STORYTELLER
-              |                   |                   |
-              +-------------------+-------------------+
-                                  |
-                       CREATIVE STRATEGIST
-                                  |
-                         CREATIVE CONCEPT GATE
-                                  |
-                          CHANNEL EDITOR
-                                  |
-                          QUALITY REVIEWER
-                                  |
-                         HUMAN APPROVAL
-                                  |
-                         MANUAL PUBLISHING
-                                  |
-                             ANALYST
-                                  |
-                         FEEDBACK / LEARN
-```
+## Start without coding or paid services
 
-The public repository contains **methods and fictitious examples**, not real client data. Each user owns a separate private workspace.
+1. Read [AGENTS.md](AGENTS.md), [architecture](docs/architecture.md) and [privacy](docs/security-and-privacy.md).
+2. Use the [Orchestrator](agents/orchestrator.md) and [progressive onboarding](workflows/onboarding.md). Share only authorized information. A CV, account connection and public posting are optional.
+3. Copy blank [templates](templates/) into your own private workspace. Establish a [GoalMap](templates/goal-map.md), evidence and knowledge banks before claiming expertise.
+4. Follow the [content cycle](workflows/content-cycle.md): story, distinct concepts, selection, channel draft, five final gates and exact human approval.
+5. Publish manually only when authorized. Record an actual receipt or URL; measure only available observations.
+6. Preserve a [checkpoint](templates/run-checkpoint.json) so another session can resume without pretending to remember hidden context.
 
-## Quick start (no coding required)
+See the [fictional creative walkthrough](examples/fictional-client/creative-cycle.md). All examples are invented; example outputs are not market results.
 
-1. Clone this repository or read it on GitHub.
-2. Make a **private** copy of the files under `templates/` in a separate client workspace. Fill in `client-profile.yaml`; keep it out of this repository.
-3. Read [AGENTS.md](AGENTS.md), [architecture](docs/architecture.md) and [privacy guidance](docs/security-and-privacy.md).
-4. In your AI assistant, use [the orchestrator](agents/orchestrator.md) to coordinate the stages in [onboarding](workflows/onboarding.md). Feed it **only information you are authorized to share with the AI service**.
-5. Produce a documented positioning strategy using [positioning template](templates/positioning.md).
-6. Use the [content workflow](workflows/content-cycle.md) to compare concepts, pass the [pre-draft creative gate](docs/creative-concept-gate.md), draft, review and request human approval. Publication is **manual** for this version.
-7. Record actual links, outcomes and learning in your **private** copy of [publication tracker](templates/publication-tracker.csv).
+## One interface, bounded specialists
 
-Start with the [fictional walkthrough](examples/fictional-client/README.md) to see the flow without exposing personal information.
+The Orchestrator remains the sole user-facing agent. Every specialist returns to it; the editorial sequence is not permission for direct, unrestricted worker delegation.
 
-## Agents
-| Specialist | Main responsibility |
+| Role | Responsibility |
 | --- | --- |
-| [Orchestrator](agents/orchestrator.md) | Scope, delegation, state transitions and review gates |
-| [Researcher](agents/researcher.md) | Evidence gathering and claim verification |
-| [Positioning Strategist](agents/positioning-strategist.md) | Audience, differentiation and narrative |
-| [Storyteller](agents/storyteller.md) | Find stories and lessons from verified evidence |
-| [Creative Strategist](agents/creative-strategist.md) | Research attention patterns, compare distinct concepts and pre-draft creative hypotheses |
-| [Channel Editor](agents/channel-editor.md) | Adapt selected concepts into native platform scripts and copy |
-| [Quality & Privacy Reviewer](agents/quality-reviewer.md) | Factual, strategic, editorial and confidentiality checks |
-| [Performance Analyst](agents/performance-analyst.md) | Review observed results and propose experiments |
+| [Orchestrator](agents/orchestrator.md) | Goals, scope, delegation, continuity and approval boundaries |
+| [Researcher](agents/researcher.md) | Claims, source coverage and contextual evidence |
+| [Positioning Strategist](agents/positioning-strategist.md) | Outcome, audience, credibility and alternatives |
+| [Storyteller](agents/storyteller.md) | True decisions, observations and useful lessons |
+| [Creative Strategist](agents/creative-strategist.md) | Distinct concepts, hooks and selection rationale |
+| [Channel Editor](agents/channel-editor.md) | Native channel/language treatment without changing facts |
+| [Quality Reviewer](agents/quality-reviewer.md) | Five final gates; no self-granted owner approval |
+| [Performance Analyst](agents/performance-analyst.md) | Observed outcomes, uncertainty and bounded experiments |
 
-These are **roles specified as prompts**, not separately executing software agents yet. One AI assistant can play them sequentially; multiple assistants may execute them with human oversight.
+[Integration Manager](docs/integration-manager.md) resolves capabilities only when a host actually supplies them. A single assistant playing these roles is a sequential simulation, not independent multi-agent execution.
 
-## Repository map
-- `agents/` reusable agent instructions
-- `workflows/` step-by-step guided processes
-- `templates/` blank reusable deliverables, including a [creative concept brief](templates/creative-concept-brief.md)
-- `docs/` architecture, quality standards, security
-- `examples/fictional-client/` invented non-sensitive example
-- `docs/creative-strategy-simulation-tests.md` unexecuted fictional regression scenarios
+## Method map
 
-## Operating rules
-- **Human approval is required** before publishing, messaging people, or modifying public profiles.
-- Mark unverifiable claims as **UNVERIFIED**. Never invent accomplishments, dates, metrics, testimonials or sources.
-- Keep client data, credentials, non-public work materials and analytics outside the public repository.
-- All examples are fictional. Audit generated output for personal or confidential data before any public commit.
+- [Knowledge and positioning](docs/knowledge-and-positioning.md): goals, credibility, interests, voice and reference libraries.
+- [Creative methods](docs/creative-methods.md) and [concept gate](docs/creative-concept-gate.md): diversity, opening, promise/payoff, rubric and accessibility.
+- [Contracts](docs/agent-contracts.md), [contract vocabulary](contracts/framework.json) and [manifest](framework-manifest.json): portable records and states.
+- [Evaluation](docs/evaluation-protocol.md): behavioral scenarios, comparison and measurement limits.
+- [Reuse policy](docs/component-reuse-policy.md): lawful learning, licensed reuse and independent development.
+- [Optional capabilities](docs/optional-capabilities.md): manual first, optional local/hybrid execution and total cost.
+- [Release and private upgrades](docs/release-and-client-upgrade-policy.md): separate public release and private adoption.
 
-## Roadmap
-- [x] Separate public reusable methodology from private client data.
-- [x] Create first prompt-first workflow, role definitions, templates and fictional demo.
-- [ ] Validate v0.1 with a real private pilot.
-- [ ] Define a portable, machine-readable state format and contract tests.
-- [ ] Explore optional CLI / runtime, adapter interfaces and automatic quality checks.
-- [ ] Evaluate community feedback, metrics and a possible commercial layer.
+## Verification and limitations
+
+Run `python3 tools/check_documentation.py` from a complete checkout. It checks structure, local links, JSON contracts and scenario inventory without network or third-party dependencies. It does not execute an LLM, assess legal compliance or prove privacy/security. New behavioral tests remain NOT_RUN until actual outputs and reviewers are recorded. The legacy scenarios and historical results are not silently relabeled.
+
+No mandatory proprietary dependency is introduced. Reuse permitted components instead of rebuilding them unnecessarily; evaluate licenses, rights, tool access and product scope separately. No installation, spending, contact or publishing is authorized by reading a skill.
 
 ## License
-MIT, see [LICENSE](LICENSE). This license permits commercial reuse; any future commercial offerings must be architecturally and legally compatible with previously published MIT code.
+
+MIT, see [LICENSE](LICENSE). External software, datasets, model weights and media retain their own terms. This repository's license does not grant rights over them.

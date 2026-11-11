@@ -1,46 +1,35 @@
-# Content brief (template)
+# Content brief (private working copy)
 
-**ID:**  
-**Status:** briefed  
-**Channel / language:**  
-**Target audience:**  
-**Strategic pillar:**  
-**Goal:**  
-**Selected concept ID / pre-draft gate status:**  
-**Creative concept brief reference:**  
-**Rejected angles and user constraints (private only):**  
+ID / version / content state:
+GoalMap / StoryBrief / SELECT decision references:
+Audience / channel / language:
+Topic / constraints / rejected angles:
 
-## Central insight
-[One statement]
+## Claim and evidence
+Central idea / useful audience action:
+Source IDs / verification scope / claim limits:
+Disclosure and asset rights:
+Context / decision or experiment / observation / lesson:
 
-## Evidence
-- Evidence ID(s):
-- Source(s) held privately:
-- Verification status:
-- Permission to disclose:
+## Concept and treatment
+Selected angle / opening promise:
+Where the promise is delivered:
+Actual demonstration assets:
+How this version differs by channel:
+Current voice examples / avoid:
+Accessibility / captions / reading time:
 
-## Story arc
-- Context/problem:
-- Decision/trade-off:
-- Action/example:
-- Result or candid lesson:
-- Audience takeaway:
+## Artifact and review
+Artifact ID / version / content reference / calculated hash:
+Text and media versions:
+Claims map / changes from prior approved version:
+Five-gate report reference:
+Owner approval reference (null until explicit):
+Action / destination authorization (null until explicit):
 
-## Creative hypothesis and demonstration
-- Audience promise / hook:
-- Concrete contrast, decision, reveal:
-- First seconds / first screen:
-- Visual or real demo evidence actually available:
-- How platform version differs from other channels:
-- Experimental hypothesis and success signal:
+## Experiment and limits
+Hypothesis / defined success signal:
+Missing facts or access:
+Budget / rights / unresolved dependencies:
 
-## Voice and packaging
-- Format:
-- Tone:
-- CTA:
-- Explicitly avoid:
-
-## Dependencies and risks
-- Missing facts:
-- Privacy or rights concerns:
-- Human approval needed:
+A draft, selected concept, preview URL or job ID is not a publication.
