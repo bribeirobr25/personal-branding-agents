@@ -154,6 +154,16 @@ function run(){
  checks.negative_controls++;assert(injection.status!==0,'future-input injection incorrectly accepted',errors);
  const malformed=invokeWorker({...view(cases[0],1,'A_main'),user_turns:cases[0].u});
  checks.negative_controls++;assert(malformed.status!==0,'wrong-turn-count incorrectly accepted',errors);
+ const substituted=invokeWorker({...view(cases[0],1,'A_main'),user_turns:[cases[0].u[1]]});
+ checks.negative_controls++;assert(substituted.status!==0,'same-length future-turn substitution incorrectly accepted',errors);
+ const r09=cases.find(c=>c.id==='R09'),revoked=view(r09,2,'B_candidate');
+ const regrant=invokeWorker({...revoked,permissions:{cv:true,linkedin:true}});
+ checks.negative_controls++;assert(regrant.status!==0,'revoked permission silently restored',errors);
+ const r16=cases.find(c=>c.id==='R16'),locale=view(r16,1,'A_main');
+ const wrongName=invokeWorker({...locale,active_name:'Sol'});
+ checks.negative_controls++;assert(wrongName.status!==0,'future name substitution incorrectly accepted',errors);
+ const wrongLocale=invokeWorker({...locale,active_language:'en'});
+ checks.negative_controls++;assert(wrongLocale.status!==0,'language substitution incorrectly accepted',errors);
  for(const [id,step,reply] of [
   ['R01',1,'The team adopted the checklist.'],
   ['R13',1,'Internal mentoring is now the goal.'],
@@ -171,7 +181,7 @@ function run(){
   author_created_all_canned_answers:true,worker_does_not_receive_future_user_turns:true,
   worker_code_contains_authored_turn_specific_replies:true,semantic_future_knowledge_is_not_strongly_isolated:true,
   actual_llm_model_calls:0,real_source_accesses:0,
-  checks,failed_checks:errors.length,errors,negative_controls_rejected:6},
+  checks,failed_checks:errors.length,errors,negative_controls_rejected:10},
   aggregate,rows,limitations:[
    'Worker is a separate Node process and rejects unexpected future fields; this is transport isolation of user turns, not independent model cognition.',
    'Authored reply map contains turn-specific answers, allowing author expectancy/future-knowledge bias; the negative checks are necessarily limited.',
