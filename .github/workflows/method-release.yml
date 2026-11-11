@@ -1,0 +1,33 @@
+name: Publish reviewed method 0.2.0 reference
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/method-release.yml'
+      - '.github/scripts/publish_method_release.py'
+      - 'docs/releases/v0.2.0.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: method-release-v0.2.0
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Recheck the exact merged checkout
+        run: python3 tools/check_documentation.py
+      - name: Create the reviewed tag and release without moving existing tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/publish_method_release.py

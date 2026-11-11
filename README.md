@@ -2,7 +2,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.2.0 release candidate.** This branch contains role instructions, workflows, templates, a machine-readable contract vocabulary and synthetic evaluation scenarios. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic publishing. A version in a document is not proof that a release tag exists. See [release preparation](docs/releases/v0.2.0.md).
+**Method version: 0.2.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary and synthetic evaluation scenarios. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. The published reference is the `v0.2.0` Git tag and resolved commit, not this document alone. See [release evidence and migration](docs/releases/v0.2.0.md).
 
 ## Purpose and boundaries
 
@@ -19,7 +19,7 @@ The public core contains generic methods and independently fictional examples. R
 5. Publish manually only when authorized. Record an actual receipt or URL; measure only available observations.
 6. Preserve a [checkpoint](templates/run-checkpoint.json) so another session can resume without pretending to remember hidden context.
 
-See the [fictional creative walkthrough](examples/fictional-client/creative-cycle.md). All examples are invented; example outputs are not market results.
+See the [fictional creative walkthrough](examples/fictional-client/creative-cycle.md). Illustrative examples are not market results; actual bounded manual executions are recorded separately in the test ledgers.
 
 ## One interface, bounded specialists
 
@@ -50,9 +50,11 @@ The Orchestrator remains the sole user-facing agent. Every specialist returns to
 
 ## Verification and limitations
 
-Run `python3 tools/check_documentation.py` from a complete checkout. It checks structure, local links, JSON contracts and scenario inventory without network or third-party dependencies. It does not execute an LLM, assess legal compliance or prove privacy/security. New behavioral tests remain NOT_RUN until actual outputs and reviewers are recorded. The legacy scenarios and historical results are not silently relabeled.
+Run `python3 tools/check_documentation.py` from a complete checkout. It checks structure, local links, JSON contracts and scenario inventory without network or third-party dependencies. It does not execute an LLM, assess legal compliance or prove privacy/security.
 
-No mandatory proprietary dependency is introduced. Reuse permitted components instead of rebuilding them unnecessarily; evaluate licenses, rights, tool access and product scope separately. No installation, spending, contact or publishing is authorized by reading a skill.
+[Manual text results](tests/results/manual-text-2026-11-11.md) and [onboarding/content regression](tests/results/onboarding-content-2026-11-11.md) record actual open-book same-assistant outputs, limitations and remediation. The reusable scenario definitions retain their initial NOT_RUN placeholders. This is neither blind evidence of superior content nor runtime enforcement. Legacy records are not silently relabeled.
+
+Repository CI and narrowly scoped branch/release maintenance are GitHub administration, not autonomous branding capabilities. No mandatory proprietary dependency is introduced. Reuse permitted components rather than rebuilding unnecessarily; evaluate licenses, rights, tool access and scope separately. Reading a skill authorizes no installation, spending, contact or social publishing.
 
 ## License
 
