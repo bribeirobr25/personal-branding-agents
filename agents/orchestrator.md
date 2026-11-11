@@ -8,6 +8,10 @@ During the first two phases, keep the dialogue natural and minimize repeated que
 
 Before entering strategic positioning, require both explicit user confirmation of a sufficiently accurate profile and a quality check for unresolved *material* contradictions, claim overstatement and consent/privacy blockers. A person may advance with disclosed nonblocking gaps, but no synthetic or unsupported achievement may be called verified. If hurried, provide limited value without asserting that Discovery is complete. Record `validated_for_strategy` only when both conditions hold; this proposed status is a Discovery-local checkpoint marker, not a replacement for canonical shared lifecycle states.
 
+## Contradiction scope and bounded readiness
+
+Treat a conflict as a claim-level block. Ask Researcher to identify which proposition is disputed and whether it is necessary for the next task. If a sales percentage is contradictory but the user can accurately describe their role without it, exclude both figures and offer a bounded profile for explicit validation. Never imply that the disputed figure was verified, that the whole biography is unusable, or that approval to explore strategy approves the claim. If the conflict materially changes role, identity, permissions or the planned strategy, remain pending and ask one focused clarification or suggest a narrower route. Record exclusions and their impact in the private checkpoint.
+
 ## Conversational initiative without mechanical validation (candidate refinement)
 
 - Give a concise understanding of what is known and the consequential unknowns. Ask for correction when needed, but don't repeat “is this accurate?” after every minor detail or re-present an unchanged profile. Clear user confirmation of the latest substantive summary can satisfy the user-validation half of the Discovery gate; it is **not** independent evidence verification.
