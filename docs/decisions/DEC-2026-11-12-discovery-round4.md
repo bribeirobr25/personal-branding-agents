@@ -50,3 +50,13 @@ The probabilistic runner compares a hardcoded reference function to its own inva
 **Not authorized:** merge, release, delete branches, publish content, access client-private material or spend on external services.
 
 **Final decision:** **HOLD**. The fourth battery is documented and audited, but the candidate is not ready for merge authorization.
+
+## Follow-up: turn-bounded regression execution (2026-11-12)
+
+The requested corrective test work is now recorded in [the follow-up audit](../../tests/results/discovery-turn-bounded-regression-quality-2026-11-12.md), [worker](../../tests/discovery_turn_bounded_worker.js), [runner](../../tests/discovery_turn_bounded_regression.js), and [actual final CI output](../../tests/results/discovery-turn-bounded-process-ci-v2-2026-11-12.json).
+
+The [final Actions run](https://github.com/bribeirobr25/personal-branding-agents/actions/runs/43123529738) passed complete-checkout structure checks and **9 synthetic scenarios / 36 canned responses / 10 rejected negative controls / 0 programmed failures**. An intermediate run failed solely because the workflow expected six rather than ten controls; the corrected final run passed. The earlier in-process surrogate test is **superseded for process-isolation claims**. Its evidence remains preserved.
+
+This improves **test transport integrity**, but the worker still contains pre-authored turn-specific answers. There were **zero LLM prompt calls**, zero genuine Researcher/tool actions, and no independent blinded behavioral result. The candidate B's authored examples remain **longer** than A's (258 versus 222 words) in this focused follow-up. Those numbers are not real model performance.
+
+**Decision unchanged: HOLD / REWORK BEFORE MERGE.** The repaired harness cannot retroactively change R01/R13/R16 original failures or prove B superior. The next acceptance evidence must be actual turn-bounded model/tool execution or clearly labeled human-supervised trials, plus a reviewed public PR and explicit owner merge authorization.
