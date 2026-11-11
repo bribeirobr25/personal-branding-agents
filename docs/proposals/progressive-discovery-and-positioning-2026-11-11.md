@@ -100,6 +100,12 @@ After approved positioning: establish a modest, evidence-backed content or non-p
 - [GoalMap](../../templates/goal-map.md), [Architecture](../architecture.md) and contracts: review only the necessary additions; preserve compatibility and user approval.
 - Evaluation: build independently fictional beginner, experienced, career-transition, low-disclosure and no-content scenarios. Test correction loops and no-result behavior. Record actual executions separately from unrun scenarios.
 
+## Second exploratory battery, branch-only
+
+The candidate onboarding, Orchestrator and Researcher instructions now include a targeted correction/validation loop and two-part Discovery exit gate. A [12-scenario scripted handoff run](../../tests/results/discovery-second-battery-scripted-2026-11-11.md) and a [2,400-sample seeded rule-model run](../../tests/results/discovery-second-battery-monte-carlo-2026-11-11.md) have been recorded. These show scripted and reference-policy consistency only: **they do not establish LLM-agent adherence or an improvement over the first authored roleplays**. No independent prompt executions were completed.
+
+**Known test-model gaps:** source-level consent under a generic `limited` scope is not modeled and accessible source content is oversimplified into a verification flag. These must be checked in a subsequent real connector/agent test with actual access receipts. Preserve the third battery for adversarial, pairwise, metamorphic and regression stress after functional prompt execution is demonstrably working.
+
 ## Status, decisions and next step
 
 **Recorded:** proposal for the first three phases and the deepened strategic transition, including responsibilities, gates and expected outputs.  
