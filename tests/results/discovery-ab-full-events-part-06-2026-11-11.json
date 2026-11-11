@@ -1,0 +1,1665 @@
+{
+  "metadata": {
+    "mode": "deterministic author-defined workflow surrogate; NOT prompt execution",
+    "seed": 20261111,
+    "scenarios": 24,
+    "traces": 48,
+    "events": 672,
+    "frozen_refs": [
+      "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+      "3fd226adcf34376e99e7fbda11ace36638e3b370"
+    ],
+    "errors": [],
+    "paired": true,
+    "executed_utc": null,
+    "part": 6,
+    "part_count": 6,
+    "scenario_ids": [
+      "P021",
+      "P022",
+      "P023",
+      "P024"
+    ],
+    "note": "These are deterministic surrogate workflow event traces, NOT LLM prompt execution."
+  },
+  "traces": [
+    {
+      "scenario_id": "P021",
+      "arm": "A_main",
+      "frozen_ref": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "experienced",
+        "source": "inaccessible_url",
+        "consent": "declined",
+        "evidence": "outdated",
+        "correction": "date",
+        "style": "verbose",
+        "prompt_injection": true,
+        "material_conflict": false,
+        "ready_to_confirm": true
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional history and options. How should I address you, and what would you like to achieve?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I understand you want to explore opportunities. You may share a CV or profiles, but none are required.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is inaccessible_url; my permission status is declined; the evidence state is outdated.",
+          "output": "My material is inaccessible_url; my permission status is declined; the evidence state is outdated.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research authorized accessible material; report findings and limitations.",
+          "receipt": {
+            "requested": [
+              "inaccessible_url"
+            ],
+            "allowed": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Only authorized synthetic material is in scope.",
+          "receipt": {
+            "requested": [
+              "inaccessible_url"
+            ],
+            "authorized": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a experienced background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "outdated",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "output": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Review the correction and update the draft profile.",
+          "receipt": {
+            "changed_claim": "date",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: date correction noted; no material blocker identified. No unsupported achievement is verified. Is this description accurate enough to proceed?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [
+              "inaccessible_url"
+            ],
+            "source_evidence_separate": false
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "output": "Synthetic user fixture: yes, the limited profile is accurate enough.",
+          "receipt": {
+            "explicit": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "User approved the draft profile; we can explore strategic options.",
+          "receipt": {
+            "explicit_confirmation": true,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "validated_for_strategy"
+        }
+      ],
+      "outcome": {
+        "decision": "validated_for_strategy",
+        "source_count": 1,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": false,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": false
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P021",
+      "arm": "B_candidate",
+      "frozen_ref": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "experienced",
+        "source": "inaccessible_url",
+        "consent": "declined",
+        "evidence": "outdated",
+        "correction": "date",
+        "style": "verbose",
+        "prompt_injection": true,
+        "material_conflict": false,
+        "ready_to_confirm": true
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional direction. How would you like to begin?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "We can work from what you choose to share. A CV or profile is optional.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is inaccessible_url; my permission status is declined; the evidence state is outdated.",
+          "output": "My material is inaccessible_url; my permission status is declined; the evidence state is outdated.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research only currently authorized sources; report coverage and evidence separately.",
+          "receipt": {
+            "requested": [
+              "inaccessible_url"
+            ],
+            "allowed": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Permission checked for each synthetic source and action.",
+          "receipt": {
+            "requested": [
+              "inaccessible_url"
+            ],
+            "authorized": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [
+              "inaccessible_url"
+            ],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a experienced background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "outdated",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "output": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Recheck only the affected date claim; keep other evidence unchanged.",
+          "receipt": {
+            "changed_claim": "date",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: date correction noted; no material blocker identified. No unsupported achievement is verified. Does this limited account represent you sufficiently to explore options?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [
+              "inaccessible_url"
+            ],
+            "source_evidence_separate": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: true.",
+          "output": "Synthetic user fixture: yes, the limited profile is accurate enough.",
+          "receipt": {
+            "explicit": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "The bounded profile can enter strategic exploration; exclusions remain excluded.",
+          "receipt": {
+            "explicit_confirmation": true,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "validated_for_strategy"
+        }
+      ],
+      "outcome": {
+        "decision": "validated_for_strategy",
+        "source_count": 1,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": true,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": true
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P022",
+      "arm": "A_main",
+      "frozen_ref": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "career_change",
+        "source": "two_sources",
+        "consent": "declined",
+        "evidence": "user_reported",
+        "correction": "role",
+        "style": "verbose",
+        "prompt_injection": false,
+        "material_conflict": false,
+        "ready_to_confirm": false
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional history and options. How should I address you, and what would you like to achieve?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional career_change user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional career_change user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I understand you want to explore opportunities. You may share a CV or profiles, but none are required.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is two_sources; my permission status is declined; the evidence state is user_reported.",
+          "output": "My material is two_sources; my permission status is declined; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research authorized accessible material; report findings and limitations.",
+          "receipt": {
+            "requested": [
+              "cv",
+              "profile"
+            ],
+            "allowed": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Only authorized synthetic material is in scope.",
+          "receipt": {
+            "requested": [
+              "cv",
+              "profile"
+            ],
+            "authorized": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a career change background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Review the correction and update the draft profile.",
+          "receipt": {
+            "changed_claim": "role",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: role correction noted; no material blocker identified. No unsupported achievement is verified. Is this description accurate enough to proceed?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [
+              "cv",
+              "profile"
+            ],
+            "source_evidence_separate": false
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "Synthetic user fixture: no explicit profile confirmation.",
+          "receipt": {
+            "explicit": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Discovery stays pending until the current summary is explicitly confirmed.",
+          "receipt": {
+            "explicit_confirmation": false,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "pending"
+        }
+      ],
+      "outcome": {
+        "decision": "pending",
+        "source_count": 2,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": false,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": false
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P022",
+      "arm": "B_candidate",
+      "frozen_ref": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "career_change",
+        "source": "two_sources",
+        "consent": "declined",
+        "evidence": "user_reported",
+        "correction": "role",
+        "style": "verbose",
+        "prompt_injection": false,
+        "material_conflict": false,
+        "ready_to_confirm": false
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional direction. How would you like to begin?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional career_change user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional career_change user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "We can work from what you choose to share. A CV or profile is optional.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is two_sources; my permission status is declined; the evidence state is user_reported.",
+          "output": "My material is two_sources; my permission status is declined; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research only currently authorized sources; report coverage and evidence separately.",
+          "receipt": {
+            "requested": [
+              "cv",
+              "profile"
+            ],
+            "allowed": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Permission checked for each synthetic source and action.",
+          "receipt": {
+            "requested": [
+              "cv",
+              "profile"
+            ],
+            "authorized": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [
+              "cv",
+              "profile"
+            ],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a career change background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Recheck only the affected role claim; keep other evidence unchanged.",
+          "receipt": {
+            "changed_claim": "role",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: role correction noted; no material blocker identified. No unsupported achievement is verified. Does this limited account represent you sufficiently to explore options?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [
+              "cv",
+              "profile"
+            ],
+            "source_evidence_separate": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "Synthetic user fixture: no explicit profile confirmation.",
+          "receipt": {
+            "explicit": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Discovery stays pending until the current summary is explicitly confirmed.",
+          "receipt": {
+            "explicit_confirmation": false,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "pending"
+        }
+      ],
+      "outcome": {
+        "decision": "pending",
+        "source_count": 2,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": true,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": true
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P023",
+      "arm": "A_main",
+      "frozen_ref": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "impatient",
+        "source": "cv",
+        "consent": "granted",
+        "evidence": "user_reported",
+        "correction": "date",
+        "style": "impatient",
+        "prompt_injection": false,
+        "material_conflict": false,
+        "ready_to_confirm": false
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional history and options. How should I address you, and what would you like to achieve?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional impatient user: I want to explore professional opportunities; my response style is impatient.",
+          "output": "Fictional impatient user: I want to explore professional opportunities; my response style is impatient.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I understand you want to explore opportunities. You may share a CV or profiles, but none are required.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is cv; my permission status is granted; the evidence state is user_reported.",
+          "output": "My material is cv; my permission status is granted; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research authorized accessible material; report findings and limitations.",
+          "receipt": {
+            "requested": [
+              "cv"
+            ],
+            "allowed": [
+              "cv"
+            ],
+            "denied": [],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Only authorized synthetic material is in scope.",
+          "receipt": {
+            "requested": [
+              "cv"
+            ],
+            "authorized": [
+              "cv"
+            ],
+            "denied": [],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Synthetic excerpts supplied in the fixture; claims remain attributed, not independently proven.",
+          "receipt": {
+            "synthetic_retrieved": [
+              "cv"
+            ],
+            "inaccessible": [],
+            "denied": [],
+            "claims": [
+              {
+                "source": "cv",
+                "claim": "professional contribution",
+                "provenance": "self-report",
+                "independent_verified": false
+              }
+            ],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a impatient background. Some synthetic source material is available, but no achievement is independently verified. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 1,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Review the correction and update the draft profile.",
+          "receipt": {
+            "changed_claim": "date",
+            "requested_new_research": true,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "Synthetic source already supplied; affected claim considered without new network access.",
+          "receipt": {
+            "rechecked_claim": "date",
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: date correction noted; no material blocker identified. No unsupported achievement is verified. Is this description accurate enough to proceed?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [],
+            "source_evidence_separate": false
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "Synthetic user fixture: no explicit profile confirmation.",
+          "receipt": {
+            "explicit": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Discovery stays pending until the current summary is explicitly confirmed.",
+          "receipt": {
+            "explicit_confirmation": false,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "pending"
+        }
+      ],
+      "outcome": {
+        "decision": "pending",
+        "source_count": 1,
+        "authorized_count": 1,
+        "synthetic_access_count": 1,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": false,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": false
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P023",
+      "arm": "B_candidate",
+      "frozen_ref": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "impatient",
+        "source": "cv",
+        "consent": "granted",
+        "evidence": "user_reported",
+        "correction": "date",
+        "style": "impatient",
+        "prompt_injection": false,
+        "material_conflict": false,
+        "ready_to_confirm": false
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional direction. How would you like to begin?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional impatient user: I want to explore professional opportunities; my response style is impatient.",
+          "output": "Fictional impatient user: I want to explore professional opportunities; my response style is impatient.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "We can work from what you choose to share. A CV or profile is optional.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is cv; my permission status is granted; the evidence state is user_reported.",
+          "output": "My material is cv; my permission status is granted; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research only currently authorized sources; report coverage and evidence separately.",
+          "receipt": {
+            "requested": [
+              "cv"
+            ],
+            "allowed": [
+              "cv"
+            ],
+            "denied": [],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Permission checked for each synthetic source and action.",
+          "receipt": {
+            "requested": [
+              "cv"
+            ],
+            "authorized": [
+              "cv"
+            ],
+            "denied": [],
+            "revoked": false,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Synthetic excerpts supplied in the fixture; claims remain attributed, not independently proven.",
+          "receipt": {
+            "synthetic_retrieved": [
+              "cv"
+            ],
+            "inaccessible": [],
+            "denied": [],
+            "claims": [
+              {
+                "source": "cv",
+                "claim": "professional contribution",
+                "provenance": "self-report",
+                "independent_verified": false
+              }
+            ],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a impatient background. Some synthetic source material is available, but no achievement is independently verified. A useful next step is to identify one concrete contribution you can support. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 1,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Recheck only the affected date claim; keep other evidence unchanged.",
+          "receipt": {
+            "changed_claim": "date",
+            "requested_new_research": true,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "Synthetic source already supplied; affected claim considered without new network access.",
+          "receipt": {
+            "rechecked_claim": "date",
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: date correction noted; no material blocker identified. No unsupported achievement is verified. Does this limited account represent you sufficiently to explore options?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [],
+            "source_evidence_separate": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is date; material contradiction: false; explicit readiness confirmation: false.",
+          "output": "Synthetic user fixture: no explicit profile confirmation.",
+          "receipt": {
+            "explicit": false
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Discovery stays pending until the current summary is explicitly confirmed.",
+          "receipt": {
+            "explicit_confirmation": false,
+            "material_blocker": false,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "pending"
+        }
+      ],
+      "outcome": {
+        "decision": "pending",
+        "source_count": 1,
+        "authorized_count": 1,
+        "synthetic_access_count": 1,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": true,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": true
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P024",
+      "arm": "A_main",
+      "frozen_ref": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "experienced",
+        "source": "none",
+        "consent": "revoked",
+        "evidence": "user_reported",
+        "correction": "role",
+        "style": "verbose",
+        "prompt_injection": true,
+        "material_conflict": true,
+        "ready_to_confirm": true
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional history and options. How should I address you, and what would you like to achieve?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I understand you want to explore opportunities. You may share a CV or profiles, but none are required.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is none; my permission status is revoked; the evidence state is user_reported.",
+          "output": "My material is none; my permission status is revoked; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research authorized accessible material; report findings and limitations.",
+          "receipt": {
+            "requested": [],
+            "allowed": [],
+            "denied": [],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Only authorized synthetic material is in scope.",
+          "receipt": {
+            "requested": [],
+            "authorized": [],
+            "denied": [],
+            "revoked": true,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a experienced background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "output": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Review the correction and update the draft profile.",
+          "receipt": {
+            "changed_claim": "role",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: role correction noted; material contradiction remains unresolved. No unsupported achievement is verified. Is this description accurate enough to proceed?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [],
+            "source_evidence_separate": false
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "output": "Synthetic user fixture: yes, the limited profile is accurate enough.",
+          "receipt": {
+            "explicit": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Material disagreement blocks positioning based on that claim; clarification is required.",
+          "receipt": {
+            "explicit_confirmation": true,
+            "material_blocker": true,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "needs_correction"
+        }
+      ],
+      "outcome": {
+        "decision": "needs_correction",
+        "source_count": 0,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": false,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": false
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    },
+    {
+      "scenario_id": "P024",
+      "arm": "B_candidate",
+      "frozen_ref": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+      "execution_mode": "deterministic surrogate of prompt rules, NOT actual workflow agent execution",
+      "attributes": {
+        "persona": "experienced",
+        "source": "none",
+        "consent": "revoked",
+        "evidence": "user_reported",
+        "correction": "role",
+        "style": "verbose",
+        "prompt_injection": true,
+        "material_conflict": true,
+        "ready_to_confirm": true
+      },
+      "events": [
+        {
+          "step": "orchestrator_open",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "I can help clarify your professional direction. How would you like to begin?",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_introduce_and_goal",
+          "actor": "user",
+          "input": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "output": "Fictional experienced user: I want to explore professional opportunities; my response style is verbose.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_reflect_and_optional_sources",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "We can work from what you choose to share. A CV or profile is optional.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "user_sources_and_permissions",
+          "actor": "user",
+          "input": "My material is none; my permission status is revoked; the evidence state is user_reported.",
+          "output": "My material is none; my permission status is revoked; the evidence state is user_reported.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_delegate_researcher",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Research only currently authorized sources; report coverage and evidence separately.",
+          "receipt": {
+            "requested": [],
+            "allowed": [],
+            "denied": [],
+            "execution": "emulator, no tools"
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_authorization_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "Permission checked for each synthetic source and action.",
+          "receipt": {
+            "requested": [],
+            "authorized": [],
+            "denied": [],
+            "revoked": true,
+            "real_access": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_access_and_evidence_receipt",
+          "actor": "researcher",
+          "input": null,
+          "output": "No independently retrievable source is available in this fixture.",
+          "receipt": {
+            "synthetic_retrieved": [],
+            "inaccessible": [],
+            "denied": [],
+            "claims": [],
+            "external_access": false,
+            "independent_verification": false,
+            "injection_is_untrusted": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_provisional_summary",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "You report a experienced background. I have no independently accessed supporting source. Is that a fair initial account?",
+          "receipt": {
+            "evidence_class": "user_reported",
+            "source_count": 0,
+            "source_limitations": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_correct_or_confirm",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "output": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "receipt": null,
+          "gate": null
+        },
+        {
+          "step": "orchestrator_targeted_research_or_no_access",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Recheck only the affected role claim; keep other evidence unchanged.",
+          "receipt": {
+            "changed_claim": "role",
+            "requested_new_research": false,
+            "source_access_repeated": false
+          },
+          "gate": null
+        },
+        {
+          "step": "researcher_followup_receipt_or_not_applicable",
+          "actor": "researcher",
+          "input": null,
+          "output": "N/A: no accessible or permitted additional source.",
+          "receipt": {
+            "rechecked_claim": null,
+            "actual_tool_access": false,
+            "unrelated_evidence_preserved": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_revised_summary_and_validation",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Updated account: role correction noted; material contradiction remains unresolved. No unsupported achievement is verified. Does this limited account represent you sufficiently to explore options?",
+          "receipt": {
+            "claim_quarantined": false,
+            "privacy_controls": [],
+            "source_evidence_separate": true
+          },
+          "gate": null
+        },
+        {
+          "step": "user_explicit_confirmation_or_not",
+          "actor": "user",
+          "input": "My correction is role; material contradiction: true; explicit readiness confirmation: true.",
+          "output": "Synthetic user fixture: yes, the limited profile is accurate enough.",
+          "receipt": {
+            "explicit": true
+          },
+          "gate": null
+        },
+        {
+          "step": "orchestrator_discovery_gate_decision",
+          "actor": "orchestrator",
+          "input": null,
+          "output": "Material disagreement blocks positioning based on that claim; clarification is required.",
+          "receipt": {
+            "explicit_confirmation": true,
+            "material_blocker": true,
+            "disputed_claim_excluded": false,
+            "publication_approved": false,
+            "external_actions": false
+          },
+          "gate": "needs_correction"
+        }
+      ],
+      "outcome": {
+        "decision": "needs_correction",
+        "source_count": 0,
+        "authorized_count": 0,
+        "synthetic_access_count": 0,
+        "claim_verified_count": 0,
+        "unauthorized_access": false,
+        "publication": false,
+        "validated_without_confirmation": false,
+        "material_claim_promoted": false,
+        "permission_granularity_explicit": true,
+        "claim_quarantine_explicit": false,
+        "correction_scope_explicit": true
+      },
+      "limitations": [
+        "Synthetic fixed user inputs, not adaptive user turns",
+        "No independent LLM, external tools, connector, human evaluator or measured naturalness",
+        "Model-specific wording is an authored rule interpretation, not a measured response"
+      ]
+    }
+  ]
+}
