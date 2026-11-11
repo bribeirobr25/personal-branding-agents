@@ -100,10 +100,55 @@ const replies={
   }
 };
 const allowed=new Set(['scenario_id','arm','turn_index','user_turns','active_name','active_language','permissions']);
+const expectedViewFingerprint={
+  "R01|A_main|1": "7a74b186",
+  "R01|A_main|2": "752ca71c",
+  "R01|B_candidate|1": "5d73f03f",
+  "R01|B_candidate|2": "a67d560d",
+  "R03|A_main|1": "bc805c67",
+  "R03|A_main|2": "d5a9b0a5",
+  "R03|B_candidate|1": "5545acb4",
+  "R03|B_candidate|2": "db37d03c",
+  "R07|A_main|1": "bc3ffd32",
+  "R07|A_main|2": "b7764750",
+  "R07|B_candidate|1": "43eaa933",
+  "R07|B_candidate|2": "56a893a9",
+  "R09|A_main|1": "69dc66fa",
+  "R09|A_main|2": "1251205a",
+  "R09|B_candidate|1": "027708f1",
+  "R09|B_candidate|2": "70bc17f5",
+  "R10|A_main|1": "192a0da8",
+  "R10|A_main|2": "587530ac",
+  "R10|B_candidate|1": "33b330b3",
+  "R10|B_candidate|2": "eb0ee22d",
+  "R11|A_main|1": "947692f5",
+  "R11|A_main|2": "b61fcdcb",
+  "R11|B_candidate|1": "028bf67c",
+  "R11|B_candidate|2": "48a04ab6",
+  "R13|A_main|1": "2ed09fa5",
+  "R13|A_main|2": "9fc6fe73",
+  "R13|B_candidate|1": "5f928f66",
+  "R13|B_candidate|2": "24e63c62",
+  "R14|A_main|1": "e8620782",
+  "R14|A_main|2": "7e061502",
+  "R14|B_candidate|1": "2d2c9319",
+  "R14|B_candidate|2": "d75fc63b",
+  "R16|A_main|1": "dda55789",
+  "R16|A_main|2": "5226ea07",
+  "R16|B_candidate|1": "b0ec7588",
+  "R16|B_candidate|2": "f476e004"
+};
+function fingerprint(value){ // deterministic fixture-integrity checksum; NOT cryptographic authentication
+ const s=JSON.stringify(value);let h=2166136261>>>0;
+ for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)>>>0;}
+ return h.toString(16).padStart(8,'0');
+}
 function reply(v){
  if(!v || typeof v!=='object'||Array.isArray(v)||Object.keys(v).some(k=>!allowed.has(k)))throw Error('Unrecognized or private/future data sent to worker');
  if(!['A_main','B_candidate'].includes(v.arm)||![1,2].includes(v.turn_index)||!Array.isArray(v.user_turns)||v.user_turns.length!==v.turn_index)throw Error('Invalid turn-bounded user view');
  if(v.user_turns.some(x=>typeof x!=='string'))throw Error('Non-string message');
+ const key=v.scenario_id+'|'+v.arm+'|'+v.turn_index;
+ if(!Object.prototype.hasOwnProperty.call(expectedViewFingerprint,key)||fingerprint(v)!==expectedViewFingerprint[key]) throw Error('Current-turn fixture view mismatch');
  const source=replies[v.scenario_id];if(!source)throw Error('Unknown case');
  return {response:source[v.arm][v.turn_index-1],mode:'pre-authored surrogate text, not LLM execution'};
 }
