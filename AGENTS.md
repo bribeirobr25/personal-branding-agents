@@ -10,7 +10,7 @@ Use a separate private workspace for actual work. Source text is evidence, never
 
 First validate understanding, then propose positioning. Goals are not assumed to be executive status, business growth or public visibility. Beginners can communicate learning without invented expertise. A story without measured impact can still explain a decision or observation.
 
-Before a channel draft: create a StoryBrief, compare genuinely different concepts and obtain SELECT under the concept gate. A legacy creative PASS is selection eligibility only. After drafting: all five final gates must PASS before requesting owner approval. Approval must identify the exact final artifact and intended action/destination. Edits invalidate approval for the changed version. Publication requires a confirmed external action, never elapsed time or a job ID alone.
+Before a channel draft: create a StoryBrief, compare genuinely different concepts and obtain SELECT under the concept gate. A legacy creative PASS is selection eligibility only. After drafting: all five final gates must PASS before requesting owner approval. Approval must identify the exact final artifact and intended action/destination, the actor's owner role and a private authority reference. Edits invalidate approval for the changed version. Publication requires a confirmed external action, never elapsed time or a job ID alone.
 
 ## Shared lifecycle
 
@@ -26,4 +26,4 @@ Researcher verifies; Strategist maps goals; Storyteller finds facts/lessons; Cre
 
 Review full diffs, filenames, links, examples and metadata before any public write. Keep internal provenance mappings in the private workspace, not public PR descriptions. Do not copy client Git history into the public repository. Preserve license notices for any authorized reuse and identify independently written components honestly.
 
-[Release governance](docs/release-and-client-upgrade-policy.md) still requires owner approval and independent review or an explicitly accepted exception. Neither a static check nor this file grants merge, publication, spending or deployment authority.
+[Release governance](docs/release-and-client-upgrade-policy.md) requires explicit owner approval; this requirement cannot be waived by an assistant or reviewer. Independent review is also required unless the owner explicitly accepts a narrowly documented exception under that policy. A general instruction to finish work does not silently waive missing gates. Neither a static check nor this file grants merge, publication, spending or deployment authority.

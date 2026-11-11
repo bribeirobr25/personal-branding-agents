@@ -29,11 +29,13 @@ Use stable IDs, version and source references. Unknown values remain null with a
 | ConceptSelection | candidates, selected ID, decision, assessments, blockers, rationale, rejected reasons, reviewer/mode | No score compensates a hard blocker |
 | DraftArtifact | concept/brief, content reference/hash, media type, channel/language, claims and assets | Text and final media may have different versions |
 | ReviewReport | exact artifact/hash, five results, evidence, findings/remediation, reviewer/mode | Five PASS results are not approval |
-| ApprovalRecord | artifact/hash, actor/time, exact scope, action, destination, conditions | No inferred owner consent |
+| ApprovalRecord | artifact/hash, actor, actor_role, authority_ref, time, exact scope, action, destination, conditions | Owner authority and consent must be verified, not inferred |
 | ActionReceipt | authorization, artifact, provider/job ID, idempotency key, status, confirmation and external reference, cost status | Accepted job is not publication |
 | PerformanceExperiment | hypothesis, artifacts/publications, window, definitions, observations, costs, limitations, decision | Interpretation does not replace observations |
 | RunCheckpoint | source versions, current stage, artifacts, decisions, approvals, unresolved actions, budget and next action | Resume from evidence, not assumed memory |
 | ReuseDecision | component_id, source_ref/revision, material_scope, access_basis, use_mode, reuse_route, legal_basis_and_limitations, obligations, architectural_decision, affected_files, reviewer, evidence, status, reevaluation_trigger | Scope exclusion is not a legal prohibition |
+
+`ApprovalRecord.actor_role` must be `owner` for publication approval in this method. `authority_ref` points to the private record establishing that actor as owner of the workspace/content and records the explicit decision. A claimed role string alone is not verification. Unknown authority keeps the artifact unapproved. Do not expose real actor identities or authority references in the public core. Legacy records missing these fields retain historical status but cannot authorize a new action until authority is resolved; never fabricate retroactive approval.
 
 ## Editorial and action states
 
