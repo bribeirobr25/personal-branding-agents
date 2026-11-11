@@ -61,6 +61,10 @@ Stress variants should include a beginner with no documentation receiving an une
 
 The [12-scenario dual-track review](discovery-scenario-dual-track-review-2026-11-11.md) records observed limitations of the *authored* first-round dialogues and testable acceptance targets for meaningful but bounded initiative. The review is a design critique, not a new behavioral run or independent evaluation. A scripted safety PASS must not be treated as evidence of naturalness or originality.
 
+## Targeted follow-up after prompt refinements
+
+The [six-case exploratory retest](../../tests/results/discovery-targeted-retest-2026-11-11.md) records authored roleplay dialogues for S01, S02, S03, S07, S09 and S12 following candidate revisions to natural validation, bounded initiative, and source-granular permission/evidence handling. The revised texts are illustrative and not independent prompt executions; no quantitative improvement claim is warranted, and other scenarios have not been rerun.
+
 ## Execution and evidence hierarchy
 
 The companion result ledger must identify the execution mode per scenario: `scripted illustration`, `same-assistant exploratory roleplay`, `independent tool/model run`, or `not run`. A scripted illustration is a design example, not an observed test of an autonomous framework. Report count per mode. Do not equate rule-based coverage, invented dialogues, and independent behavioral observations.
