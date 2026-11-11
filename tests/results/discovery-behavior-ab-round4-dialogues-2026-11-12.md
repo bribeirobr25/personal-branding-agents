@@ -6,7 +6,7 @@
 - Baseline A (`main`): `0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92`
 - Candidate B (post-concision workflow): `3fd226adcf34376e99e7fbda11ace36638e3b370`
 - Protocol: [`discovery-behavior-ab-round4-protocol-2026-11-11.md`](../discovery-behavior-ab-round4-protocol-2026-11-11.md)
-- 16 scenario identities; same two user inputs per arm; 32 paired illustrative mini-conversations; 64 authored Orchestrator turns; 32 simulated Researcher receipts, no actual source calls.
+- 16 scenario identities; same two user inputs per arm; 32 paired illustrative mini-conversations; 64 authored Orchestrator turns; 16 shared simulated Researcher receipts (each applies to both arms), no actual source calls.
 - For odd scenarios A-first authoring was planned, for even B-first; no independently randomized execution is claimed. Second turns are fixed and can fail to answer either arm's preceding question naturally.
 
 ## R01: Experienced operator, unmeasured outcome
