@@ -1,0 +1,34 @@
+name: Discovery turn-bounded synthetic regression
+on:
+  push:
+    branches:
+      - feat/onboarding-strategic-discovery-20261111
+    paths:
+      - 'tests/discovery_turn_bounded_regression.js'
+      - 'tests/discovery_turn_bounded_worker.js'
+      - '.github/workflows/discovery-turn-bounded-regression.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-turns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out exact commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Execute synthetic child-process regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tests/discovery_turn_bounded_regression.js > /tmp/discovery-turn-bounded-result.json
+          node -e '
+          const x=require("/tmp/discovery-turn-bounded-result.json");
+          if(x.metadata.failed_checks!==0 || x.rows.length!==36 || x.metadata.checks.negative_controls!==6) process.exit(1);
+          console.log(JSON.stringify({mode:x.metadata.mode,scenarios:x.metadata.scenario_count,
+            generated_responses:x.rows.length,checks:x.metadata.checks,
+            negative_controls_rejected:x.metadata.negative_controls_rejected,
+            failures:x.metadata.failed_checks,words:x.aggregate},null,2));
+          '
