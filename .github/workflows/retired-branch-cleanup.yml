@@ -1,0 +1,52 @@
+name: Audited retired-branch maintenance
+
+on:
+  push:
+    branches: [main, feat/creative-strategist-concept-gate-20261110]
+    paths:
+      - '.github/workflows/retired-branch-cleanup.yml'
+      - '.github/scripts/prune_retired_branch.py'
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Delete only the audited unchanged retired branch
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: audited-retired-branch-maintenance
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify exact head, ancestry, protection and PR dependencies
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/prune_retired_branch.py
+  apply:
+    needs: audit
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || inputs.apply == true)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Recheck and remove only the unchanged redundant ref
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/prune_retired_branch.py --apply
