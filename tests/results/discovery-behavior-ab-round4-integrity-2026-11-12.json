@@ -1,0 +1,123 @@
+{
+  "record_type": "round4_authored_trace_integrity",
+  "date": "2026-11-12",
+  "method": "direct in-memory JavaScript parsing of the exact committed UTF-8 GitHub file; no model-agent execution",
+  "source": "tests/results/discovery-behavior-ab-round4-dialogues-2026-11-12.md",
+  "frozen_refs": {
+    "main": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+    "candidate": "3fd226adcf34376e99e7fbda11ace36638e3b370"
+  },
+  "cases": 16,
+  "unique_case_ids": 16,
+  "user_1_inputs": 16,
+  "user_2_inputs": 16,
+  "main_first_responses": 16,
+  "main_second_responses": 16,
+  "candidate_first_responses": 16,
+  "candidate_second_responses": 16,
+  "shared_simulated_researcher_receipts": 16,
+  "actual_researcher_invocations": 0,
+  "real_web_or_connector_accesses": 0,
+  "whitespace_separated_orchestrator_words": {
+    "main": 472,
+    "candidate": 575,
+    "candidate_minus_main": 103,
+    "candidate_relative_percent": 21.82
+  },
+  "scenario_total_response_lengths": {
+    "candidate_longer": 13,
+    "main_longer": 1,
+    "tied": 2
+  },
+  "case_response_word_counts": [
+    [
+      "R01",
+      31,
+      42
+    ],
+    [
+      "R02",
+      32,
+      39
+    ],
+    [
+      "R03",
+      27,
+      44
+    ],
+    [
+      "R04",
+      32,
+      40
+    ],
+    [
+      "R05",
+      32,
+      35
+    ],
+    [
+      "R06",
+      28,
+      34
+    ],
+    [
+      "R07",
+      34,
+      42
+    ],
+    [
+      "R08",
+      29,
+      29
+    ],
+    [
+      "R09",
+      28,
+      26
+    ],
+    [
+      "R10",
+      29,
+      29
+    ],
+    [
+      "R11",
+      27,
+      35
+    ],
+    [
+      "R12",
+      24,
+      34
+    ],
+    [
+      "R13",
+      32,
+      37
+    ],
+    [
+      "R14",
+      27,
+      35
+    ],
+    [
+      "R15",
+      31,
+      34
+    ],
+    [
+      "R16",
+      29,
+      40
+    ]
+  ],
+  "limitations": [
+    "Measures authored text only, not workflow performance, prompt response quality under isolation, or probability of failure.",
+    "Both arms were written with knowledge of the scenarios and each other's instructions; hidden future input leaked into some responses.",
+    "Sixteen shared Researcher receipts are descriptions, not calls; tool/consent enforcement was never exercised.",
+    "The fixed second utterance may not answer the first response naturally.",
+    "Output-length counts are not token usage, latency, or a measure of helpfulness."
+  ],
+  "behavioral_pass_rate": null,
+  "independent_model_runs": 0
+}
