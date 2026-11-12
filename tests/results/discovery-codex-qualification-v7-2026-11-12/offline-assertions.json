@@ -1,0 +1,6 @@
+{
+  "no_canary": true,
+  "wire_matches": true,
+  "auth_present": false,
+  "auth_matches": false
+}

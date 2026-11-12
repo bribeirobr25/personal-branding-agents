@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6.1-sol",
+  "instructions": "FROZEN_SENTINEL",
+  "input": [
+    {
+      "role": "user",
+      "content": "CURRENT_SENTINEL"
+    }
+  ],
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": false,
+  "reasoning": {
+    "effort": "low",
+    "summary": "auto"
+  },
+  "store": false,
+  "stream": true,
+  "include": []
+}

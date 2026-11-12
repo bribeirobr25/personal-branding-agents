@@ -1,0 +1,19 @@
+{
+  "A.instructions.txt": "d22da97f10a388fd7ff37d34747351dec74af5fda3f74f8b8737f53caf989d56",
+  "B.instructions.txt": "ad9780582bab34c9eba71103ecd85364e37bb76c614aeefb9ed073e3a2aa68c4",
+  "R13-1-A-1/cli-request.json": "c83f6b60d49dd7bafd82e07e7ed900f6b8ba47db9f3dd007deaa5a76ed3e1a8e",
+  "R13-1-A-1/config.toml": "ddc322d73fc5175e9e8cccf4d093883eb1a997ca406354e4803dbfa7f14d2f5b",
+  "R13-1-A-1/envelope.json": "76df93652c8291342ce403e0063ae7e22986cb82d417be983fc3a0fbbfcd5b63",
+  "R13-1-A-1/failure.json": "f3936eafd98a8767c4f379d803ba7bf671e96a1f3ee1f1e5279d9d29c30d0b78",
+  "R13-1-A-1/invocation.json": "b2935e5a114147dbd8f61e596c455137031a22130bc58c0b65348252f308911b",
+  "R13-1-A-1/sandbox-checks.json": "1b5d12358328493fd95cca0742f8393c8d60388779be8ab48cb69119a4ad418b",
+  "R13-1-A-1/sandbox.sb": "2e78b7bb4ef05e3aa90fa32b8f2f1a24196bf62fa845b6bae3eb743f6b56cc33",
+  "R13-1-A-1/stderr.txt": "1635182bda1052211a9190584b67e86ff2a821af9fb12b82fd04244841eb1650",
+  "R13-1-A-1/stdout.jsonl": "4660031d13fa343fb61d8b08b70f23bf4836383f558462f66b999dcbdb8db8be",
+  "R13-1-A-1/transport.json": "e4c9a541a34fe32ff5fcac59da07b319e30440c3d78d6aa8dfb83e43f55a4c22",
+  "R13-1-A-1-billing.json": "8a32c7c4dd8fc84b60291a70bb962d16632c4c89ce7a8d4ad1f86e3d55d43d50",
+  "failure.json": "4e7320ae309760a2b1d8edd306c018d0bcd9587469061f0df366b498b365d81f",
+  "plan.json": "6a3ba9b874512dd436db11c8b1dc64d9a091b8acc36e8b3669e7f604ddeb9e92",
+  "progress.json": "3b722f6d044741819bc4ef8bf4e250a37affb78cc718557bd5463f7ea5441db3",
+  "summary.json": "85b541a59e4d753954d9eb83f3067999fa29c64c91b6081e8319ec7f1895310a"
+}

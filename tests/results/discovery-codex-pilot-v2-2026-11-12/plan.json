@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "mode": "codex_cli_bounded_chatgpt",
+  "refs": {
+    "A": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+    "B": "3fd226adcf34376e99e7fbda11ace36638e3b370"
+  },
+  "model": "gpt-6.1-sol",
+  "repeats": 1,
+  "order_seed": 20261112,
+  "max_output_tokens": null,
+  "max_calls": 12,
+  "cases": [
+    {
+      "id": "R01",
+      "turns": [
+        "I'm a fictional operations lead. I redesigned shift handoffs, but have no time-saved figures.",
+        "The team used the handoff checklist. Yes, that limited description is right."
+      ]
+    },
+    {
+      "id": "R13",
+      "turns": [
+        "I initially wanted a public speaker brand for teaching software teams.",
+        "Actually I want private internal mentoring and no public posting. My experience hasn't changed."
+      ]
+    },
+    {
+      "id": "R16",
+      "turns": [
+        "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+        "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+      ]
+    }
+  ],
+  "jobs": [
+    [
+      "R13",
+      1,
+      "A"
+    ],
+    [
+      "R01",
+      1,
+      "A"
+    ],
+    [
+      "R13",
+      1,
+      "B"
+    ],
+    [
+      "R16",
+      1,
+      "B"
+    ],
+    [
+      "R16",
+      1,
+      "A"
+    ],
+    [
+      "R01",
+      1,
+      "B"
+    ]
+  ],
+  "prompt_hashes": {
+    "A": {
+      "agents/orchestrator.md": "db755181ea0bcc488f13ed66dc5b9cba372537b8e21bd9574e6e8019e112eedd",
+      "agents/researcher.md": "5e0c2955921923e75fe382ccbd8cd96a70db152c14fd7db035da9f4ced126cd4",
+      "workflows/onboarding.md": "e4b82204f1299cc9b1b8e22ead9ef3f7d35639efe69290f0435aed8d3c953981",
+      "docs/agent-contracts.md": "4dd762b5321ec45372c7c21b05d89a79fb5859e4bf599fd167d289b4bcf2f129",
+      "contracts/framework.json": "c72f84d2347b7662f5f1e7f71e325100670e9b8939791017b0c96a395c8c74ce",
+      "docs/security-and-privacy.md": "de208d76b7a72bc4639451cf24b547f3c06851f7974dd98e1c57f1e4b53025f0"
+    },
+    "B": {
+      "agents/orchestrator.md": "be379fa88cb8ef733820e6e48dd29a13beade762abffff5fe15124383c1f6777",
+      "agents/researcher.md": "14ba4cbc69b62f52f4b157da1d3434b4c9f449a37720674e2ebd3e8ae1b50651",
+      "workflows/onboarding.md": "31e221541c4fce92d1ec637a52f00f6d54f05a3ed5f241892f83fef9370de831",
+      "docs/agent-contracts.md": "4dd762b5321ec45372c7c21b05d89a79fb5859e4bf599fd167d289b4bcf2f129",
+      "contracts/framework.json": "c72f84d2347b7662f5f1e7f71e325100670e9b8939791017b0c96a395c8c74ce",
+      "docs/security-and-privacy.md": "de208d76b7a72bc4639451cf24b547f3c06851f7974dd98e1c57f1e4b53025f0"
+    }
+  },
+  "instructions_hashes": {
+    "A": "d9e64eea330c1e36dea24f9860bf7d6025e1bc8a1eac6945046a8755c94ee95b",
+    "B": "d875b3a05f97d5c0811ec1b78eeba03fd659130d46fbfb21401784c44579738d"
+  },
+  "runner_sha256": "ade384d898d6501774d36af55b7a3e2ba672bb600e9ecb2206f8b5fb123362b6",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "tools": [],
+  "retries": 0,
+  "sampling": "provider defaults, low reasoning, same settings both arms",
+  "actual_cost": null,
+  "behavioral_status": "NOT_RUN",
+  "stage": "pilot",
+  "adapter_sha256": "234f1a96f8b8b102c6994e78fe6e74188ef04a1d6060ca28f1904edbdbf6e82b",
+  "cli_version": "codex-cli 0.145.0",
+  "reasoning_effort": "low",
+  "max_output_limitation": "ChatGPT Codex transport has no validated output-token cap",
+  "cost_policy": "included_only_zero_credit_balance_no_fallback"
+}

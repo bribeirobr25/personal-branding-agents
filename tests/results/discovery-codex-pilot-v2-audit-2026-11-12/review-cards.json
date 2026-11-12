@@ -1,0 +1,80 @@
+[
+  {
+    "id": "card-000",
+    "user_turns": [
+      "I initially wanted a public speaker brand for teaching software teams.",
+      "Actually I want private internal mentoring and no public posting. My experience hasn't changed."
+    ],
+    "assistant_turns": [
+      "It sounds like your starting goal was to build a reputation as a speaker who teaches software teams—but “initially” suggests that may have changed. What would you like your personal brand to help you achieve now, even if you’re still exploring or would rather not build a public presence?\n\nAnd, if you’d like, what should I call you?",
+      "Understood—the goal has changed, not your experience. We’ll focus on **private, internal mentoring for software teams**, not a public speaker brand, and keep public posting out of scope.\n\nYou can tell me about your experience here; no CV or profiles are needed. If you prefer, you can paste a short background summary, leaving out confidential details. I can work with what you share in this chat, but can’t access external profiles or files.\n\nWhat kind of help do teammates already tend to seek from you?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-001",
+    "user_turns": [
+      "I'm a fictional operations lead. I redesigned shift handoffs, but have no time-saved figures.",
+      "The team used the handoff checklist. Yes, that limited description is right."
+    ],
+    "assistant_turns": [
+      "We can use this fictional scenario to develop a credible professional story without inventing time savings. For now, the supported claim is simply that you redesigned shift handoffs; any benefits would need specific observations or evidence.\n\nWhat would you like this story to help you achieve—an interview example, a stronger professional bio, a post, or something else? And, optionally, what should I call you?",
+      "That gives us a useful, bounded account: **you redesigned shift handoffs, and the team used the resulting checklist.** Adoption is worth mentioning, but it doesn’t establish time savings or fewer errors.\n\nWhat would you like to use this fictional story for—an interview answer, a résumé bullet, a post, or something else?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-002",
+    "user_turns": [
+      "I initially wanted a public speaker brand for teaching software teams.",
+      "Actually I want private internal mentoring and no public posting. My experience hasn't changed."
+    ],
+    "assistant_turns": [
+      "A public speaker brand focused on teaching software teams was your starting point. “Initially” suggests your thinking may have shifted—what would you like your brand to help you achieve now, even if you’re still figuring it out?",
+      "Understood—the goal has changed, not your experience: **private internal mentoring, with no public posting**. We can focus on how colleagues understand your expertise without building a public presence.\n\nWhat experience would you most want to draw on when mentoring software teams?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-003",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+      "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+    ],
+    "assistant_turns": [
+      "Nice to meet you, Arin. You’d like to share what you’ve learned running a small fictional bookstore, in Portuguese. We can work entirely through conversation; if you have existing notes or writing, you’re welcome to paste a short excerpt.\n\nBy “fictional bookstore,” do you mean an imagined business or a bookstore that specializes in fiction?",
+      "Claro, Sol — seguimos em português. Você não compartilhou dados de vendas; não vou presumir números nem resultados comerciais.\n\nSó preciso esclarecer um ponto: a livraria é imaginária ou é uma livraria real especializada em ficção?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-004",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese."
+    ],
+    "assistant_turns": [
+      "Arin, you’d like to share what you’ve learned from running a small fictional bookstore, in Portuguese. We can explore those lessons and find a voice that feels natural to you—without assuming you want to publish.\n\nYou’re welcome to paste an existing passage or describe the store and your experience; neither is required. I can work with what you share here, but I can’t open external profiles or files in this chat.\n\nWhen you say “fictional bookstore,” do you mean an imagined shop or a real bookstore specializing in fiction?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "review_status": "NOT_REVIEWED"
+  }
+]

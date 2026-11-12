@@ -1,0 +1,5 @@
+{
+  "type": "RuntimeError",
+  "message": "CLI transport failed; no retry",
+  "automatic_retry": false
+}

@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd43-b972-7d73-ae6b-10d3ea26c851"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"error","message":"<!DOCTYPE HTML>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error response</title>\n    </head>\n    <body>\n        <h1>Error response</h1>\n        <p>Error code: 400</p>\n        <p>Message: Bounded adapter stopped; inspect artifacts.</p>\n        <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>\n    </body>\n</html>\n"}
+{"type":"turn.failed","error":{"message":"<!DOCTYPE HTML>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error response</title>\n    </head>\n    <body>\n        <h1>Error response</h1>\n        <p>Error code: 400</p>\n        <p>Message: Bounded adapter stopped; inspect artifacts.</p>\n        <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>\n    </body>\n</html>\n"}}

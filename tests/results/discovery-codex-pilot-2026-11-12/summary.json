@@ -1,0 +1,14 @@
+{
+  "status": "STOPPED_OUTCOME_REQUIRES_REVIEW",
+  "attempted_calls": 1,
+  "completed_calls": 0,
+  "expected_calls": 12,
+  "stage": "pilot",
+  "isolation": "NOT_QUALIFIED",
+  "adapter_sha256": "013e71352138293f47d08b98443cc51b7e9cb4a5233630f3ef0daf98148aa9bc",
+  "cli_sha256": "1da3f4e0e96028b8a771814293c3033dafd1971f943f6c7e79b0897fe705f590",
+  "actual_cost_usd": null,
+  "billing_evidence": "included-only preflight; no monetary invoice",
+  "behavioral_winner": null,
+  "independent_review": "NOT_RUN"
+}

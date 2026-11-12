@@ -1,0 +1,68 @@
+{
+  "redactions": [
+    {
+      "file": "tests/results/discovery-codex-qualification-v5-2026-11-12/allowed/sandbox.sb",
+      "raw_sha256": "7721a755828a83aa3990dab8dac3cab4bc7c63e63a266d843acdeab65a564767",
+      "public_sha256": "1fbe1ecd03d6e38a0ba87a8c9e382c0182c512dabb87080cca2475dfa2462ecb",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v5-2026-11-12/allowed/invocation.json",
+      "raw_sha256": "4858da745e3391346dd564bdb0447649ef03384eb7337741e4804f871b504afe",
+      "public_sha256": "e6ec7072f8d54df444ad4c8e661612a7edc48b8da63d96605e02dc441262cb18",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v6-2026-11-12/allowed/sandbox.sb",
+      "raw_sha256": "6629c48ed1dfd78e4740af8131fb70265089f858ce74326e7c5937a3c44ef944",
+      "public_sha256": "4c069e1f2d1a83e44f87da6365af112c0d9c94dc8518c091812502e3e40d53f4",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v6-2026-11-12/allowed/invocation.json",
+      "raw_sha256": "431e58f2ccd6c384120b0a77b053b821eec4886305c047c9197acfde2ced24fc",
+      "public_sha256": "fcdffbc847c3393d7aaba12a564961b96a76e56a82ab6c9ae18b8af40e1a474e",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v7-2026-11-12/allowed/sandbox.sb",
+      "raw_sha256": "7c9233759343579119f2898e14113f9be7fe40cba1f843445644e890fc1c8eb7",
+      "public_sha256": "f5b4cde512864a3aa954377dc8ff07562417bb31f6f8ecbafac7946882eedc17",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v7-2026-11-12/allowed/invocation.json",
+      "raw_sha256": "8778b6ff60600f5b1557314ec0bbbad398f12fe90679f1b038ae5cf781375056",
+      "public_sha256": "af0e72eae046a7a57ba45b32f9f8acebe04049242018143b9a2e5de40ce907a0",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v8-2026-11-12/allowed/sandbox.sb",
+      "raw_sha256": "b445c793edb49945166430453139e7752c01b39a461ed79e22683cd2246191d2",
+      "public_sha256": "5b0b4b65dc5d217be26f649f9b85f9d4eef135e8e6cb9c2029c1265c1f1e02d7",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v8-2026-11-12/allowed/invocation.json",
+      "raw_sha256": "8e8a7250f1d96191fd122cc2bae9d976158e822b6e19ded830f0ac71dc3be428",
+      "public_sha256": "2ee1ded8a39d596dcc0e10fbba8bf9dde3975231d84556349bbb58ded580bef5",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v8-2026-11-12/tool-rejected/sandbox.sb",
+      "raw_sha256": "1a062130d6b4d39dcb2b50f29cbb8b3854d6aaaedacfeea85c66d9a03d4585b3",
+      "public_sha256": "70e181e78be64d14ede8dffc06ccde1cf1377ef03a77e69bfafa17b12a91ca93",
+      "reason": "host-home identifier; original retained privately"
+    },
+    {
+      "file": "tests/results/discovery-codex-qualification-v8-2026-11-12/tool-rejected/invocation.json",
+      "raw_sha256": "94ed2728dc32c5c6341c87d0446e6edd5d7e03647b5b5df37b9cf9dfd3551dc3",
+      "public_sha256": "3c652157a63be4937c8e67d3bf3e8d14d8c6cf969f8aee799cb94b52e8ad29b8",
+      "reason": "host-home identifier; original retained privately"
+    }
+  ],
+  "private_originals_preserved": true,
+  "model_inputs_outputs_edited": false,
+  "qualification_manifest_note": "Public manifests recalculated after explicit host-path redaction; original manifests retained privately.",
+  "first_pilot_source_note": "Source snapshots added after stop are in a separate supplemental directory, outside the original immutable run manifest."
+}

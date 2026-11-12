@@ -71,3 +71,23 @@ boundary. Nine offline tests passed; the saved 108-call plan made **zero model c
 Codex CLI authentication was found, but billing and complete context isolation were
 not qualified. No comparative behavioral result or independent review is claimed.
 **HOLD remains unchanged.** All original evidence and frozen prompt versions remain intact.
+
+## Follow-up: Codex CLI adapter and incomplete real pilot (2026-11-12)
+
+The [CLI addendum](../../tests/discovery-codex-cli-protocol-2026-11-12.md) and
+[observed results](../../tests/results/discovery-codex-readiness-2026-11-12.md)
+record a subscription-only adapter with a model-bound wire allowlist, per-call
+OS file-read controls and included-usage/zero-credit checks. Offline real-CLI
+qualification passed; feature flags or a separate cwd alone were insufficient.
+
+A first local setup attempt dispatched zero remote requests. The separate 12-call
+pilot v2 dispatched 10 requests and preserved nine actual model replies. The tenth,
+R16/A/U2, timed out without a response ID/body; its provider outcome is unknown.
+Two pilot turns and all 108 priority-battery calls remain unexecuted. No automatic
+retry, API-key fallback, credit purchase/redemption or external paid service was used.
+
+The partial audit found only the frozen bundle and current/same-arm prior transcript
+in each dispatched payload. Both arms nevertheless failed the Portuguese preference
+in R16/U1, while using Arin rather than future name Sol. These are separate behavioral
+and isolation findings. Full-pilot qualification, independent review, comparative
+winner and merge authorization remain absent. **HOLD remains unchanged.**

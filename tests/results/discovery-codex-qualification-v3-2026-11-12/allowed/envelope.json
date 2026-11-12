@@ -1,0 +1,9 @@
+{
+  "instructions": "FROZEN_SENTINEL",
+  "input": [
+    {
+      "role": "user",
+      "content": "CURRENT_SENTINEL"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve raw SSE event delimiters and bytes in inference evidence.
+tests/results/discovery-codex-*/**/response.sse -text whitespace=-blank-at-eof

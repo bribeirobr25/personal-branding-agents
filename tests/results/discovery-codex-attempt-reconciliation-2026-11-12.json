@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-12",
+  "offline_qualification_attempts": [
+    {"attempt": 1, "status": "FAIL", "diagnosis": "Invalid Seatbelt network host syntax; detailed diagnostic obtained in v2", "remote_inference_requests": 0},
+    {"attempt": 2, "status": "FAIL", "diagnosis": "sandbox-exec: host must be * or localhost in network address", "remote_inference_requests": 0},
+    {"attempt": 3, "status": "FAIL", "diagnosis": "Allowed-file cat probe exited -6 under broad deny profile", "remote_inference_requests": 0},
+    {"attempt": 4, "status": "FAIL", "diagnosis": "Allowed-file cat probe still exited -6 after system-library path addition", "remote_inference_requests": 0},
+    {"attempt": 5, "status": "FAIL", "diagnosis": "File controls passed; CLI could not canonicalize its home because parent metadata was denied", "remote_inference_requests": 0},
+    {"attempt": 6, "status": "FAIL", "diagnosis": "Bounded wire matched; custom-provider CLI did not attach OAuth header", "remote_inference_requests": 0},
+    {"attempt": 7, "status": "FAIL", "diagnosis": "Explicit offline assertions confirmed auth_present=false and wire_matches=true", "remote_inference_requests": 0},
+    {"attempt": 8, "status": "PASS", "diagnosis": "Loopback capability, controller-owned auth, file denials and tool-output rejection passed", "remote_inference_requests": 0},
+    {"attempt": 9, "status": "PASS", "diagnosis": "Public-safe profile paths verified", "remote_inference_requests": 0},
+    {"attempt": 10, "status": "PASS", "diagnosis": "Exact outbound trailing newline preserved despite CLI file trimming", "remote_inference_requests": 0}
+  ],
+  "offline_diagnostic_provenance": "Diagnoses summarized from actual tool stdout/stderr and saved transport artifacts. Early v1-v4 exceptions were emitted to the tool transcript, not saved as full harness stdout files; do not treat these summaries as reconstructed original stdout. Original source snapshots for every early offline edit were not retained; captured config/policy artifacts remain.",
+  "first_pilot": {
+    "directory": "discovery-codex-pilot-2026-11-12",
+    "local_cli_attempts": 1,
+    "remote_inference_requests": 0,
+    "reconciled_outcome": "BLOCKED_LOCALLY_BEFORE_DISPATCH",
+    "reason": "Instruction boundary newline trimmed by CLI, rejected by equality guard",
+    "evidence": ["R13-1-A-1/transport.json", "R13-1-A-1/cli-request.json", "R13-1-A-1/envelope.json"],
+    "source_snapshot": "discovery-codex-pilot-preflight-source-2026-11-12/adapter-source.py"
+  },
+  "pilot_v2": {
+    "directory": "discovery-codex-pilot-v2-2026-11-12",
+    "remote_inference_requests": 10,
+    "complete_responses": 9,
+    "unknown_requests": ["R16-1-A-2"],
+    "not_dispatched": ["R01-1-B-1", "R01-1-B-2"],
+    "unknown_reason": "Timeout before response headers/body; no response ID available to reconcile",
+    "automatic_retry": false,
+    "unknown_request_token_usage": null
+  },
+  "priority_battery": {"planned_calls": 108, "dispatched": 0, "status": "BLOCKED_INCOMPLETE_PILOT"},
+  "billing": {"route": "ChatGPT included usage", "paid_api_calls": 0, "credit_purchases": 0, "credit_redemptions": 0, "monetary_invoice_available": false},
+  "decision": "HOLD"
+}

@@ -1,0 +1,2 @@
+WARNING: proceeding, even though we could not create PATH aliases: failed to canonicalize CODEX_HOME "/private/tmp/discovery-call-9f7k35ul": Operation not permitted (os error 1)
+Error finding codex home: failed to canonicalize CODEX_HOME "/private/tmp/discovery-call-9f7k35ul": Operation not permitted (os error 1)

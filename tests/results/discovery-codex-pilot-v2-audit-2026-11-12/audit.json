@@ -1,0 +1,132 @@
+{
+  "status": "PARTIAL",
+  "scope": "transport/context integrity, NOT behavioral review",
+  "checked_calls": 9,
+  "checks": [
+    {
+      "label": "R13-1-A-1",
+      "request_sha256": "c83d78598774f22896485a8a278293a3ab6276cbff791a2ecaaae49d3bbf782e",
+      "response_sse_sha256": "501f913456f3953c0efdcd89e8141076f2144a5db8a5b03c0f15f95cddc93382",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-A-2",
+      "request_sha256": "c0439dc6a2db91b5c36ebcb6623053c31d6677cf5749733f515b9aada632daea",
+      "response_sse_sha256": "c1237a83f5244ac845a3749c66cbfd9c15f9176cabe16847784978eff928c7f2",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-A-1",
+      "request_sha256": "a305909fb0c67ad727f506aae1b2a3853afa631cfc794376512890c4aaca18c7",
+      "response_sse_sha256": "26a7ed822adf48f4625bd051eb6f6de6e64a65cb95069181a96428c2e0671678",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-A-2",
+      "request_sha256": "e8d4cb57c9b8f239529837ec517f4f48fcf46b1f722277e5be6f30c1d17b663b",
+      "response_sse_sha256": "2d569d0c02f765f52da6fed60bbd87d57d6b412863375fb8aa88fa3f3d7d23e8",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-B-1",
+      "request_sha256": "636a4a523da6be4d99a791a94e861d029f4e48b788c4cdf589d00e645f05263a",
+      "response_sse_sha256": "1046c2bf4da3c1d93187a4b707c95482cc5f2dfbf600e5682d1729560b9d9dff",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-B-2",
+      "request_sha256": "222ff4922b64342c0310551c20a116c5339b95c2e364323344cd72aa6bd7f4b7",
+      "response_sse_sha256": "2b551b3a97861473c3b4a22a0b8699654843d189d0274515a2f98b66115300ac",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-B-1",
+      "request_sha256": "ba5ee7d4185d256ea82bfbc41b3c5a16d08d64aeabb9592c61997c79465f1259",
+      "response_sse_sha256": "2303508cfc1a16f2995a3d2e23a16d5c208948f5b8b0373859899b9d3138ddf1",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-B-2",
+      "request_sha256": "5527eb6a82f241c380b32672d0023fdafea0559a85d27e5f850d4304b8bc2f6f",
+      "response_sse_sha256": "1e1714a05ca17f359fda84205b1d7ceec274cdabe1dd5824b89aed2e37a300ed",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-A-1",
+      "request_sha256": "dcefd7644e3e184507202ec943edda2849a224d127794eb9a6e71e7b78a319c2",
+      "response_sse_sha256": "a9cd9f0a48feb05db6b9eec9fb4b68130d03af9a76fe01f10c4c4129e049f041",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    }
+  ],
+  "aggregate": {
+    "A": {
+      "calls": 5,
+      "words": 347,
+      "input_tokens": 23521,
+      "output_tokens": 448,
+      "median_seconds": 6.153301540995017
+    },
+    "B": {
+      "calls": 4,
+      "words": 169,
+      "input_tokens": 30519,
+      "output_tokens": 251,
+      "median_seconds": 5.918058937473688
+    }
+  },
+  "outcome_unknown": [
+    {
+      "label": "R16-1-A-2",
+      "transport": {
+        "seconds": 182.22347312502097,
+        "cli_requests": 1,
+        "forwarded_requests": 1,
+        "returncode": 1,
+        "error": "TimeoutError"
+      },
+      "request_context_check": "PASS"
+    }
+  ],
+  "not_sent": [
+    "R01-1-B-1",
+    "R01-1-B-2"
+  ],
+  "behavioral_winner": null,
+  "independent_review": "NOT_RUN"
+}
