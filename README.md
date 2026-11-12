@@ -2,7 +2,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.2.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. The published reference is the `v0.2.0` Git tag and resolved commit, not this document alone. See [migration guidance](docs/releases/v0.2.0.md).
+**Method version: 0.3.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. Use the published release tag and its resolved commit as your reference. See [migration guidance for 0.3.0](docs/releases/v0.3.0.md).
 
 ## Purpose and boundaries
 

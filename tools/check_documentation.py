@@ -9,7 +9,8 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-VERSION = "0.2.0"
+METHOD_VERSION = "0.3.0"
+CONTRACT_VERSION = "0.2.0"
 
 
 def require(condition: bool, message: str) -> None:
@@ -18,7 +19,7 @@ def require(condition: bool, message: str) -> None:
 
 
 def validate_contract(contract: dict) -> None:
-    require(contract.get("contract_version") == VERSION, "Contract version mismatch")
+    require(contract.get("contract_version") == CONTRACT_VERSION, "Contract version mismatch")
     require(contract.get("enforced_runtime") is False, "Do not claim an enforced runtime")
     expected = {
         "task_status": {"completed", "partial", "blocked", "failed", "not_started"},
@@ -58,8 +59,8 @@ def run(root: Path, inventory: Path | None) -> dict:
             json_count += 1
     manifest = json.loads(local["framework-manifest.json"].read_text(encoding="utf-8"))
     contract = json.loads(local["contracts/framework.json"].read_text(encoding="utf-8"))
-    require(manifest.get("method_version") == VERSION, "Method version mismatch")
-    require(manifest.get("contract_version") == VERSION, "Manifest contract mismatch")
+    require(manifest.get("method_version") == METHOD_VERSION, "Method version mismatch")
+    require(manifest.get("contract_version") == CONTRACT_VERSION, "Manifest contract mismatch")
     require(manifest.get("implementation_level") == "prompt-first", "Unsupported implementation claim")
     validate_contract(contract)
     for path in manifest.get("templates", []):
