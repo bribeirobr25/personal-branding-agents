@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd89-04c2-7253-b318-847c29d190ad"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Arin, we can start by making sense of your experience without worrying about how to market it yet.\n\nTell me about the work or projects that feel most relevant—even if your path feels scattered. If it’s easier, you can paste an existing bio or résumé and note whether it’s current; neither is required."}}
+{"type":"turn.completed","usage":{"input_tokens":7590,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":67,"reasoning_output_tokens":0}}

@@ -1,0 +1,10 @@
+{
+  "recorded_at": 1794449480.323688,
+  "authorization": "Explicit owner reply in current task",
+  "owner_answer": "Autorizar as 32 chamadas deste plano",
+  "plan_sha256": "1fdbcc1e8bc773daf7217b49d56f58b6121f6706ad3ce322f8b2b5f1022d7c32",
+  "max_calls": 32,
+  "scope": "L01-L12, A/B, one repetition; no 108-call battery",
+  "cost_scope": "Included ChatGPT allowance only; zero paid credits; no API key, purchase or redemption",
+  "code_commit": "d21237e21f5f81a229267ac7324bb9c3512e5bd3"
+}

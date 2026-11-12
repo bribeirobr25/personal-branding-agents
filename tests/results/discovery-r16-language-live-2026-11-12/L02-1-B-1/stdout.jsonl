@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd89-7020-75c0-aa0c-888c0cf1c06f"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Prazer, Arin! Posso ajudar você a dar forma à história da sua livraria fictícia e à maneira como você quer se apresentar à frente dela.\n\nO que você gostaria de alcançar com esse trabalho — desenvolver o universo da livraria, dar visibilidade a um projeto ou algo que ainda está explorando?"}}
+{"type":"turn.completed","usage":{"input_tokens":7595,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":70,"reasoning_output_tokens":0}}

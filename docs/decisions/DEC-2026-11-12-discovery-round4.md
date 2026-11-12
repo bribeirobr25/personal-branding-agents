@@ -119,3 +119,39 @@ access or inference. The **108-call battery remains NOT_RUN**. A separate correc
 round/new frozen candidate, or an explicit owner change to the promotion criteria,
 is needed before further generation. No exception, merge, release or main change
 was performed. **HOLD remains unchanged.**
+
+## Follow-up: authorized R16 language diagnostics (2026-11-12)
+
+After explicit owner authorization of the exact 32-call plan, the separate
+[L01–L12 diagnostic run](../../tests/results/discovery-r16-language-evaluation-2026-11-12.md)
+completed **32/32 genuine model calls** with unchanged frozen A/B prompts. All
+32 context/transport audits passed, with no inference timeout or retry. Included
+ChatGPT allowance, zero credit balance and unavailable paid credits were checked
+before every call and after completion. All response IDs are preserved; the
+provider receipts do not expose `x-request-id`, which remains null.
+
+Both arms passed all **24 explicit reply-language checks** and all **14 specified
+name occurrences**. Eight ambiguous reply-language observations are INDETERMINATE,
+including the original R16/L01; future content language is reviewed separately.
+No artifact was generated, so future artifact-language compliance remains pending.
+No fabrication, false access claim, consent expansion, unauthorized publication
+claim or premature final positioning was observed in these 32 replies; this does
+not certify production tool or publication enforcement.
+
+The older report's statement that R16/U1 was already an explicit request for the
+assistant's immediate Portuguese reply is not supported by its literal wording.
+It describes intended communication/content language. Historical FAIL labels and
+raw outputs remain intact under their old rubric; this is a dated oracle
+clarification, not deletion or silent relabeling of evidence. Explicit Portuguese,
+German and English reply requests succeeded in the new diagnostic sample.
+
+**No workflow language correction is justified by this evidence.** B was shorter
+in ten of twelve scenario pairs (754 versus 898 total words), with editorial
+tradeoffs and no overall winner. One repetition and open-book author review do
+not establish universal compliance, causality or independent acceptance.
+
+The 108-call battery is **NOT_RUN / NOT_AUTHORIZED** by this diagnostic approval.
+Its historical promotion gate was not changed. Further execution requires
+specific owner authorization and an explicit versioned treatment of the clarified
+R16 oracle in that gate. No prompts, main branch, merge or release were changed.
+**HOLD remains unchanged.**

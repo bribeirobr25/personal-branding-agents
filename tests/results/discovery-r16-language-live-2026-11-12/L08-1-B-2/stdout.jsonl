@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd86-bdfa-7eb0-b565-da48f9012ada"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro, Sol. Continuamos em português, e o portfólio permanece em alemão. O que você gostaria de alcançar com ele?"}}
+{"type":"turn.completed","usage":{"input_tokens":7693,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":32,"reasoning_output_tokens":0}}

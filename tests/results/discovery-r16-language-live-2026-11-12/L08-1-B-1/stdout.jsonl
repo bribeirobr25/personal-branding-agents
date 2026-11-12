@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd86-9cb7-7a21-882b-a7b34eef6377"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Olá, Arin! Posso ajudar você a dar clareza à sua trajetória e construir uma presença profissional — conversamos em português e, quando chegar a hora, trabalhamos os textos do portfólio em alemão.\n\nO que você gostaria de alcançar com esse portfólio: encontrar uma vaga, atrair clientes, apresentar um projeto ou algo que ainda está explorando?"}}
+{"type":"turn.completed","usage":{"input_tokens":7591,"cached_input_tokens":7424,"cache_write_input_tokens":0,"output_tokens":80,"reasoning_output_tokens":0}}

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "card-000",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+      "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+    ],
+    "assistant_turns": [
+      "Nice to meet you, Arin. You’d like to share what you’ve learned from running a small fictional bookstore, in Portuguese. We can continue in Portuguese, too.\n\nYou’re welcome to share any existing writing or simply tell me about your experience—no documents or profiles needed. When you say “fictional bookstore,” do you mean an imagined shop or a bookstore that specializes in fiction?",
+      "Claro, Sol — seguimos em português. Você não compartilhou dados de vendas; não vou presumir números nem resultados.\n\nSó para esclarecer: sua livraria é imaginária ou é uma loja que vende obras de ficção?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-001",
+    "user_turns": [
+      "Call me Arin. Please answer me in Portuguese. My future portfolio will be in German.",
+      "Call me Sol now, but keep answering in Portuguese. The portfolio remains German."
+    ],
+    "assistant_turns": [
+      "Olá, Arin! Posso ajudar você a dar clareza à sua trajetória e construir uma presença profissional — conversamos em português e, quando chegar a hora, trabalhamos os textos do portfólio em alemão.\n\nO que você gostaria de alcançar com esse portfólio: encontrar uma vaga, atrair clientes, apresentar um projeto ou algo que ainda está explorando?",
+      "Claro, Sol. Continuamos em português, e o portfólio permanece em alemão. O que você gostaria de alcançar com ele?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-002",
+    "user_turns": [
+      "Please speak to me in Portuguese in this conversation, but I want my future LinkedIn posts written in English."
+    ],
+    "assistant_turns": [
+      "Claro — vamos conversar em português, e os seus futuros posts para o LinkedIn serão escritos em inglês.\n\nPosso ajudar a esclarecer sua trajetória e fortalecer sua presença profissional. Como prefere que eu te chame e o que gostaria de alcançar com sua marca pessoal — novas oportunidades, clientes, visibilidade para um projeto ou algo que ainda está explorando?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-003",
+    "user_turns": [
+      "Call me Arin. Please answer me in Portuguese. My future portfolio will be in German.",
+      "Call me Sol now, but keep answering in Portuguese. The portfolio remains German."
+    ],
+    "assistant_turns": [
+      "Olá, Arin! Posso ajudar você a esclarecer sua história profissional e construir uma presença alinhada ao que deseja alcançar. Conversaremos em português e, quando trabalharmos no seu futuro portfólio, prepararemos o conteúdo em alemão.\n\nO que você gostaria que esse portfólio ajudasse a conquistar — um novo emprego, clientes, visibilidade para um projeto, ou ainda está explorando as possibilidades?",
+      "Claro, Sol. Seguimos em português, e o portfólio continua em alemão. O que você gostaria de alcançar com ele?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-004",
+    "user_turns": [
+      "Please speak to me in Portuguese in this conversation, but I want my future LinkedIn posts written in English."
+    ],
+    "assistant_turns": [
+      "Claro — vamos conversar em português, e os seus futuros posts para o LinkedIn serão escritos em inglês.\n\nPosso ajudar a clarificar a sua narrativa profissional e transformá-la numa presença que apoie os seus objetivos. Como prefere que eu lhe chame e o que gostaria de alcançar — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou, por enquanto, explorar possibilidades?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-005",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+      "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+    ],
+    "assistant_turns": [
+      "Arin, you’d like to share what you’ve learned running a small fictional bookstore, in Portuguese. We can explore those lessons and find a voice that feels like yours—without assuming you need to publish.\n\nIf you already have notes or sample writing, you’re welcome to paste them here; otherwise, conversation is enough. I can work with what you share in this chat, but I can’t open external profiles or files.\n\nO que você gostaria que compartilhar esses aprendizados trouxesse — uma troca com outros livreiros, mais interesse pela livraria ou simplesmente organizar suas ideias?",
+      "Claro, Sol — vou seguir em português. Você não compartilhou dados de vendas, e não vou presumir números ou resultados comerciais.\n\nAté aqui, entendi que você quer comunicar o que aprendeu com uma pequena livraria fictícia. É esse o contexto mesmo, ou há algo que você gostaria de corrigir?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-006",
+    "user_turns": [
+      "Bitte antworte mir auf Deutsch. Ich möchte mein berufliches Profil verbessern."
+    ],
+    "assistant_turns": [
+      "Gern — ich unterstütze dich dabei, deine beruflichen Stärken klarer sichtbar zu machen und dein Profil passend zu deinen Zielen zu schärfen.\n\nWie darf ich dich ansprechen, und was möchtest du damit vor allem erreichen: etwa eine neue Stelle, mehr Kunden, mehr Sichtbarkeit für ein Projekt — oder ist das noch offen?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-007",
+    "user_turns": [
+      "Responda em português, por favor. Depois quero criar conteúdo profissional em inglês."
+    ],
+    "assistant_turns": [
+      "Claro, vamos conversar em português e, quando chegarmos à criação de conteúdo, trabalharemos em inglês. Posso ajudar você a organizar sua trajetória e transformá-la em uma presença profissional alinhada aos seus objetivos.\n\nComo prefere que eu te chame e o que gostaria de alcançar com esse conteúdo — novas oportunidades de carreira, clientes, visibilidade para um projeto ou algo que ainda está explorando?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-008",
+    "user_turns": [
+      "I want to communicate my bookstore lessons in Portuguese.",
+      "To clarify: I want you to answer me in Portuguese too, starting now."
+    ],
+    "assistant_turns": [
+      "We can work on sharing your bookstore lessons in Portuguese, in a way that feels true to your experience.\n\nComo você prefere que eu te chame? E o que gostaria de alcançar ao compartilhar essas lições — ajudar outros livreiros, atrair leitores para a livraria, registrar sua experiência ou algo que ainda está descobrindo?",
+      "Claro! A partir de agora, vou responder em português também. Podemos seguir de onde paramos: o que você gostaria de alcançar ao compartilhar suas lições sobre a livraria?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-009",
+    "user_turns": [
+      "I'm writing this in English. Please answer me in German, including your next question."
+    ],
+    "assistant_turns": [
+      "Hallo! Ich unterstütze dich dabei, deine berufliche Geschichte zu schärfen und daraus einen passenden persönlichen Auftritt zu entwickeln – auch ohne öffentlich etwas zu posten.\n\nWie darf ich dich ansprechen, und was möchtest du damit erreichen: etwa neue berufliche Möglichkeiten, Kunden für dein Angebot oder mehr Sichtbarkeit für ein Projekt? Wenn du noch unsicher bist, können wir das gemeinsam herausfinden."
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-010",
+    "user_turns": [
+      "Respond in Portuguese please, even though I am writing in English. My profile text will be in German."
+    ],
+    "assistant_turns": [
+      "Olá! Posso ajudar a clarificar a sua história profissional e a desenvolver uma presença alinhada com o que pretende alcançar. Conversaremos em português e poderemos trabalhar o texto do seu perfil em alemão.\n\nComo prefere que me dirija a si e o que gostaria de alcançar com a sua marca pessoal — novas oportunidades profissionais, clientes, visibilidade para um projeto ou, por enquanto, apenas explorar possibilidades?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-011",
+    "user_turns": [
+      "Bitte antworte mir auf Deutsch. Ich möchte mein berufliches Profil verbessern."
+    ],
+    "assistant_turns": [
+      "Gern — ich unterstütze dich dabei, deine beruflichen Stärken klarer herauszuarbeiten und dein Profil passend zu deinen Zielen zu schärfen.\n\nWie darf ich dich ansprechen, und was möchtest du mit einem stärkeren Profil erreichen — zum Beispiel eine neue Stelle finden, Kunden gewinnen, dich intern weiterentwickeln oder erst einmal herausfinden, wofür du beruflich stehen möchtest?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-012",
+    "user_turns": [
+      "I want to communicate what I learned as a store manager in German."
+    ],
+    "assistant_turns": [
+      "I can help you turn what you learned as a store manager into clear, natural German while keeping it true to your experience.\n\nWhat would you like me to call you, and what do you hope sharing those lessons will lead to—for example, helping other managers, finding a new role, or simply reflecting on your experience?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-013",
+    "user_turns": [
+      "Responda em português, por favor. Depois quero criar conteúdo profissional em inglês."
+    ],
+    "assistant_turns": [
+      "Olá! Posso ajudar você a esclarecer sua narrativa profissional e transformá-la em conteúdo alinhado aos seus objetivos. Conversamos em português e, quando chegarmos à criação, trabalhamos os conteúdos em inglês.\n\nComo prefere que eu chame você e o que gostaria de alcançar com esse conteúdo — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou algo que ainda está explorando?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-014",
+    "user_turns": [
+      "Call me Arin. Please reply to me in Brazilian Portuguese from your next message. I run a fictional bookstore."
+    ],
+    "assistant_turns": [
+      "Prazer, Arin! Vou conversar com você em português brasileiro. Você mencionou que administra uma livraria fictícia — podemos explorar sua presença pessoal à frente dela ou desenvolver a identidade da própria livraria.\n\nO que você gostaria de alcançar com esse trabalho? Pode ser dar visibilidade ao projeto, construir uma reputação ou simplesmente explorar ideias, sem compromisso de publicar nada."
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-015",
+    "user_turns": [
+      "I'm writing this in English. Please answer me in German, including your next question."
+    ],
+    "assistant_turns": [
+      "Hallo! Ich unterstütze dich dabei, dein berufliches Profil zu schärfen, deine Geschichte klar zu vermitteln und daraus passende Chancen zu entwickeln. Wie darf ich dich nennen, und was möchtest du mit deiner persönlichen Marke erreichen – etwa einen neuen Job, Kunden gewinnen, ein Projekt bekannter machen oder erst einmal deine Richtung finden?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-016",
+    "user_turns": [
+      "Call me Arin. Answer in English for now. I want to clarify my experience.",
+      "From now on call me Sol and reply in Portuguese, please."
+    ],
+    "assistant_turns": [
+      "Arin, we can start by making sense of your experience without worrying about how to market it yet.\n\nTell me about the work or projects that feel most relevant—even if your path feels scattered. If it’s easier, you can paste an existing bio or résumé and note whether it’s current; neither is required.",
+      "Claro, Sol. A partir de agora, seguimos em português.\n\nQue parte da sua experiência você gostaria de entender melhor?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-017",
+    "user_turns": [
+      "Respond in Portuguese please, even though I am writing in English. My profile text will be in German."
+    ],
+    "assistant_turns": [
+      "Claro! Podemos conversar em português e trabalhar com o texto do seu perfil em alemão. Posso ajudar a esclarecer sua trajetória e fortalecer sua apresentação profissional.\n\nComo prefere que eu me dirija a você e o que gostaria de alcançar com sua marca pessoal — novas oportunidades, clientes, visibilidade para um projeto ou algo que ainda está explorando?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-018",
+    "user_turns": [
+      "Call me Arin. Please reply to me in Brazilian Portuguese from your next message. I run a fictional bookstore."
+    ],
+    "assistant_turns": [
+      "Prazer, Arin! Posso ajudar você a dar forma à história da sua livraria fictícia e à maneira como você quer se apresentar à frente dela.\n\nO que você gostaria de alcançar com esse trabalho — desenvolver o universo da livraria, dar visibilidade a um projeto ou algo que ainda está explorando?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-019",
+    "user_turns": [
+      "Reply to me in English, please. I intend to publish my professional stories in Portuguese later."
+    ],
+    "assistant_turns": [
+      "Of course—we’ll speak in English, and when we get to drafting your professional stories, we’ll write them in Portuguese.\n\nWhat would you like me to call you, and what do you hope sharing these stories will help you achieve—career opportunities, clients, a stronger reputation, or something you’re still exploring?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-020",
+    "user_turns": [
+      "Call me Arin. Answer in English for now. I want to clarify my experience.",
+      "From now on call me Sol and reply in Portuguese, please."
+    ],
+    "assistant_turns": [
+      "Arin, we’ll focus on making sense of your experience first—without rushing into positioning or publishing anything.\n\nYou’re welcome to paste an existing bio, résumé excerpt, or project description, noting if it’s outdated. I can work with what you share here, but I can’t open external links or files in this chat. We can also do this entirely through conversation.\n\nTo start, what’s one role, project, or period of your work that you’d like to understand or explain more clearly?",
+      "Claro, Sol. A partir de agora, vou te chamar assim e responder em português.\n\nPara continuarmos: qual experiência profissional, projeto ou fase da sua trajetória você gostaria de compreender ou explicar melhor?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-021",
+    "user_turns": [
+      "I want to communicate my bookstore lessons in Portuguese.",
+      "To clarify: I want you to answer me in Portuguese too, starting now."
+    ],
+    "assistant_turns": [
+      "I can help you turn your bookstore lessons into clear, engaging content in Portuguese, grounded in your experience.\n\nWhat would you like those lessons to achieve—help other booksellers, attract readers to your store, or simply share what you’re learning? And, if you’d like, what should I call you?",
+      "Claro — a partir de agora, vou responder em português também.\n\nO que você gostaria de alcançar ao compartilhar suas experiências com a livraria?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-022",
+    "user_turns": [
+      "I want to communicate what I learned as a store manager in German."
+    ],
+    "assistant_turns": [
+      "We can work on expressing what you learned as a store manager in clear, natural German, grounded in your own experience. What would you like those lessons to help you achieve—for example, prepare for job interviews, share practical advice, or simply reflect without publishing—and, optionally, how would you like me to address you?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-023",
+    "user_turns": [
+      "Reply to me in English, please. I intend to publish my professional stories in Portuguese later."
+    ],
+    "assistant_turns": [
+      "Absolutely—we’ll converse in English and develop your professional stories in Portuguese when you’re ready to publish.\n\nI can help you uncover meaningful stories, clarify what they communicate about you, and shape them for publication. What would you like those stories to help you achieve—career opportunities, clients, a stronger professional reputation, or something you’re still exploring? And, optionally, how would you like me to address you?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": false,
+    "complete_dialogue": true,
+    "review_status": "NOT_REVIEWED"
+  }
+]

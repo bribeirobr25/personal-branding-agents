@@ -1,0 +1,122 @@
+{
+  "card-000": {
+    "case": "L01",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-001": {
+    "case": "L08",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-002": {
+    "case": "L03",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-003": {
+    "case": "L08",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-004": {
+    "case": "L03",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-005": {
+    "case": "L01",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-006": {
+    "case": "L05",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-007": {
+    "case": "L11",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-008": {
+    "case": "L12",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-009": {
+    "case": "L06",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-010": {
+    "case": "L10",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-011": {
+    "case": "L05",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-012": {
+    "case": "L09",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-013": {
+    "case": "L11",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-014": {
+    "case": "L02",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-015": {
+    "case": "L06",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-016": {
+    "case": "L07",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-017": {
+    "case": "L10",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-018": {
+    "case": "L02",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-019": {
+    "case": "L04",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-020": {
+    "case": "L07",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-021": {
+    "case": "L12",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-022": {
+    "case": "L09",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-023": {
+    "case": "L04",
+    "rep": 1,
+    "arm": "A"
+  }
+}

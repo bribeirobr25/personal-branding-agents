@@ -1,0 +1,10 @@
+{
+  "auth": "chatgpt",
+  "included_personal_plan": true,
+  "available_included_allowance": true,
+  "credit_balance_zero": true,
+  "credit_usage_available": false,
+  "paid_fallback": false,
+  "raw_receipt_sha256": "716dab202ae0d7abce666113963cc60c128c254d6eb13c720dd5b6c82c5b3f04",
+  "observed_at": 1794449677.000273
+}

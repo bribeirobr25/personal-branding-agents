@@ -1,0 +1,230 @@
+{
+  "checks": [
+    {
+      "label": "L01-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L01-1-B-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L08-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L08-1-B-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L03-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L08-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L08-1-A-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L03-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L01-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L01-1-A-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L05-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L11-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L12-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L12-1-A-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L06-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L10-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L05-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L09-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L11-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L02-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L06-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L07-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L07-1-B-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L10-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L02-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L04-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L07-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L07-1-A-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L12-1-B-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L12-1-B-2",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L09-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    },
+    {
+      "label": "L04-1-A-1",
+      "phase": "STREAM_EOF",
+      "response_id_present": true,
+      "stream_id_matches_response_id": true,
+      "request_id_present": false
+    }
+  ],
+  "initial_check_failure": "An over-strict exploratory assertion required a nonempty x-request-id; missing headers must be recorded as not supplied, not invented.",
+  "inference_retries": 0
+}

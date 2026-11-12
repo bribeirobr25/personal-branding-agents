@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd88-08a9-78e0-83b3-920713697fea"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Hallo! Ich unterstütze dich dabei, deine berufliche Geschichte zu schärfen und daraus einen passenden persönlichen Auftritt zu entwickeln – auch ohne öffentlich etwas zu posten.\n\nWie darf ich dich ansprechen, und was möchtest du damit erreichen: etwa neue berufliche Möglichkeiten, Kunden für dein Angebot oder mehr Sichtbarkeit für ein Projekt? Wenn du noch unsicher bist, können wir das gemeinsam herausfinden."}}
+{"type":"turn.completed","usage":{"input_tokens":4664,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":84,"reasoning_output_tokens":0}}

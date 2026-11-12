@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd88-9dea-7060-a891-a8e030c3d326"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Olá! Posso ajudar você a esclarecer sua narrativa profissional e transformá-la em conteúdo alinhado aos seus objetivos. Conversamos em português e, quando chegarmos à criação, trabalhamos os conteúdos em inglês.\n\nComo prefere que eu chame você e o que gostaria de alcançar com esse conteúdo — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou algo que ainda está explorando?"}}
+{"type":"turn.completed","usage":{"input_tokens":4664,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":86,"reasoning_output_tokens":0}}

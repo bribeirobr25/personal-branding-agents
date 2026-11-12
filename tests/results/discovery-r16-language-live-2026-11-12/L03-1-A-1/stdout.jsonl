@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd87-2597-71c3-9fae-b44e504bbc11"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro — vamos conversar em português, e os seus futuros posts para o LinkedIn serão escritos em inglês.\n\nPosso ajudar a clarificar a sua narrativa profissional e transformá-la numa presença que apoie os seus objetivos. Como prefere que eu lhe chame e o que gostaria de alcançar — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou, por enquanto, explorar possibilidades?"}}
+{"type":"turn.completed","usage":{"input_tokens":4669,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":85,"reasoning_output_tokens":0}}

@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd89-95aa-7c13-9692-bf0ba0c340be"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Of course—we’ll speak in English, and when we get to drafting your professional stories, we’ll write them in Portuguese.\n\nWhat would you like me to call you, and what do you hope sharing these stories will help you achieve—career opportunities, clients, a stronger reputation, or something you’re still exploring?"}}
+{"type":"turn.completed","usage":{"input_tokens":7591,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":67,"reasoning_output_tokens":0}}

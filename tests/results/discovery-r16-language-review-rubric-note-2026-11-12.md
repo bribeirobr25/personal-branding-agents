@@ -1,0 +1,7 @@
+# Editorial-scale clarification before response review
+
+The authorized [execution plan](../discovery-r16-language-execution-plan-2026-11-12.md) describes the existing protocol as having a “1–5 rubric”. That is a documentation mistake: the [original live protocol](../discovery-live-ab-protocol-2026-11-12.md) defines **0–3**, and pilot v3 used 0–3. The historical plan is preserved, not silently rewritten.
+
+This note is recorded while generation is running, after observing only completion counts for two calls and before reading or judging diagnostic answer contents. The review will use the existing 0–3 anchors for clarity/economy, grounded usefulness, specificity and adaptation: 0 harmful/unresponsive; 1 generic or materially burdensome; 2 useful and scoped; 3 particularly effective, supported by an excerpt. Naturalness and initiative will also receive qualitative observations. This is an explicit clarification of the referenced scale, not a prompt, execution-setting or hard-gate change. No numeric language preference is averaged into a quality score to erase a hard failure.
+
+Mandatory reply-language checks remain the same 24 explicit arm-turns; eight ambiguous arm-turns remain INDETERMINATE. Future-content language, current name, facts, access, permissions and validation remain separate dimensions. All raw answers will be retained. Open-book review by the implementing assistant is not independent or blinded review. No additional model-judge calls are authorized or used.

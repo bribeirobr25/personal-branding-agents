@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd88-79e1-7643-acfa-b0a88fb9e1da"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"I can help you turn what you learned as a store manager into clear, natural German while keeping it true to your experience.\n\nWhat would you like me to call you, and what do you hope sharing those lessons will lead to—for example, helping other managers, finding a new role, or simply reflecting on your experience?"}}
+{"type":"turn.completed","usage":{"input_tokens":7586,"cached_input_tokens":7424,"cache_write_input_tokens":0,"output_tokens":68,"reasoning_output_tokens":0}}

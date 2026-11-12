@@ -1,0 +1,14 @@
+{
+  "status": "GENERATED_NOT_REVIEWED",
+  "stage": "r16_language_diagnostics",
+  "attempted_cli_calls": 32,
+  "forwarded_requests": 32,
+  "completed_calls": 32,
+  "expected_calls": 32,
+  "unresolved_dispatches": [],
+  "not_forwarded": [],
+  "isolation": "PENDING_SEPARATE_AUDIT",
+  "actual_cost_usd": null,
+  "behavioral_winner": null,
+  "independent_review": "NOT_RUN"
+}

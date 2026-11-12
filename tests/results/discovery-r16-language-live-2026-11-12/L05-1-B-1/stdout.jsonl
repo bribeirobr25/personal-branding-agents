@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd87-8a05-7761-8b57-7cdd2c3485f4"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Gern — ich unterstütze dich dabei, deine beruflichen Stärken klarer sichtbar zu machen und dein Profil passend zu deinen Zielen zu schärfen.\n\nWie darf ich dich ansprechen, und was möchtest du damit vor allem erreichen: etwa eine neue Stelle, mehr Kunden, mehr Sichtbarkeit für ein Projekt — oder ist das noch offen?"}}
+{"type":"turn.completed","usage":{"input_tokens":7588,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":74,"reasoning_output_tokens":0}}

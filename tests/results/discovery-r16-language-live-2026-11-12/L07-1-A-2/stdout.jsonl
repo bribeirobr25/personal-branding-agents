@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd89-e7bf-74a3-929e-c7d3e3578c10"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro, Sol. A partir de agora, vou te chamar assim e responder em português.\n\nPara continuarmos: qual experiência profissional, projeto ou fase da sua trajetória você gostaria de compreender ou explicar melhor?"}}
+{"type":"turn.completed","usage":{"input_tokens":4789,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":44,"reasoning_output_tokens":0}}

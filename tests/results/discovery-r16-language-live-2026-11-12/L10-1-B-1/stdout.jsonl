@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd89-4705-70f3-b7f1-ee36412f1d4d"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro! Podemos conversar em português e trabalhar com o texto do seu perfil em alemão. Posso ajudar a esclarecer sua trajetória e fortalecer sua apresentação profissional.\n\nComo prefere que eu me dirija a você e o que gostaria de alcançar com sua marca pessoal — novas oportunidades, clientes, visibilidade para um projeto ou algo que ainda está explorando?"}}
+{"type":"turn.completed","usage":{"input_tokens":7593,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":73,"reasoning_output_tokens":0}}

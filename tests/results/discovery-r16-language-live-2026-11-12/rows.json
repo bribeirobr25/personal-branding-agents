@@ -1,0 +1,2274 @@
+[
+  {
+    "answer": "Nice to meet you, Arin. You’d like to share what you’ve learned from running a small fictional bookstore, in Portuguese. We can continue in Portuguese, too.\n\nYou’re welcome to share any existing writing or simply tell me about your experience—no documents or profiles needed. When you say “fictional bookstore,” do you mean an imagined shop or a bookstore that specializes in fiction?",
+    "usage": {
+      "input_tokens": 7593,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 83,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7676,
+      "attribution": {
+        "items": {
+          "msg_0f67cbc69d34ea61016af5205ae62887d2bbdbe89e05053ad9": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0f67cbc69d34ea61016af5205c459487d29ee253cb066fea7a": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 83,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 83
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0f67cbc69d34ea61016af5205ae50487d2b912b6e040a19cd7",
+    "words": 62,
+    "seconds": 7.88780979195144,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L01",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol — seguimos em português. Você não compartilhou dados de vendas; não vou presumir números nem resultados.\n\nSó para esclarecer: sua livraria é imaginária ou é uma loja que vende obras de ficção?",
+    "usage": {
+      "input_tokens": 7696,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 51,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7747,
+      "attribution": {
+        "items": {
+          "msg_0c9e799c4e0a1cae016af52062a61087d2aacd7c8e4508d111": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0c9e799c4e0a1cae016af52062a61487d28a55455ba2419b71": {
+            "input_tokens": 18,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 18,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0c9e799c4e0a1cae016af52062a61487d2914d35c71fbd35d0": {
+            "input_tokens": 85,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 85,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0c9e799c4e0a1cae016af52064039c87d28f6b2a267721e692": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 51,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 51
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0c9e799c4e0a1cae016af52062a56c87d2a17fa6af8b413445",
+    "words": 34,
+    "seconds": 6.666460208012722,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L01",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2
+  },
+  {
+    "answer": "Olá, Arin! Posso ajudar você a dar clareza à sua trajetória e construir uma presença profissional — conversamos em português e, quando chegar a hora, trabalhamos os textos do portfólio em alemão.\n\nO que você gostaria de alcançar com esse portfólio: encontrar uma vaga, atrair clientes, apresentar um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 7591,
+      "input_tokens_details": {
+        "cached_tokens": 7424,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 80,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7671,
+      "attribution": {
+        "items": {
+          "msg_0067143fa2dba1a1016af5206a155087d2bf8c58d2d20d8ac6": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0067143fa2dba1a1016af5206ba91487d2bb94fa1e0be03b59": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 80,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 80
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 7424,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0067143fa2dba1a1016af5206a14a087d28525664cbecdf4d1",
+    "words": 55,
+    "seconds": 7.7093885419890285,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L08",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol. Continuamos em português, e o portfólio permanece em alemão. O que você gostaria de alcançar com ele?",
+    "usage": {
+      "input_tokens": 7693,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 32,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7725,
+      "attribution": {
+        "items": {
+          "msg_028b228422ff00b7016af5207294fc87d28ac2d7436bf1f638": {
+            "input_tokens": 82,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 82,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_028b228422ff00b7016af5207294fc87d2b08c2cd3944a0651": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_028b228422ff00b7016af5207294fc87d2baddc125e77c8fdf": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_028b228422ff00b7016af520738e7087d28b8cbadd5fbba431": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 32,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 32
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_028b228422ff00b7016af52072945087d2a545ed4d082a024e",
+    "words": 19,
+    "seconds": 4.716960167046636,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L08",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2
+  },
+  {
+    "answer": "Claro — vamos conversar em português, e os seus futuros posts para o LinkedIn serão escritos em inglês.\n\nPosso ajudar a esclarecer sua trajetória e fortalecer sua presença profissional. Como prefere que eu te chame e o que gostaria de alcançar com sua marca pessoal — novas oportunidades, clientes, visibilidade para um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 7594,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 74,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7668,
+      "attribution": {
+        "items": {
+          "msg_0fc3f4c59b33ccfd016af5207855d887d29151f6c1407b171f": {
+            "input_tokens": 26,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 26,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0fc3f4c59b33ccfd016af5207981c887d296333b38a953efa3": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 74,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 74
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0fc3f4c59b33ccfd016af52078552c87d2ae17d582719bc671",
+    "words": 59,
+    "seconds": 5.6710815409896895,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L03",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Olá, Arin! Posso ajudar você a esclarecer sua história profissional e construir uma presença alinhada ao que deseja alcançar. Conversaremos em português e, quando trabalharmos no seu futuro portfólio, prepararemos o conteúdo em alemão.\n\nO que você gostaria que esse portfólio ajudasse a conquistar — um novo emprego, clientes, visibilidade para um projeto, ou ainda está explorando as possibilidades?",
+    "usage": {
+      "input_tokens": 4666,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 87,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4753,
+      "attribution": {
+        "items": {
+          "msg_0b226f45cbea237e016af5207e8dbc87d2ba2f2af3df8d8e90": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0b226f45cbea237e016af5207fe72c87d2a600b8da2ac57d9d": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 87,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 87
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0b226f45cbea237e016af5207e8d1487d29b7b5186acc72bcf",
+    "words": 59,
+    "seconds": 7.230413208017126,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L08",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol. Seguimos em português, e o portfólio continua em alemão. O que você gostaria de alcançar com ele?",
+    "usage": {
+      "input_tokens": 4775,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 32,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4807,
+      "attribution": {
+        "items": {
+          "msg_03e91159a0be29b3016af5208692a887d28ef6291c9f30d40b": {
+            "input_tokens": 89,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 89,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_03e91159a0be29b3016af5208692a887d2971b7e18e7cc32b2": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_03e91159a0be29b3016af5208692a887d2bcaf76dccae06eb6": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_03e91159a0be29b3016af52088574087d2a8803f973e42dd77": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 32,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 32
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_03e91159a0be29b3016af52086921487d2b11a6fccc3177fb1",
+    "words": 19,
+    "seconds": 5.6992378330323845,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L08",
+    "rep": 1,
+    "arm": "A",
+    "turn": 2
+  },
+  {
+    "answer": "Claro — vamos conversar em português, e os seus futuros posts para o LinkedIn serão escritos em inglês.\n\nPosso ajudar a clarificar a sua narrativa profissional e transformá-la numa presença que apoie os seus objetivos. Como prefere que eu lhe chame e o que gostaria de alcançar — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou, por enquanto, explorar possibilidades?",
+    "usage": {
+      "input_tokens": 4669,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4754,
+      "attribution": {
+        "items": {
+          "msg_02e827af93b9b009016af5208d279887d29f0097d04244c77f": {
+            "input_tokens": 26,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 26,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_02e827af93b9b009016af5208eb2a087d2bdd6210c820649e6": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 85,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 85
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_02e827af93b9b009016af5208d26f887d2bd47e03947dbad3c",
+    "words": 64,
+    "seconds": 7.762375375023112,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L03",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Arin, you’d like to share what you’ve learned running a small fictional bookstore, in Portuguese. We can explore those lessons and find a voice that feels like yours—without assuming you need to publish.\n\nIf you already have notes or sample writing, you’re welcome to paste them here; otherwise, conversation is enough. I can work with what you share in this chat, but I can’t open external profiles or files.\n\nO que você gostaria que compartilhar esses aprendizados trouxesse — uma troca com outros livreiros, mais interesse pela livraria ou simplesmente organizar suas ideias?",
+    "usage": {
+      "input_tokens": 4668,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 123,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4791,
+      "attribution": {
+        "items": {
+          "msg_0dde72e0771823e5016af52096802887d2af4f84a9cf43e8bd": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0dde72e0771823e5016af52097d4ac87d2b98010e6e52e9eb9": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 123,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 123
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0dde72e0771823e5016af520967f6887d2b6f0c96d19688030",
+    "words": 93,
+    "seconds": 9.956381083000451,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L01",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol — vou seguir em português. Você não compartilhou dados de vendas, e não vou presumir números ou resultados comerciais.\n\nAté aqui, entendi que você quer comunicar o que aprendeu com uma pequena livraria fictícia. É esse o contexto mesmo, ou há algo que você gostaria de corrigir?",
+    "usage": {
+      "input_tokens": 4811,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 70,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4881,
+      "attribution": {
+        "items": {
+          "msg_051df2ad1ea07e8e016af520a0782887d29736c6f6d13342eb": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_051df2ad1ea07e8e016af520a0782887d29a2516fe1a6ca7df": {
+            "input_tokens": 18,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 18,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_051df2ad1ea07e8e016af520a0782887d2a1722ee00297ff13": {
+            "input_tokens": 125,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 125,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_051df2ad1ea07e8e016af520a1e0b887d2895ccb8d2d5f7d2b": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 70,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 70
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_051df2ad1ea07e8e016af520a0776887d291024005ff4d9494",
+    "words": 49,
+    "seconds": 5.697395624942146,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L01",
+    "rep": 1,
+    "arm": "A",
+    "turn": 2
+  },
+  {
+    "answer": "Gern — ich unterstütze dich dabei, deine beruflichen Stärken klarer sichtbar zu machen und dein Profil passend zu deinen Zielen zu schärfen.\n\nWie darf ich dich ansprechen, und was möchtest du damit vor allem erreichen: etwa eine neue Stelle, mehr Kunden, mehr Sichtbarkeit für ein Projekt — oder ist das noch offen?",
+    "usage": {
+      "input_tokens": 7588,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 74,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7662,
+      "attribution": {
+        "items": {
+          "msg_073300721c8dcb2b016af520a6ddec87d289a61e3e6046bbaf": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_073300721c8dcb2b016af520a7f23c87d2a6f68dabc570fb0e": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 74,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 74
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_073300721c8dcb2b016af520a6dd4487d2bce727056e5e0b60",
+    "words": 52,
+    "seconds": 6.696358792018145,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L05",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, vamos conversar em português e, quando chegarmos à criação de conteúdo, trabalharemos em inglês. Posso ajudar você a organizar sua trajetória e transformá-la em uma presença profissional alinhada aos seus objetivos.\n\nComo prefere que eu te chame e o que gostaria de alcançar com esse conteúdo — novas oportunidades de carreira, clientes, visibilidade para um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 7589,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7673,
+      "attribution": {
+        "items": {
+          "msg_012b4efe4c6e0192016af520ae63fc87d2b9454b0abe6ad789": {
+            "input_tokens": 21,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 21,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_012b4efe4c6e0192016af520afa1c487d2b0c0c2064dcbebbe": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 84,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 84
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_012b4efe4c6e0192016af520ae636887d28ed218d0f259e9e2",
+    "words": 63,
+    "seconds": 7.381849249941297,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L11",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "We can work on sharing your bookstore lessons in Portuguese, in a way that feels true to your experience.\n\nComo você prefere que eu te chame? E o que gostaria de alcançar ao compartilhar essas lições — ajudar outros livreiros, atrair leitores para a livraria, registrar sua experiência ou algo que ainda está descobrindo?",
+    "usage": {
+      "input_tokens": 4657,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4730,
+      "attribution": {
+        "items": {
+          "msg_01adac6f8cbddd96016af520b6d34887d29515a8c19d4532cf": {
+            "input_tokens": 14,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 14,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_01adac6f8cbddd96016af520b8265487d2b7f08e91d0f7fbf8": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 73,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 73
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_01adac6f8cbddd96016af520b6d29c87d2a3eefb5d38635dd0",
+    "words": 54,
+    "seconds": 8.08868100005202,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L12",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Claro! A partir de agora, vou responder em português também. Podemos seguir de onde paramos: o que você gostaria de alcançar ao compartilhar suas lições sobre a livraria?",
+    "usage": {
+      "input_tokens": 4752,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4793,
+      "attribution": {
+        "items": {
+          "msg_078c0597598a1536016af520c034a487d2acd43463457a4882": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_078c0597598a1536016af520c034a487d2b7ef24427faa8bd4": {
+            "input_tokens": 14,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 14,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_078c0597598a1536016af520c034a487d2bdea4030e0632bc9": {
+            "input_tokens": 75,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 75,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_078c0597598a1536016af520c1417087d2a4aa8ae29a0ad815": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 41,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 41
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_078c0597598a1536016af520c033ec87d2a143a9db0a53d73d",
+    "words": 28,
+    "seconds": 6.241236125002615,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L12",
+    "rep": 1,
+    "arm": "A",
+    "turn": 2
+  },
+  {
+    "answer": "Hallo! Ich unterstütze dich dabei, deine berufliche Geschichte zu schärfen und daraus einen passenden persönlichen Auftritt zu entwickeln – auch ohne öffentlich etwas zu posten.\n\nWie darf ich dich ansprechen, und was möchtest du damit erreichen: etwa neue berufliche Möglichkeiten, Kunden für dein Angebot oder mehr Sichtbarkeit für ein Projekt? Wenn du noch unsicher bist, können wir das gemeinsam herausfinden.",
+    "usage": {
+      "input_tokens": 4664,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4748,
+      "attribution": {
+        "items": {
+          "msg_06d3fc7139e8393c016af520c73b6487d2a89b614421896146": {
+            "input_tokens": 21,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 21,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_06d3fc7139e8393c016af520c9948487d2acaaa3b1d94eecf1": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 84,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 84
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_06d3fc7139e8393c016af520c73abc87d2b968e9b03fe6615d",
+    "words": 60,
+    "seconds": 9.281855124980211,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L06",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Olá! Posso ajudar a clarificar a sua história profissional e a desenvolver uma presença alinhada com o que pretende alcançar. Conversaremos em português e poderemos trabalhar o texto do seu perfil em alemão.\n\nComo prefere que me dirija a si e o que gostaria de alcançar com a sua marca pessoal — novas oportunidades profissionais, clientes, visibilidade para um projeto ou, por enquanto, apenas explorar possibilidades?",
+    "usage": {
+      "input_tokens": 4668,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4754,
+      "attribution": {
+        "items": {
+          "msg_0cb97c9bdabb7340016af520d0f07087d284d8f5bf8d6fffd6": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0cb97c9bdabb7340016af520d29d7487d2ab63dc41b1fd1982": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 86,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 86
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0cb97c9bdabb7340016af520d0ef8087d2be22cefb945c7fc3",
+    "words": 66,
+    "seconds": 8.473929667030461,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L10",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Gern — ich unterstütze dich dabei, deine beruflichen Stärken klarer herauszuarbeiten und dein Profil passend zu deinen Zielen zu schärfen.\n\nWie darf ich dich ansprechen, und was möchtest du mit einem stärkeren Profil erreichen — zum Beispiel eine neue Stelle finden, Kunden gewinnen, dich intern weiterentwickeln oder erst einmal herausfinden, wofür du beruflich stehen möchtest?",
+    "usage": {
+      "input_tokens": 4663,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4748,
+      "attribution": {
+        "items": {
+          "msg_0b4e80f8a6cee633016af520d9f95487d29c58a547f128bab7": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0b4e80f8a6cee633016af520dc310887d2980fbfa87e376ba1": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 85,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 85
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0b4e80f8a6cee633016af520d9f8b887d2a11ac4cfb4269687",
+    "words": 55,
+    "seconds": 8.710795333958231,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L05",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "I can help you turn what you learned as a store manager into clear, natural German while keeping it true to your experience.\n\nWhat would you like me to call you, and what do you hope sharing those lessons will lead to—for example, helping other managers, finding a new role, or simply reflecting on your experience?",
+    "usage": {
+      "input_tokens": 7586,
+      "input_tokens_details": {
+        "cached_tokens": 7424,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7654,
+      "attribution": {
+        "items": {
+          "msg_09ac2e1e4b670893016af520e46b2c87d295d6ff77499a32ef": {
+            "input_tokens": 18,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 18,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_09ac2e1e4b670893016af520e71bcc87d285d57e65caaeaf3f": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 68,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 68
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 7424,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_09ac2e1e4b670893016af520e46a6c87d287af637853ac24e7",
+    "words": 56,
+    "seconds": 8.372064791037701,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L09",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Olá! Posso ajudar você a esclarecer sua narrativa profissional e transformá-la em conteúdo alinhado aos seus objetivos. Conversamos em português e, quando chegarmos à criação, trabalhamos os conteúdos em inglês.\n\nComo prefere que eu chame você e o que gostaria de alcançar com esse conteúdo — novas oportunidades de carreira, atrair clientes, dar visibilidade a um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 4664,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4750,
+      "attribution": {
+        "items": {
+          "msg_0450b6b7030b08b7016af520edc84887d2a5f44fc72844c75d": {
+            "input_tokens": 21,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 21,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0450b6b7030b08b7016af520ef19ac87d2af9abfcc61117ee6": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 86,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 86
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0450b6b7030b08b7016af520edc78487d2b8fe70aa442c9f55",
+    "words": 63,
+    "seconds": 8.815556667046621,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L11",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Prazer, Arin! Vou conversar com você em português brasileiro. Você mencionou que administra uma livraria fictícia — podemos explorar sua presença pessoal à frente dela ou desenvolver a identidade da própria livraria.\n\nO que você gostaria de alcançar com esse trabalho? Pode ser dar visibilidade ao projeto, construir uma reputação ou simplesmente explorar ideias, sem compromisso de publicar nada.",
+    "usage": {
+      "input_tokens": 4670,
+      "input_tokens_details": {
+        "cached_tokens": 4480,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 81,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4751,
+      "attribution": {
+        "items": {
+          "msg_0a1c70cffaff0eb7016af520f738cc87d2aeea6d33ceaa28bd": {
+            "input_tokens": 27,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 27,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0a1c70cffaff0eb7016af520f8c20887d2bb0b1e52c2d947c0": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 81,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 81
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 4480,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0a1c70cffaff0eb7016af520f737f487d2b60e34266ae29414",
+    "words": 59,
+    "seconds": 7.776997167035006,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L02",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Hallo! Ich unterstütze dich dabei, dein berufliches Profil zu schärfen, deine Geschichte klar zu vermitteln und daraus passende Chancen zu entwickeln. Wie darf ich dich nennen, und was möchtest du mit deiner persönlichen Marke erreichen – etwa einen neuen Job, Kunden gewinnen, ein Projekt bekannter machen oder erst einmal deine Richtung finden?",
+    "usage": {
+      "input_tokens": 7589,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 69,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7658,
+      "attribution": {
+        "items": {
+          "msg_0837b61d604d2877016af52100001887d280fb3309d5d8c5f7": {
+            "input_tokens": 21,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 21,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0837b61d604d2877016af52101470487d2a660657a59f49d9a": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 69,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 69
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0837b61d604d2877016af520ffff5c87d2b58759e533632230",
+    "words": 52,
+    "seconds": 6.827855665935203,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L06",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Arin, we can start by making sense of your experience without worrying about how to market it yet.\n\nTell me about the work or projects that feel most relevant—even if your path feels scattered. If it’s easier, you can paste an existing bio or résumé and note whether it’s current; neither is required.",
+    "usage": {
+      "input_tokens": 7590,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 67,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7657,
+      "attribution": {
+        "items": {
+          "msg_0fcf389ec09ccdf2016af52107e36c87d28634294c07168b86": {
+            "input_tokens": 22,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 22,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0fcf389ec09ccdf2016af52109404087d2af4297b509502e72": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 67,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 67
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0fcf389ec09ccdf2016af52107e2c087d283394ca065743df0",
+    "words": 53,
+    "seconds": 7.9226851660059765,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L07",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol. A partir de agora, seguimos em português.\n\nQue parte da sua experiência você gostaria de entender melhor?",
+    "usage": {
+      "input_tokens": 7676,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7704,
+      "attribution": {
+        "items": {
+          "msg_0f3a9f6bcbff1ac1016af52111271c87d28f3f5a7c8bbfc247": {
+            "input_tokens": 22,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 22,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0f3a9f6bcbff1ac1016af52111271c87d295da0eda800524d4": {
+            "input_tokens": 17,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 17,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0f3a9f6bcbff1ac1016af52111271c87d2bed375bdf730fe78": {
+            "input_tokens": 69,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 69,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0f3a9f6bcbff1ac1016af52112f53087d28c1d869ce108970c": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 28,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 28
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0f3a9f6bcbff1ac1016af52111268087d2ba9df0fb7d5b3caa",
+    "words": 19,
+    "seconds": 6.899573709000833,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L07",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2
+  },
+  {
+    "answer": "Claro! Podemos conversar em português e trabalhar com o texto do seu perfil em alemão. Posso ajudar a esclarecer sua trajetória e fortalecer sua apresentação profissional.\n\nComo prefere que eu me dirija a você e o que gostaria de alcançar com sua marca pessoal — novas oportunidades, clientes, visibilidade para um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 7593,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7666,
+      "attribution": {
+        "items": {
+          "msg_06769d8988d904c4016af52118e09487d2aa0c99ee38ce07ce": {
+            "input_tokens": 25,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 25,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_06769d8988d904c4016af5211b278087d296f0ed9e18038b20": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 73,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 73
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_06769d8988d904c4016af52118dff487d2bb85e45c8c8e5904",
+    "words": 58,
+    "seconds": 8.894872459000908,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L10",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Prazer, Arin! Posso ajudar você a dar forma à história da sua livraria fictícia e à maneira como você quer se apresentar à frente dela.\n\nO que você gostaria de alcançar com esse trabalho — desenvolver o universo da livraria, dar visibilidade a um projeto ou algo que ainda está explorando?",
+    "usage": {
+      "input_tokens": 7595,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 70,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7665,
+      "attribution": {
+        "items": {
+          "msg_09fd57fb83ade2f9016af52123613c87d281297ee6e06cc14f": {
+            "input_tokens": 27,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 27,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_09fd57fb83ade2f9016af52125089487d2b06a83841b434136": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 70,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 70
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_09fd57fb83ade2f9016af52123607887d2b6a45c3b09fd9f73",
+    "words": 51,
+    "seconds": 8.902102832915261,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L02",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Of course—we’ll speak in English, and when we get to drafting your professional stories, we’ll write them in Portuguese.\n\nWhat would you like me to call you, and what do you hope sharing these stories will help you achieve—career opportunities, clients, a stronger reputation, or something you’re still exploring?",
+    "usage": {
+      "input_tokens": 7591,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 67,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7658,
+      "attribution": {
+        "items": {
+          "msg_0650082ac0bb85c9016af5212cf12887d2adcdca438bdaae87": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0650082ac0bb85c9016af5212f363487d2ae85e29f5dda3ba0": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 67,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 67
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0650082ac0bb85c9016af5212cf02887d28983a022bf7d3f03",
+    "words": 49,
+    "seconds": 7.894431375083514,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L04",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Arin, we’ll focus on making sense of your experience first—without rushing into positioning or publishing anything.\n\nYou’re welcome to paste an existing bio, résumé excerpt, or project description, noting if it’s outdated. I can work with what you share here, but I can’t open external links or files in this chat. We can also do this entirely through conversation.\n\nTo start, what’s one role, project, or period of your work that you’d like to understand or explain more clearly?",
+    "usage": {
+      "input_tokens": 4665,
+      "input_tokens_details": {
+        "cached_tokens": 4480,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4770,
+      "attribution": {
+        "items": {
+          "msg_01ea612f240aafd1016af52136255c87d29f8d94ddb9c1980d": {
+            "input_tokens": 22,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 22,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_01ea612f240aafd1016af52137c0b487d2a2101a5e6cd84683": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 105,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 105
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 4480,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_01ea612f240aafd1016af5213624b887d29039c4c31177a813",
+    "words": 79,
+    "seconds": 10.666311750072055,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L07",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Claro, Sol. A partir de agora, vou te chamar assim e responder em português.\n\nPara continuarmos: qual experiência profissional, projeto ou fase da sua trajetória você gostaria de compreender ou explicar melhor?",
+    "usage": {
+      "input_tokens": 4789,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4833,
+      "attribution": {
+        "items": {
+          "msg_045d9fd2f8a21a2a016af52141f3ec87d285ba844da885dc8e": {
+            "input_tokens": 107,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 107,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_045d9fd2f8a21a2a016af52141f3ec87d2891d63fb38509aad": {
+            "input_tokens": 22,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 22,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_045d9fd2f8a21a2a016af52141f3f087d2a9db29af4d0e6aaa": {
+            "input_tokens": 17,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 17,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_045d9fd2f8a21a2a016af521435a1087d2a7741764316d6c23": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 44,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 44
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_045d9fd2f8a21a2a016af52141f33c87d2aa4eec92977b0aae",
+    "words": 32,
+    "seconds": 7.052641540998593,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L07",
+    "rep": 1,
+    "arm": "A",
+    "turn": 2
+  },
+  {
+    "answer": "I can help you turn your bookstore lessons into clear, engaging content in Portuguese, grounded in your experience.\n\nWhat would you like those lessons to achieve—help other booksellers, attract readers to your store, or simply share what you’re learning? And, if you’d like, what should I call you?",
+    "usage": {
+      "input_tokens": 7582,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 66,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7648,
+      "attribution": {
+        "items": {
+          "msg_0d3655effb32828c016af5214a828c87d2b4b463013055e68a": {
+            "input_tokens": 14,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 14,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0d3655effb32828c016af5214c16b087d2bb9d00f98bb0314a": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 66,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 66
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0d3655effb32828c016af5214a81d487d2bfaf7ad58b332d71",
+    "words": 48,
+    "seconds": 7.540748291066848,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L12",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1
+  },
+  {
+    "answer": "Claro — a partir de agora, vou responder em português também.\n\nO que você gostaria de alcançar ao compartilhar suas experiências com a livraria?",
+    "usage": {
+      "input_tokens": 7670,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 33,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7703,
+      "attribution": {
+        "items": {
+          "msg_096198bde6876f5e016af52152ae9887d29503a4aa85254a3f": {
+            "input_tokens": 14,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 14,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_096198bde6876f5e016af52152ae9887d2b69b72b0e5d5b35b": {
+            "input_tokens": 20,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 20,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_096198bde6876f5e016af52152ae9887d2bdf058d69d113082": {
+            "input_tokens": 68,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 68,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_096198bde6876f5e016af52154fc1487d2b9cfc056ef3d60dc": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 33,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 33
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 7566,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_096198bde6876f5e016af52152add487d29a28928484b4c00a",
+    "words": 24,
+    "seconds": 7.288375499891117,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L12",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2
+  },
+  {
+    "answer": "We can work on expressing what you learned as a store manager in clear, natural German, grounded in your own experience. What would you like those lessons to help you achieve—for example, prepare for job interviews, share practical advice, or simply reflect without publishing—and, optionally, how would you like me to address you?",
+    "usage": {
+      "input_tokens": 4661,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4729,
+      "attribution": {
+        "items": {
+          "msg_0845d3e1bb88165b016af5215b2eac87d2adeefb6e5ae8c90a": {
+            "input_tokens": 18,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 18,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0845d3e1bb88165b016af5215c951487d2914690d29fe01f8d": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 68,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 68
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_0845d3e1bb88165b016af5215b2e1887d28c707bc011446eec",
+    "words": 53,
+    "seconds": 7.862135290983133,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L09",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  },
+  {
+    "answer": "Absolutely—we’ll converse in English and develop your professional stories in Portuguese when you’re ready to publish.\n\nI can help you uncover meaningful stories, clarify what they communicate about you, and shape them for publication. What would you like those stories to help you achieve—career opportunities, clients, a stronger professional reputation, or something you’re still exploring? And, optionally, how would you like me to address you?",
+    "usage": {
+      "input_tokens": 4666,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4752,
+      "attribution": {
+        "items": {
+          "msg_01f4c057b3de6e72016af521649cbc87d2b558cb8878765f42": {
+            "input_tokens": 23,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 23,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_01f4c057b3de6e72016af5216592e087d2883eaddbde140569": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 86,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 86
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4641,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "returned_model": "gpt-6.1-sol",
+    "response_id": "resp_01f4c057b3de6e72016af521649bb087d28437c7d7984c39e7",
+    "words": 65,
+    "seconds": 8.05041337502189,
+    "behavioral_review": "NOT_REVIEWED",
+    "case": "L04",
+    "rep": 1,
+    "arm": "A",
+    "turn": 1
+  }
+]
