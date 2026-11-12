@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "tests/check_discovery_r16_language_fixtures.js"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"mode\": \"offline fixture contract validation, NOT model execution\",\n  \"cases\": 12,\n  \"turns\": 16,\n  \"explicit_chat_language_turns\": 12,\n  \"not_hard_scored_turns\": 4,\n  \"name_preference_turns\": 7,\n  \"divergent_chat_content_language_turns\": 6,\n  \"failures\": 0,\n  \"errors\": []\n}\n",
+  "stderr": ""
+}

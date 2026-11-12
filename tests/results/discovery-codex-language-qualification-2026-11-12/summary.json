@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "remote_inference_calls": 0,
+  "offline_sentinel_calls": 2,
+  "os_file_denial": "PASS",
+  "wire_allowlist": "PASS",
+  "tool_response_blocked_before_cli": "PASS"
+}

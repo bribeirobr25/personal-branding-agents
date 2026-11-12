@@ -73,6 +73,7 @@ def audit(run, allow_partial=False):
         cards.append({'id': card_id, 'user_turns': cases[cid]['turns'][:len(answers)],
                       'assistant_turns': answers, 'hard_gates': None, 'scores': None,
                       'evidence': None, 'complete_pair': len(answers) == 2,
+                      'complete_dialogue': len(answers) == len(cases[cid]['turns']),
                       'review_status': 'NOT_REVIEWED'})
         key[card_id] = {'case': cid, 'rep': rep, 'arm': arm}
     aggregate = {}
@@ -81,7 +82,7 @@ def audit(run, allow_partial=False):
         aggregate[arm] = {'calls': len(subset), 'words': sum(r['words'] for r in subset),
                           'input_tokens': sum(r['usage']['input_tokens'] for r in subset),
                           'output_tokens': sum(r['usage']['output_tokens'] for r in subset),
-                          'median_seconds': statistics.median(r['seconds'] for r in subset)}
+                          'median_seconds': statistics.median(r['seconds'] for r in subset) if subset else None}
     return {'status': 'PARTIAL' if unknown or not_sent else 'PASS',
             'scope': 'transport/context integrity, NOT behavioral review',
             'checked_calls': len(checks), 'checks': checks, 'aggregate': aggregate,

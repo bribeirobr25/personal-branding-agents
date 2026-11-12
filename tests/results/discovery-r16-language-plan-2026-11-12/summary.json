@@ -1,0 +1,6 @@
+{
+  "status": "AWAITING_EXPLICIT_USER_AUTHORIZATION",
+  "planned_calls": 32,
+  "model_calls": 0,
+  "second_turn_payloads": "Not materialized until actual same-arm first response"
+}
