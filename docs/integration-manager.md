@@ -32,4 +32,4 @@ Buffer can support connected-channel publishing, scheduling and metrics, subject
 
 ## Operational handoff
 
-Use the [capability matrix](integration-capability-matrix.md), [operational contract](integration-operational-contract.md), and [synthetic regression cases](integration-research-test-cases.md). The Integration Manager is a **logical specialist role** invoked by Orchestrator or Researcher; it is not yet an autonomous connector service. A user can decline integrations and continue onboarding. Each read must return its actual provider, status, time and coverage; provider support alone never proves the user's account is readable.
+Use the [capability matrix](integration-capability-matrix.md) and [operational contract](integration-operational-contract.md). The Integration Manager is a **logical specialist role** invoked by Orchestrator or Researcher; it is not yet an autonomous connector service. A user can decline integrations and continue onboarding. Each read must return its actual provider, status, time and coverage; provider support alone never proves the user's account is readable.

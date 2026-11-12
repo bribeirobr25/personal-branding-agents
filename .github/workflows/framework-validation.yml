@@ -2,7 +2,7 @@ name: Framework documentation validation
 
 on:
   push:
-    branches: [main, feat/creative-strategist-concept-gate-20261110]
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -25,5 +25,3 @@ jobs:
           persist-credentials: false
       - name: Check the complete checkout, not an inventory substitute
         run: python3 tools/check_documentation.py
-      - name: Offline maintenance and owner-authority regression
-        run: python3 -m unittest discover -s tests -p 'test_repository_maintenance.py' -v

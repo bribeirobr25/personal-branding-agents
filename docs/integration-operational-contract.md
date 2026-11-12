@@ -41,6 +41,3 @@ Connection states are separate: `not_configured` | `authorization_required` | `c
   "fallback_options": ["official_api_if_authorized", "user_export", "conversation"]
 }
 ```
-
-## Acceptance
-Use [synthetic cases](integration-research-test-cases.md) and [onboarding tests](onboarding-simulation-tests.md). Report PASS, FAIL, NOT RUN with evidence. A document-only test cannot prove real provider connectivity, complete historical coverage or autonomous agent execution.

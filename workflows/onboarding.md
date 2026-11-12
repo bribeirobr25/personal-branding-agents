@@ -90,10 +90,6 @@ Set up a private workspace using `templates/` outside this public repository. Ch
 - Draft profile is returned to the person for correction/validation.
 - Private records remain separate from public prompts, templates and example data.
 
-## Simulation feedback
-
-An onboarding test revealed that the agent requested external sources before establishing a basic personal conversation. The v0.4 sequence separates the welcoming first interaction from the deeper evidence-gathering second interaction. The test participant's real details have **not** been included in this public file.
-
 ## Progressive integration and rapid-value addendum
 
-Use [Integration Manager](../docs/integration-manager.md) for optional capabilities. When a URL is supplied, immediately attempt permitted access with tools actually available; disclose blocked or partial access in the next response, offer authorized alternatives, and do not continue as though the profile was read. Keep an evidence ledger distinguishing verified source facts, user reports, hypotheses and unknowns. Avoid repeating answered questions. Aim to deliver a clearly provisional, useful insight within 5–10 minutes, then continue deep discovery progressively. Offer research connections only at research need and publishing connections only after channel strategy approval. Validate behavior with [simulation tests](../docs/onboarding-simulation-tests.md).
+Use [Integration Manager](../docs/integration-manager.md) for optional capabilities. When a URL is supplied, immediately attempt permitted access with tools actually available; disclose blocked or partial access in the next response, offer authorized alternatives, and do not continue as though the profile was read. Keep an evidence ledger distinguishing verified source facts, user reports, hypotheses and unknowns. Avoid repeating answered questions. Aim to deliver a clearly provisional, useful insight within 5–10 minutes, then continue deep discovery progressively. Offer research connections only at research need and publishing connections only after channel strategy approval.

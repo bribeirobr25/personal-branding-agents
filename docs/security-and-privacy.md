@@ -26,4 +26,4 @@ For audiovisual work approve factual script/direction before costly production, 
 
 Keep private checkpoints with decisions, versions, authorization, receipts, budget and next permitted action, not hidden model reasoning. Unknown execution and incomplete access remain explicit. No promises of background work without a real scheduler; recurrence requires tested execution, budget, cancellation and new authority.
 
-Static validators are limited aids, not security certification or proof of independent review. Releases and client adoption require the separate gates in [release policy](release-and-client-upgrade-policy.md).
+Static validators are limited aids, not security certification or proof of independent review. Pin private workspaces to a reviewed release and its full commit SHA.
