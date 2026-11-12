@@ -17,6 +17,8 @@ jobs:
           persist-credentials: false
       - name: Complete-checkout framework structural validation
         run: python3 tools/check_documentation.py
+      - name: Validate language-intent diagnostic fixtures
+        run: node tests/check_discovery_r16_language_fixtures.js
       - name: Execute synthetic child-process regressions
         shell: bash
         run: |
