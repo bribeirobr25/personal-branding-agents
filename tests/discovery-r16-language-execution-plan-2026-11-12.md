@@ -32,7 +32,7 @@ This adds a concrete executor and offline qualification to the [investigation](.
 
 Model `gpt-6.1-sol`, Codex CLI `0.145.0`, low reasoning, unchanged provider sampling defaults. Seed `20261112` controls conversation order only; model sampling seed is unsupported/unset. The model is therefore not promised bitwise reproducible. Frozen host/bundles, model, transport and runner hashes are in the plan; source snapshots are preserved beside it.
 
-Network timeout remains **180 seconds**, CLI timeout **210 seconds**. No automatic retries, resume, timeout increases or output-limit increases. First transport, quota, billing, model or isolation uncertainty stops the entire run. A dispatched call without a confirmed answer remains UNKNOWN; subsequent calls are recorded as not forwarded. Historical UNKNOWN calls are never replayed by this runner.
+Network timeout remains **180 seconds**, CLI timeout **210 seconds**. No automatic retries, resume, timeout increases or output-limit increases. First transport, quota, billing or isolation uncertainty detected by the existing controls stops the entire run. The requested model is fixed in every payload; returned model identity is checked by the separate post-run auditor. A dispatched call without a confirmed answer remains UNKNOWN; subsequent calls are recorded as not forwarded. Historical UNKNOWN calls are never replayed by this runner.
 
 The [sanitized authenticated resource receipt](results/discovery-r16-language-preapproval-resources-2026-11-12.json) confirms a personal ChatGPT included allowance, zero paid-credit balance, credits unavailable and no paid fallback. Exact account quotas and credentials stay outside Git. Availability is a point-in-time observation, not a guarantee that 32 variable-length responses will fit. Before **every** call, the existing gate requires fresh authenticated metadata, known included windows below 90% used, balance zero, no available/unlimited credits and no spend-limit flag. A failed gate sends no model request. No API-key route, credit purchase, redemption, billing-setting change or paid fallback is authorized.
 
@@ -78,3 +78,10 @@ python3 tests/discovery_r16_language_live.py --live \
 ```
 
 No diagnostic scenario has passed or failed yet. No comparative winner or workflow correction is supported by these offline controls. Next decision: owner authorization for the exact 32 calls, followed by a fresh resource check.
+
+## Completed preparation checks
+
+- [Full final offline checks](results/discovery-r16-language-offline-checks-final-2026-11-12.json): **44 unit tests PASS**, documentation checker PASS and existing synthetic regression PASS.
+- [Fixture contract check](results/discovery-r16-language-fixture-check-2026-11-12.json): 12 scenarios, 16 turns, zero failures; not a model behavior test.
+- [GitHub Actions 43139150332](https://github.com/bribeirobr25/personal-branding-agents/actions/runs/43139150332): **SUCCESS** on preparation commit `17620cff787e5644307a39803605c598fc93cbea`. This CI is offline.
+- Remote main remained `0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92` after pushing preparation to the authorized branch. No merge or release.
