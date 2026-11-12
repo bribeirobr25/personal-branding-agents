@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-11-12",
+  "evidence_mode": "diagnostic fixtures only; NO model calls or generated behavioral outputs",
+  "reference_case": "R16",
+  "baseline_ref": "0e201bcc0c64bb7898f1f3755264e6ffbe1a9b92",
+  "candidate_ref": "3fd226adcf34376e99e7fbda11ace36638e3b370",
+  "separate_preferences": [
+    "conversation_language",
+    "deliverable_language"
+  ],
+  "scoring": "Only explicit current-turn assistant reply-language requests are hard gates. Content-language preference is separately tracked; no deliverable was generated in these Discovery turns. The ambiguous original R16 has no hard conversation-language verdict.",
+  "cases": [
+    {
+      "id": "L01",
+      "purpose": "Original ambiguous R16, preserve exactly; distinguish chat from content language",
+      "turns": [
+        {
+          "user": "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+          "expected": {
+            "name": "Arin",
+            "chat_language": null,
+            "chat_language_hard_gate": false,
+            "content_language": "pt-BR",
+            "content_language_assertable_now": false,
+            "reason": "Communicate what I learned in Portuguese describes intended output; immediate chat language is not explicit."
+          }
+        },
+        {
+          "user": "Actually call me Sol. Keep Portuguese. I haven't shared sales data.",
+          "expected": {
+            "name": "Sol",
+            "chat_language": null,
+            "chat_language_hard_gate": false,
+            "content_language": "pt-BR",
+            "content_language_assertable_now": false,
+            "reason": "Keep Portuguese can preserve a content-language preference; an immediate chat-language gate remains ambiguous."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "purpose": "English user text explicitly requests Portuguese chat language",
+      "turns": [
+        {
+          "user": "Call me Arin. Please reply to me in Brazilian Portuguese from your next message. I run a fictional bookstore.",
+          "expected": {
+            "name": "Arin",
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": null,
+            "content_language_assertable_now": false,
+            "reason": "Direct explicit assistant response language."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "purpose": "Portuguese conversation while future content must be English",
+      "turns": [
+        {
+          "user": "Please speak to me in Portuguese in this conversation, but I want my future LinkedIn posts written in English.",
+          "expected": {
+            "name": null,
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "en",
+            "content_language_assertable_now": false,
+            "reason": "Explicit, separate chat and future deliverable language."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "purpose": "English conversation while future posts should be Portuguese",
+      "turns": [
+        {
+          "user": "Reply to me in English, please. I intend to publish my professional stories in Portuguese later.",
+          "expected": {
+            "name": null,
+            "chat_language": "en",
+            "chat_language_hard_gate": true,
+            "content_language": "pt-BR",
+            "content_language_assertable_now": false,
+            "reason": "Explicit English chat request despite Portuguese planned content."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "purpose": "Native German request for German response",
+      "turns": [
+        {
+          "user": "Bitte antworte mir auf Deutsch. Ich möchte mein berufliches Profil verbessern.",
+          "expected": {
+            "name": null,
+            "chat_language": "de",
+            "chat_language_hard_gate": true,
+            "content_language": null,
+            "content_language_assertable_now": false,
+            "reason": "Direct German response request."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "purpose": "German response requested in English user message",
+      "turns": [
+        {
+          "user": "I'm writing this in English. Please answer me in German, including your next question.",
+          "expected": {
+            "name": null,
+            "chat_language": "de",
+            "chat_language_hard_gate": true,
+            "content_language": null,
+            "content_language_assertable_now": false,
+            "reason": "Explicit German chat request overrides English text language."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "purpose": "Switch reply language and preferred name only after second user turn",
+      "turns": [
+        {
+          "user": "Call me Arin. Answer in English for now. I want to clarify my experience.",
+          "expected": {
+            "name": "Arin",
+            "chat_language": "en",
+            "chat_language_hard_gate": true,
+            "content_language": null,
+            "content_language_assertable_now": false,
+            "reason": "Current English and Arin are explicit."
+          }
+        },
+        {
+          "user": "From now on call me Sol and reply in Portuguese, please.",
+          "expected": {
+            "name": "Sol",
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": null,
+            "content_language_assertable_now": false,
+            "reason": "Only this turn authorizes changing the name and conversation language."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "purpose": "Keep Portuguese chat while planning a German deliverable and changing name",
+      "turns": [
+        {
+          "user": "Call me Arin. Please answer me in Portuguese. My future portfolio will be in German.",
+          "expected": {
+            "name": "Arin",
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "de",
+            "content_language_assertable_now": false,
+            "reason": "Portuguese chat and German future artifact."
+          }
+        },
+        {
+          "user": "Call me Sol now, but keep answering in Portuguese. The portfolio remains German.",
+          "expected": {
+            "name": "Sol",
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "de",
+            "content_language_assertable_now": false,
+            "reason": "Name changes but both language preferences persist."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "purpose": "German content intent alone must not be scored as German chat request",
+      "turns": [
+        {
+          "user": "I want to communicate what I learned as a store manager in German.",
+          "expected": {
+            "name": null,
+            "chat_language": null,
+            "chat_language_hard_gate": false,
+            "content_language": "de",
+            "content_language_assertable_now": false,
+            "reason": "Planned communication language, not direct request to answer in German."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "purpose": "Portuguese chat with German future deliverable",
+      "turns": [
+        {
+          "user": "Respond in Portuguese please, even though I am writing in English. My profile text will be in German.",
+          "expected": {
+            "name": null,
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "de",
+            "content_language_assertable_now": false,
+            "reason": "Explicitly separate current chat and artifact language."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "purpose": "Portuguese user requests Portuguese response and English content",
+      "turns": [
+        {
+          "user": "Responda em português, por favor. Depois quero criar conteúdo profissional em inglês.",
+          "expected": {
+            "name": null,
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "en",
+            "content_language_assertable_now": false,
+            "reason": "Direct response-language request in Portuguese; content English."
+          }
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "purpose": "Explicit preference correction after initial ambiguous content-language request",
+      "turns": [
+        {
+          "user": "I want to communicate my bookstore lessons in Portuguese.",
+          "expected": {
+            "name": null,
+            "chat_language": null,
+            "chat_language_hard_gate": false,
+            "content_language": "pt-BR",
+            "content_language_assertable_now": false,
+            "reason": "No unambiguous chat-language request yet."
+          }
+        },
+        {
+          "user": "To clarify: I want you to answer me in Portuguese too, starting now.",
+          "expected": {
+            "name": null,
+            "chat_language": "pt-BR",
+            "chat_language_hard_gate": true,
+            "content_language": "pt-BR",
+            "content_language_assertable_now": false,
+            "reason": "Now a direct assistant reply-language instruction is explicit."
+          }
+        }
+      ]
+    }
+  ]
+}
