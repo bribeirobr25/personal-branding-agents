@@ -68,16 +68,6 @@ def run(root: Path, inventory: Path | None) -> dict:
     require(approval.get("status") == "not_approved", "Blank template cannot be approved")
     for key in contract["approval_required"]:
         require(key in approval and approval[key] is None, f"Blank approval must not invent {key}")
-    scenarios = json.loads(local["tests/scenarios.json"].read_text(encoding="utf-8"))
-    cases = scenarios.get("cases", [])
-    ids = [c.get("id") for c in cases]
-    expected_ids = {f"E{i:02d}" for i in range(1, 33)} | {f"L{i:02d}" for i in range(1, 9)}
-    require(len(ids) == 40 and set(ids) == expected_ids, "Scenario inventory incomplete or duplicated")
-    require(all(c.get("input") and c.get("expected") for c in cases), "Empty scenario input/expectation")
-    for case in cases:
-        require(case.get("status") in {"NOT_RUN", "PASS", "FAIL"}, "Invalid scenario status")
-        if case["status"] != "NOT_RUN":
-            require(case.get("evidence_ref") and case.get("reviewer"), "Executed status requires evidence")
     links = 0
     for name, path in local.items():
         if not name.endswith(".md"):
@@ -111,7 +101,7 @@ def run(root: Path, inventory: Path | None) -> dict:
     return {
         "structural_result": "PASS", "local_files_checked": len(local),
         "inventory_only_paths": len(extra), "json_files_parsed": json_count,
-        "local_link_targets_checked": links, "scenario_definitions": len(cases),
+        "local_link_targets_checked": links,
         "behavioral_cases_executed_by_this_check": 0,
         "negative_controls_rejected": len(negative),
         "limitations": ["No external link or fragment validation", "No LLM/runtime execution",

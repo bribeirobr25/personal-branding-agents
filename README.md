@@ -2,7 +2,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.2.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary and synthetic evaluation scenarios. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. The published reference is the `v0.2.0` Git tag and resolved commit, not this document alone. See [release evidence and migration](docs/releases/v0.2.0.md).
+**Method version: 0.2.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. The published reference is the `v0.2.0` Git tag and resolved commit, not this document alone. See [migration guidance](docs/releases/v0.2.0.md).
 
 ## Purpose and boundaries
 
@@ -19,7 +19,7 @@ The public core contains generic methods and independently fictional examples. R
 5. Publish manually only when authorized. Record an actual receipt or URL; measure only available observations.
 6. Preserve a [checkpoint](templates/run-checkpoint.json) so another session can resume without pretending to remember hidden context.
 
-See the [fictional creative walkthrough](examples/fictional-client/creative-cycle.md). Illustrative examples are not market results; actual bounded manual executions are recorded separately in the test ledgers.
+See the [fictional creative walkthrough](examples/fictional-client/creative-cycle.md).
 
 ## One interface, bounded specialists
 
@@ -43,18 +43,9 @@ The Orchestrator remains the sole user-facing agent. Every specialist returns to
 - [Knowledge and positioning](docs/knowledge-and-positioning.md): goals, credibility, interests, voice and reference libraries.
 - [Creative methods](docs/creative-methods.md) and [concept gate](docs/creative-concept-gate.md): diversity, opening, promise/payoff, rubric and accessibility.
 - [Contracts](docs/agent-contracts.md), [contract vocabulary](contracts/framework.json) and [manifest](framework-manifest.json): portable records and states.
-- [Evaluation](docs/evaluation-protocol.md): behavioral scenarios, comparison and measurement limits.
+- [Evaluation](docs/evaluation-protocol.md): measuring results and deciding what to try next.
 - [Reuse policy](docs/component-reuse-policy.md): lawful learning, licensed reuse and independent development.
 - [Optional capabilities](docs/optional-capabilities.md): manual first, optional local/hybrid execution and total cost.
-- [Release and private upgrades](docs/release-and-client-upgrade-policy.md): separate public release and private adoption.
-
-## Verification and limitations
-
-Run `python3 tools/check_documentation.py` from a complete checkout. It checks structure, local links, JSON contracts and scenario inventory without network or third-party dependencies. It does not execute an LLM, assess legal compliance or prove privacy/security.
-
-[Manual text results](tests/results/manual-text-2026-11-11.md) and [onboarding/content regression](tests/results/onboarding-content-2026-11-11.md) record actual open-book same-assistant outputs, limitations and remediation. The reusable scenario definitions retain their initial NOT_RUN placeholders. This is neither blind evidence of superior content nor runtime enforcement. Legacy records are not silently relabeled.
-
-Repository CI and narrowly scoped branch/release maintenance are GitHub administration, not autonomous branding capabilities. No mandatory proprietary dependency is introduced. Reuse permitted components rather than rebuilding unnecessarily; evaluate licenses, rights, tool access and scope separately. Reading a skill authorizes no installation, spending, contact or social publishing.
 
 ## License
 
