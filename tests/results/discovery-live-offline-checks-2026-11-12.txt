@@ -1,0 +1,14 @@
+test_bad_selection_and_limits_rejected (test_discovery_live_ab.TransportTests.test_bad_selection_and_limits_rejected) ... ok
+test_exact_original_fixtures (test_discovery_live_ab.TransportTests.test_exact_original_fixtures) ... ok
+test_incomplete_response_preserved_and_stops (test_discovery_live_ab.TransportTests.test_incomplete_response_preserved_and_stops) ... ok
+test_missing_and_tampered_approval_make_zero_calls (test_discovery_live_ab.TransportTests.test_missing_and_tampered_approval_make_zero_calls) ... ok
+test_no_future_or_other_arm_in_requests (test_discovery_live_ab.TransportTests.test_no_future_or_other_arm_in_requests) ... ok
+test_prompt_snapshots_and_shared_contracts (test_discovery_live_ab.TransportTests.test_prompt_snapshots_and_shared_contracts) ... ok
+test_refusals_and_unexpected_tools_rejected (test_discovery_live_ab.TransportTests.test_refusals_and_unexpected_tools_rejected) ... ok
+test_schedule_and_plan_are_reproducible (test_discovery_live_ab.TransportTests.test_schedule_and_plan_are_reproducible) ... ok
+test_timeout_stops_without_retry (test_discovery_live_ab.TransportTests.test_timeout_stops_without_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.411s
+
+OK

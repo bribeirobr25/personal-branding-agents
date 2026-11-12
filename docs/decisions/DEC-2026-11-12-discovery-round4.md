@@ -60,3 +60,14 @@ The [final Actions run](https://github.com/bribeirobr25/personal-branding-agents
 This improves **test transport integrity**, but the worker still contains pre-authored turn-specific answers. There were **zero LLM prompt calls**, zero genuine Researcher/tool actions, and no independent blinded behavioral result. The candidate B's authored examples remain **longer** than A's (258 versus 222 words) in this focused follow-up. Those numbers are not real model performance.
 
 **Decision unchanged: HOLD / REWORK BEFORE MERGE.** The repaired harness cannot retroactively change R01/R13/R16 original failures or prove B superior. The next acceptance evidence must be actual turn-bounded model/tool execution or clearly labeled human-supervised trials, plus a reviewed public PR and explicit owner merge authorization.
+
+## Follow-up: genuine model executor prepared (2026-11-12)
+
+A [live-model protocol](../../tests/discovery-live-ab-protocol-2026-11-12.md),
+[stateless API executor](../../tests/discovery_live_ab.py), exact fictional cases
+and offline transport tests now exist. The [readiness report](../../tests/results/discovery-live-readiness-2026-11-12.md)
+records available inference mechanisms, executed checks and the pending budget/credential
+boundary. Nine offline tests passed; the saved 108-call plan made **zero model calls**.
+Codex CLI authentication was found, but billing and complete context isolation were
+not qualified. No comparative behavioral result or independent review is claimed.
+**HOLD remains unchanged.** All original evidence and frozen prompt versions remain intact.

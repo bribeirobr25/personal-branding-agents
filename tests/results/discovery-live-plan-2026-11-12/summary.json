@@ -1,0 +1,6 @@
+{
+  "status": "PLAN_ONLY",
+  "llm_calls": 0,
+  "reason": "No live flag, approved budget or verified API credential",
+  "behavioral_status": "NOT_RUN"
+}
