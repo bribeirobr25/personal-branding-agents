@@ -1,0 +1,12 @@
+{
+  "A.instructions.txt": "d22da97f10a388fd7ff37d34747351dec74af5fda3f74f8b8737f53caf989d56",
+  "B.instructions.txt": "ad9780582bab34c9eba71103ecd85364e37bb76c614aeefb9ed073e3a2aa68c4",
+  "discovery_codex_cli.py": "81e2f718dcfed08a40c41cd2dcfea3e81164fda371746d33f0b77e2bab104925",
+  "discovery_codex_exploratory.py": "c6f8e2bd9e31ed4834b2b6a5930a8634e89b5ec1e637ab5cbfec2b0d977c22b8",
+  "discovery_live_ab.py": "ade384d898d6501774d36af55b7a3e2ba672bb600e9ecb2206f8b5fb123362b6",
+  "plan-hash.json": "29c3b911a2403be27c307dec7c2a5f4362188ea909925f8a3a77c77fcd1a43ed",
+  "plan.json": "812a08e838dd58f0e17f89a784e1949303ad8d1203bd0acdc517dfb00d2606b5",
+  "protocol-source.txt": "453745ff6bd540ccf6dc8ae6c8b477d8af0b557f84e854efe1366f1e1c6b2c46",
+  "rows.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "summary.json": "dc9acfee0a465df705f8bf78af5eec3ca8b957a9f3552e3fe5504f12920bb9ce"
+}
