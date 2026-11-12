@@ -1,0 +1,98 @@
+[
+  {
+    "id": "card-000",
+    "user_turns": [
+      "I initially wanted a public speaker brand for teaching software teams.",
+      "Actually I want private internal mentoring and no public posting. My experience hasn't changed."
+    ],
+    "assistant_turns": [
+      "It sounds like your initial aim was to become known as a speaker who teaches software teams—but “initially” suggests that goal may have shifted. What would you like your personal brand to help you achieve now, even if you’re still figuring it out or would rather not build a public presence?\n\nAnd, optionally, what would you like me to call you?",
+      "Understood—the goal has changed, not your experience. We’ll focus on **private, internal mentoring for software teams**, with no public posting or visibility campaign.\n\nWe can work entirely through conversation; I only know what you share here and can’t access external profiles or files. If useful, you’re welcome to paste a short, non-confidential summary of your experience, but it’s optional.\n\nWhat kind of help would you most like to give colleagues through mentoring?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-001",
+    "user_turns": [
+      "I'm a fictional operations lead. I redesigned shift handoffs, but have no time-saved figures.",
+      "The team used the handoff checklist. Yes, that limited description is right."
+    ],
+    "assistant_turns": [
+      "That gives us a useful starting point for your fictional profile: an operations lead who redesigned shift handoffs. We can build a credible story around what changed and your role without inventing time savings or other results.\n\nWhat would you like this profile to help you achieve—a new role, a stronger professional reputation, or something else? And, optionally, what should I call you?",
+      "Understood: you redesigned shift handoffs, and the team used the checklist. That supports a story about a change put into practice—not yet a claim about time saved, fewer errors, or improved efficiency.\n\nWhat would you like this fictional profile to help you achieve—for example, a new operations role, a stronger professional reputation, or simply a clear account of the work without publishing anything?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-002",
+    "user_turns": [
+      "I initially wanted a public speaker brand for teaching software teams.",
+      "Actually I want private internal mentoring and no public posting. My experience hasn't changed."
+    ],
+    "assistant_turns": [
+      "It sounds like your original aim was to become known as a speaker who teaches software teams—but “initially” suggests that may have shifted. What would you like your professional reputation to help you do now?",
+      "Understood—the goal is now **private mentoring within software teams, with no public posting**, rather than a public speaker brand. Your experience hasn’t changed; the intended use has.\n\nWe can focus on helping colleagues understand when to turn to you, without building a public presence. What experience would you most want to draw on in mentoring?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-003",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+      "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+    ],
+    "assistant_turns": [
+      "Nice to meet you, Arin. You’d like to share what you’ve learned running a small fictional bookstore, in Portuguese—we can work in Portuguese from here if you prefer.\n\nWhat would you most like that sharing to lead to: conversations with fellow booksellers, a closer connection with readers, or simply a space to reflect? If you already have notes or a sample of your writing, you’re welcome to paste one here, but we can just talk, too.",
+      "Claro, Sol — seguimos em português. Você não compartilhou dados de vendas; não vou presumir números nem resultados comerciais.\n\nQual aprendizado da sua pequena livraria fictícia você gostaria de compartilhar primeiro?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-004",
+    "user_turns": [
+      "Call me Arin. I run a small fictional bookstore and want to communicate what I've learned in Portuguese.",
+      "Actually call me Sol. Keep Portuguese. I haven't shared sales data."
+    ],
+    "assistant_turns": [
+      "Arin, you’d like to share what you’ve learned from running a small fictional bookstore, in Portuguese. We can explore those lessons and how you want to express them without assuming you need to publish anything.\n\nYou’re welcome to paste an existing passage or describe the store and your experience; neither a CV nor social profiles are needed. I can work with what you share here, but I can’t open external links in this chat.\n\nWhat would you like communicating these lessons to do for you—connect with readers, help other booksellers, develop your writing, or something else? We can continue in Portuguese if you prefer.",
+      "Claro, Sol — seguimos em português. Você não compartilhou dados de vendas, e não vou presumir resultados comerciais nem pedir esses dados para avançarmos.\n\nAté aqui, entendi que você tem uma pequena livraria fictícia e quer comunicar o que aprendeu com ela. O que você gostaria de alcançar ao compartilhar esses aprendizados? Tudo bem se ainda estiver explorando, sem intenção de publicar."
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  },
+  {
+    "id": "card-005",
+    "user_turns": [
+      "I'm a fictional operations lead. I redesigned shift handoffs, but have no time-saved figures.",
+      "The team used the handoff checklist. Yes, that limited description is right."
+    ],
+    "assistant_turns": [
+      "Redesigning shift handoffs gives us a concrete story to explore; we don’t need to invent time savings to make it useful. We can focus on what changed and any effects you actually observed.\n\nWhat would you like this fictional operations lead’s story to support—a job opportunity, a professional bio, or something else? And, optionally, what should I call them?",
+      "We’ll keep the fictional profile bounded: an operations lead who redesigned shift handoffs, with a checklist the team used. There are no time-savings figures, so we won’t claim measured efficiency gains.\n\nWhat would you like to create from this—a résumé bullet, an interview story, or something else?"
+    ],
+    "hard_gates": null,
+    "scores": null,
+    "evidence": null,
+    "complete_pair": true,
+    "review_status": "NOT_REVIEWED"
+  }
+]

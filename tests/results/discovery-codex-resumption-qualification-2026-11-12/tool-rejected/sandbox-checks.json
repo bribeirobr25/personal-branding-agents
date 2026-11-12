@@ -1,0 +1,12 @@
+[
+  {
+    "kind": "allowed",
+    "read_succeeded": true,
+    "returncode": 0
+  },
+  {
+    "kind": "forbidden",
+    "read_succeeded": false,
+    "returncode": 1
+  }
+]

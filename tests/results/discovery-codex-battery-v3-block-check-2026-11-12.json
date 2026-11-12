@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "tests/discovery_codex_cli.py",
+    "--stage",
+    "battery",
+    "--live",
+    "--pilot",
+    "tests/results/discovery-codex-pilot-v3-2026-11-12",
+    "--pilot-review",
+    "tests/results/discovery-codex-pilot-v3-review-2026-11-12.json",
+    "--out",
+    "/private/tmp/personal-branding-agents-codex-20261112/tests/results/discovery-codex-battery-v3-must-not-start",
+    "--private-out",
+    "/private/tmp/discovery-codex-battery-v3-must-not-start-private"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: Operation not permitted (os error 1)\nTraceback (most recent call last):\n  File \"/private/tmp/personal-branding-agents-codex-20261112/tests/discovery_codex_cli.py\", line 552, in <module>\n    main()\n  File \"/private/tmp/personal-branding-agents-codex-20261112/tests/discovery_codex_cli.py\", line 497, in main\n    check_pilot_review(args.pilot, json.loads(args.pilot_review.read_text()))\n  File \"/private/tmp/personal-branding-agents-codex-20261112/tests/discovery_codex_cli.py\", line 450, in check_pilot_review\n    raise ValueError('Pilot behavioral/context review not qualified or not bound to this run')\nValueError: Pilot behavioral/context review not qualified or not bound to this run\n",
+  "run_directory_created": false,
+  "private_receipt_directory_created": false,
+  "expected_rejection": "Pilot behavioral/context review not qualified",
+  "model_calls": 0
+}

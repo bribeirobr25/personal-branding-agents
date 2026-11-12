@@ -150,6 +150,68 @@ class AdapterTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             cli.billing_gate(raw)
 
+    def test_behavioral_gate_requires_all_turns_and_rejects_language_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'manifest.json').write_text('{}')
+            review = {'status': 'QUALIFIED', 'context_audit': 'PASS',
+                      'pilot_manifest_sha256': cli.sha((root/'manifest.json').read_bytes()),
+                      'turns': [{'case': cid, 'arm': arm, 'turn': turn,
+                                 'hard_gates': dict.fromkeys(cli.HARD_GATES, 'PASS'),
+                                 'language_name': 'PASS', 'evidence': 'OFFLINE_GATE_SENTINEL'}
+                                for cid in cli.PILOT for arm in cli.base.REFS for turn in (1, 2)]}
+            cli.check_pilot_review(root, review)
+            for change in ('language', 'missing', 'duplicate', 'hash', 'uncertain'):
+                bad = copy.deepcopy(review)
+                if change == 'language': bad['turns'][-1]['language_name'] = 'FAIL'
+                if change == 'missing': bad['turns'].pop()
+                if change == 'duplicate': bad['turns'][0] = bad['turns'][1]
+                if change == 'hash': bad['pilot_manifest_sha256'] = 'wrong'
+                if change == 'uncertain': bad['turns'][0]['hard_gates']['consent'] = 'UNCERTAIN'
+                with self.subTest(change=change), self.assertRaises(ValueError):
+                    cli.check_pilot_review(root, bad)
+
+    def test_headers_and_partial_stream_survive_timeout_without_retry(self):
+        class Response:
+            headers = {'x-request-id': 'OFFLINE_REQUEST_ID'}
+            calls = 0
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+            def read1(self, size):
+                self.calls += 1
+                if self.calls == 1:
+                    return b'data: {"type":"response.created","response":{"id":"OFFLINE_RESPONSE_ID"}}\n\n'
+                raise TimeoutError()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            broker = cli.Broker(cli.envelope('P', [], 'U'), {'tokens': {'access_token': 'OFFLINE'}}, root)
+            response = Response()
+            with patch.object(cli.urllib.request, 'build_opener') as factory:
+                factory.return_value.open.return_value = response
+                with self.assertRaises(TimeoutError): broker.forward(cli.wire_request(broker.sealed))
+                self.assertEqual(factory.return_value.open.call_count, 1)
+                self.assertEqual(factory.return_value.open.call_args.kwargs['timeout'], 180)
+            self.assertEqual(json.loads((root/'receipt.json').read_text())['x-request-id'], 'OFFLINE_REQUEST_ID')
+            trace = json.loads((root/'network-trace.json').read_text())
+            self.assertEqual(trace['provider_response_id'], 'OFFLINE_RESPONSE_ID')
+            self.assertEqual(trace['phase'], 'STREAM_READ')
+            self.assertEqual(trace['error_type'], 'TimeoutError')
+            self.assertTrue((root/'response.sse').read_bytes())
+
+    def test_timeout_before_headers_records_http_open(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            broker = cli.Broker(cli.envelope('P', [], 'U'), {'tokens': {'access_token': 'OFFLINE'}}, root)
+            with patch.object(cli.urllib.request, 'build_opener') as factory:
+                factory.return_value.open.side_effect = TimeoutError()
+                with self.assertRaises(TimeoutError): broker.forward(cli.wire_request(broker.sealed))
+                self.assertEqual(factory.return_value.open.call_count, 1)
+            trace = json.loads((root/'network-trace.json').read_text())
+            self.assertEqual(trace['phase'], 'HTTP_OPEN')
+            self.assertEqual(trace['received_bytes'], 0)
+            self.assertIsNone(trace['provider_response_id'])
+            self.assertFalse((root/'receipt.json').exists())
+
 
 if __name__ == '__main__':
     unittest.main()

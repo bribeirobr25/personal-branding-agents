@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cd64-2f86-7143-83e7-d0b23e7b7e90"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"We’ll keep the fictional profile bounded: an operations lead who redesigned shift handoffs, with a checklist the team used. There are no time-savings figures, so we won’t claim measured efficiency gains.\n\nWhat would you like to create from this—a résumé bullet, an interview story, or something else?"}}
+{"type":"turn.completed","usage":{"input_tokens":7692,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":65,"reasoning_output_tokens":0}}

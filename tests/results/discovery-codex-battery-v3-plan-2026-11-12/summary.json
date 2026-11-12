@@ -1,0 +1,14 @@
+{
+  "status": "PLAN_ONLY",
+  "attempted_calls": 0,
+  "completed_calls": 0,
+  "expected_calls": 108,
+  "stage": "battery",
+  "isolation": "NOT_QUALIFIED",
+  "adapter_sha256": "81e2f718dcfed08a40c41cd2dcfea3e81164fda371746d33f0b77e2bab104925",
+  "cli_sha256": "1da3f4e0e96028b8a771814293c3033dafd1971f943f6c7e79b0897fe705f590",
+  "actual_cost_usd": null,
+  "billing_evidence": "included-only preflight; no monetary invoice",
+  "behavioral_winner": null,
+  "independent_review": "NOT_RUN"
+}

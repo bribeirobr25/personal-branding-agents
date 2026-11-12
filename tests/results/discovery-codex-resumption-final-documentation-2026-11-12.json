@@ -1,0 +1,5 @@
+{
+  "command": "python3 tools/check_documentation.py",
+  "returncode": 0,
+  "output": "{\n  \"structural_result\": \"PASS\",\n  \"local_files_checked\": 737,\n  \"inventory_only_paths\": 0,\n  \"json_files_parsed\": 408,\n  \"local_link_targets_checked\": 207,\n  \"scenario_definitions\": 40,\n  \"behavioral_cases_executed_by_this_check\": 0,\n  \"negative_controls_rejected\": 3,\n  \"limitations\": [\n    \"No external link or fragment validation\",\n    \"No LLM/runtime execution\",\n    \"No independent review or legal/security certification\",\n    \"Inventory-only file contents are not inspected\"\n  ]\n}\n"
+}

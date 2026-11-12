@@ -91,3 +91,31 @@ in each dispatched payload. Both arms nevertheless failed the Portuguese prefere
 in R16/U1, while using Arin rather than future name Sol. These are separate behavioral
 and isolation findings. Full-pilot qualification, independent review, comparative
 winner and merge authorization remain absent. **HOLD remains unchanged.**
+
+## Follow-up: fresh complete pilot v3, behavioral gate blocked (2026-11-12)
+
+The owner authorized a fresh pilot after investigating the prior timeout.
+[Investigation](../../tests/results/discovery-codex-timeout-investigation-2026-11-12.md)
+found no recoverable provider ID/body; the old R16/A/U2 stays UNKNOWN. It was not
+retried or mixed with new results. Executor instrumentation now preserves network
+phase, early safe headers and partial-stream response IDs without changing prompts,
+model, timeouts, quotas or billing/isolation controls.
+
+The [separately preregistered pilot v3](../../tests/discovery-codex-resumption-protocol-2026-11-12.md)
+completed **12/12 real model calls**, with all twelve context audits passing and no
+timeout. Included-usage/zero-credit checks passed before every call and after the
+run. No paid API, credit purchase/redemption or external paid service was used.
+All 38 offline unit tests and the existing local checks passed.
+
+The [complete evaluation](../../tests/results/discovery-codex-pilot-v3-evaluation-2026-11-12.md)
+records repeated R16/U1 Portuguese failures in **both arms**, with correct current
+names and successful language/name correction only at U2. B was shorter in all
+three pilot pairs (303 versus 425 words), but this does not compensate the language
+failures or establish a winner. Review is open-book author review, not independent.
+
+The pilot is complete and transport-isolated, but **NOT_QUALIFIED behaviorally**.
+The new promotion gate rejects its manifest-bound failed review before account
+access or inference. The **108-call battery remains NOT_RUN**. A separate correction
+round/new frozen candidate, or an explicit owner change to the promotion criteria,
+is needed before further generation. No exception, merge, release or main change
+was performed. **HOLD remains unchanged.**

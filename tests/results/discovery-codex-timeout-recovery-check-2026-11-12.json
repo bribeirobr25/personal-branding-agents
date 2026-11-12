@@ -1,0 +1,26 @@
+{
+  "outcome": "UNKNOWN",
+  "provider_response_id": null,
+  "provider_request_id": null,
+  "sse_exists": false,
+  "receipt_exists": false,
+  "old_ephemeral_runtime_exists": false,
+  "store": false,
+  "remote_history_fields_present": [],
+  "local_cli_thread_id": "01a1cd44-dd0a-7981-9b2f-01b4f246fc95",
+  "provider_lookup": "No addressable remote ID or available native response-recovery method; no remote retrieval request made",
+  "source_sha256": {
+    "request.json": "7e0e96a026d88e20beb88614c0abe7e3a9343e0bec9bf0887ce71f837444b497",
+    "dispatch.json": "da8f0bbd1b3206e5db9a2e45fad69f909d6492ef29be753264643356d6ad2f96",
+    "sandbox.sb": "01857021101e5a42e99c9181d374896f469c02e16f98478e6eac56717b15a356",
+    "transport.json": "d596e38ba147141c65fee29a59622c24cb237dc29e8b803aa96d8fd79a758b40",
+    "stderr.txt": "f50f6bb4e823e7608eaa9a6d9cdbee1c592d8e6b032aa67c33950b59db40d45a",
+    "cli-request.json": "6761929765d7e9db92cef366310368d88220931319f835d16abd3181b2d819cf",
+    "config.toml": "da7906e44bc17491bbc2fca4314628d81729cbe641bca30cccb6370cb7bc608a",
+    "failure.json": "c5dd91df325f71cac67add4288c80e8e1155ffba0269e0ceca44a63b716517d2",
+    "invocation.json": "fc84b3fdada819d4dcb086027f30dd740ef5979d07f5524088afbaccb5fd1ee5",
+    "stdout.jsonl": "8a34e76a9e0f00b80d1110ff60454c72e424ab50ed1dcbba66b9132bc377fc15",
+    "envelope.json": "3a7dacafe815fdd20cd7c72f1e19833467effaf6f9947dc5ec4c52ef89131f08",
+    "sandbox-checks.json": "1b5d12358328493fd95cca0742f8393c8d60388779be8ab48cb69119a4ad418b"
+  }
+}

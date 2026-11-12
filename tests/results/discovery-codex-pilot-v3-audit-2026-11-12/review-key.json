@@ -1,0 +1,32 @@
+{
+  "card-000": {
+    "case": "R13",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-001": {
+    "case": "R01",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-002": {
+    "case": "R13",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-003": {
+    "case": "R16",
+    "rep": 1,
+    "arm": "B"
+  },
+  "card-004": {
+    "case": "R16",
+    "rep": 1,
+    "arm": "A"
+  },
+  "card-005": {
+    "case": "R01",
+    "rep": 1,
+    "arm": "B"
+  }
+}

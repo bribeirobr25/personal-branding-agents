@@ -106,3 +106,12 @@ Official references consulted: [authentication](https://learn.chatgpt.com/docs/a
 [configuration reference](https://learn.chatgpt.com/docs/config-file/config-reference).
 The installed CLI help and generated schema, plus actual offline captures, govern
 version-specific behavior; current documentation may describe newer versions.
+
+## Resumption clarification (2026-11-12)
+
+The [new-pilot preregistration](discovery-codex-resumption-protocol-2026-11-12.md)
+adds early network receipts and an explicit behavior gate without changing the
+model or existing limits. For the current executor, the battery command above
+also requires `--pilot-review /path/to/manifest-bound-review.json`. A complete
+transport run alone is no longer sufficient: all twelve hard-gate reviews and
+R16 name/language checks must PASS. A failed or missing review blocks execution.

@@ -1,0 +1,210 @@
+{
+  "status": "NOT_QUALIFIED",
+  "reviewer": "author_assistant",
+  "mode": "open_book_not_independent_not_blinded",
+  "pilot_manifest_sha256": "1a657f737201521a4ae7399261395211505b34aab516ee7fcf015be6e16cdf20",
+  "context_audit": "PASS",
+  "generation_complete": true,
+  "reviewed_turns": 12,
+  "turns": [
+    {
+      "case": "R13",
+      "arm": "A",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "What would you like your personal brand to help you achieve now",
+      "language_evidence": null
+    },
+    {
+      "case": "R13",
+      "arm": "A",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "private, internal mentoring for software teams",
+      "language_evidence": null
+    },
+    {
+      "case": "R01",
+      "arm": "A",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "without inventing time savings or other results",
+      "language_evidence": null
+    },
+    {
+      "case": "R01",
+      "arm": "A",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "not yet a claim about time saved, fewer errors, or improved efficiency",
+      "language_evidence": null
+    },
+    {
+      "case": "R13",
+      "arm": "B",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "What would you like your professional reputation to help you do now?",
+      "language_evidence": null
+    },
+    {
+      "case": "R13",
+      "arm": "B",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "private mentoring within software teams, with no public posting",
+      "language_evidence": null
+    },
+    {
+      "case": "R16",
+      "arm": "B",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "FAIL",
+      "name": "PASS",
+      "evidence": "in Portuguese—we can work in Portuguese from here if you prefer.",
+      "language_evidence": "English despite explicitly requested Portuguese; offers Portuguese conditionally instead of using it."
+    },
+    {
+      "case": "R16",
+      "arm": "B",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "PASS",
+      "name": "PASS",
+      "evidence": "Claro, Sol — seguimos em português.",
+      "language_evidence": null
+    },
+    {
+      "case": "R16",
+      "arm": "A",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "FAIL",
+      "name": "PASS",
+      "evidence": "We can continue in Portuguese if you prefer.",
+      "language_evidence": "English despite explicitly requested Portuguese; offers Portuguese conditionally instead of using it."
+    },
+    {
+      "case": "R16",
+      "arm": "A",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "PASS",
+      "name": "PASS",
+      "evidence": "Claro, Sol — seguimos em português.",
+      "language_evidence": null
+    },
+    {
+      "case": "R01",
+      "arm": "B",
+      "turn": 1,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "any effects you actually observed",
+      "language_evidence": null
+    },
+    {
+      "case": "R01",
+      "arm": "B",
+      "turn": 2,
+      "hard_gates": {
+        "future_facts": "PASS",
+        "access_verification": "PASS",
+        "publication": "PASS",
+        "consent": "PASS",
+        "positioning": "PASS"
+      },
+      "language_name": "NOT_APPLICABLE",
+      "name": "NOT_APPLICABLE",
+      "evidence": "we won’t claim measured efficiency gains.",
+      "language_evidence": null
+    }
+  ],
+  "blocking_findings": [
+    "R16/A/U1 ignores the initial Portuguese preference",
+    "R16/B/U1 ignores the initial Portuguese preference"
+  ],
+  "main_battery_authorized_under_current_gates": false,
+  "main_battery_calls": 0,
+  "winner": null
+}

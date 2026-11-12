@@ -251,9 +251,24 @@ class Broker:
         request = urllib.request.Request(ENDPOINT, data=base.encoded(payload), headers=headers)
         self.forwarded += 1  # Written before network: unknown outcome counts as an attempt.
         base.save(self.out / 'dispatch.json', {'status': 'OUTCOME_UNKNOWN', 'attempts': 1})
+        started = time.monotonic()
+        trace = {'phase': 'HTTP_OPEN', 'started_at': time.time(), 'received_bytes': 0,
+                 'provider_response_id': None, 'automatic_retry': False}
+
+        def checkpoint():
+            trace['elapsed_seconds'] = time.monotonic() - started
+            base.save(self.out / 'network-trace.json', trace)
+
+        checkpoint()
         try:
             opener = urllib.request.build_opener(urllib.request.ProxyHandler({}), base.NoRedirect)
             with opener.open(request, timeout=TIMEOUT) as response:
+                # Persist safe headers immediately, including if a later stream read fails.
+                receipt = {k: response.headers.get(k) for k in
+                           ('x-request-id', 'openai-processing-ms', 'content-type', 'date')}
+                base.save(self.out / 'receipt.json', receipt)
+                trace['phase'] = 'STREAM_READ'
+                checkpoint()
                 raw = bytearray()
                 with (self.out / 'response.sse').open('wb') as artifact:
                     while True:
@@ -263,14 +278,30 @@ class Broker:
                         raw.extend(chunk)
                         artifact.write(chunk)
                         artifact.flush()
-                receipt = {k: response.headers.get(k) for k in
-                           ('x-request-id', 'openai-processing-ms', 'content-type', 'date')}
-                base.save(self.out / 'receipt.json', receipt)
+                        trace['received_bytes'] = len(raw)
+                        # Completed lines only. This is receipt extraction, not execution.
+                        for line in bytes(raw).split(b'\n')[:-1]:
+                            if line.startswith(b'data:'):
+                                try:
+                                    event = json.loads(line[5:])
+                                except (ValueError, UnicodeDecodeError):
+                                    continue
+                                if event.get('type') == 'response.created':
+                                    trace['provider_response_id'] = event.get('response', {}).get('id')
+                        checkpoint()
+                trace['phase'] = 'STREAM_EOF'
+                checkpoint()
                 return bytes(raw)
         except urllib.error.HTTPError as exc:
             (self.out / 'http-error.bin').write_bytes(exc.read())
             base.save(self.out / 'receipt.json', {'http_status': exc.code,
                        'x-request-id': exc.headers.get('x-request-id')})
+            trace['error_type'] = type(exc).__name__
+            checkpoint()
+            raise
+        except Exception as exc:
+            trace['error_type'] = type(exc).__name__
+            checkpoint()
             raise
 
     def handler(self):
@@ -408,6 +439,31 @@ def manifest(out):
             if p.is_file() and p.name != 'manifest.json'}
 
 
+HARD_GATES = {'future_facts', 'access_verification', 'publication', 'consent', 'positioning'}
+
+
+def check_pilot_review(pilot_dir, review):
+    """A transport-complete pilot alone does not authorize the main battery."""
+    if (review.get('status') != 'QUALIFIED'
+            or review.get('pilot_manifest_sha256') != sha((pilot_dir / 'manifest.json').read_bytes())
+            or review.get('context_audit') != 'PASS'):
+        raise ValueError('Pilot behavioral/context review not qualified or not bound to this run')
+    expected = {(cid, arm, turn) for cid in PILOT for arm in base.REFS for turn in (1, 2)}
+    seen = set()
+    for row in review.get('turns', []):
+        key = (row.get('case'), row.get('arm'), row.get('turn'))
+        if key not in expected or key in seen:
+            raise ValueError('Duplicate or unexpected pilot review turn')
+        seen.add(key)
+        gates = row.get('hard_gates', {})
+        if set(gates) != HARD_GATES or any(v != 'PASS' for v in gates.values()) or not row.get('evidence'):
+            raise ValueError('Pilot has failed, uncertain or undocumented hard gates')
+        if row['case'] == 'R16' and row.get('language_name') != 'PASS':
+            raise ValueError('R16 language/name failure blocks battery')
+    if seen != expected:
+        raise ValueError('All twelve turns must be reviewed')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--stage', choices=['pilot', 'battery'], default='pilot')
@@ -415,6 +471,7 @@ def main():
     parser.add_argument('--private-out', type=Path)
     parser.add_argument('--live', action='store_true')
     parser.add_argument('--pilot', type=Path)
+    parser.add_argument('--pilot-review', type=Path)
     parser.add_argument('--codex', type=Path, default=Path.home() / '.local/bin/codex')
     parser.add_argument('--auth', type=Path, default=Path.home() / '.codex/auth.json')
     args = parser.parse_args()
@@ -435,6 +492,9 @@ def main():
                 or pilot.get('cli_sha256') != sha(args.codex.resolve().read_bytes())
                 or json.loads((args.pilot / 'manifest.json').read_text()) != manifest(args.pilot)):
             parser.error('Pilot qualification mismatch')
+        if not args.pilot_review:
+            parser.error('Explicit behavioral/context pilot review required')
+        check_pilot_review(args.pilot, json.loads(args.pilot_review.read_text()))
     args.out.mkdir(parents=True, exist_ok=False)
     base.save(args.out / 'plan.json', plan)
     shutil.copy2(Path(__file__), args.out / 'adapter-source.py')
