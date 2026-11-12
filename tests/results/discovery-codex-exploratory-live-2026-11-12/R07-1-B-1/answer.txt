@@ -1,0 +1,14 @@
+For problem-solving contracts, make it easy for a buyer to recognize **a problem you can tackle**, rather than presenting yourself as a general problem-solver.
+
+Use this provisional offer structure:
+
+> “When **[specific situation]** causes **[costly problem]**, I help **[type of client]** diagnose what’s going wrong and develop **[concrete deliverable]**. Start with a fixed-scope diagnostic.”
+
+In your five minutes, write one short example:
+- **Problem:** What was stuck?
+- **Your contribution:** What did you personally investigate, decide or change?
+- **Evidence:** What result can you honestly support—or what did you learn?
+
+Then turn it into a low-risk starting offer: **a diagnostic with a clear deliverable, deadline and fee**, rather than an open-ended promise to solve everything.
+
+This is a starting framework, not a validated positioning recommendation; I don’t yet know your experience or strongest proof.

@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cefa-6dcd-7c40-81a6-ba0f425e2d8f"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"**Offer a paid diagnosis before a large project.** It gives a prospective client a smaller commitment and gives you a defined scope.\n\nUse this template:\n\n> “Before committing to a larger project, I offer a fixed-scope diagnostic of [problem]. You receive an assessment of likely causes, prioritized recommendations, and a proposed scope for any follow-on work. The diagnostic stands alone—there’s no obligation to continue.”\n\nSet the fee and timeline only after you understand the scope. Promise the assessment, not a guaranteed fix."}}
+{"type":"turn.completed","usage":{"input_tokens":7883,"cached_input_tokens":7424,"cache_write_input_tokens":0,"output_tokens":108,"reasoning_output_tokens":0}}

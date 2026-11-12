@@ -1,0 +1,8 @@
+{
+  "phase": "STREAM_EOF",
+  "started_at": 1794473435.819104,
+  "received_bytes": 148333,
+  "provider_response_id": "resp_062c752ddd6fbe7d016af57ddc419887d28e1f174148a9e8c5",
+  "automatic_retry": false,
+  "elapsed_seconds": 3.2269527909811586
+}

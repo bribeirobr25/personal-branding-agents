@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef0-4b4e-7782-a772-c2516e0e680e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood: in this fictional scenario, you redesigned shift handoffs, and the team used the checklist. That supports a claim of **adoption**, not a claim that it saved time or improved performance.\n\nA grounded description is: “Redesigned shift handoffs and introduced a checklist that the team used.”\n\nWhat would you like this story to help you achieve—a job opportunity, a stronger professional reputation, or practice describing your work?"}}
+{"type":"turn.completed","usage":{"input_tokens":4773,"cached_input_tokens":4480,"cache_write_input_tokens":0,"output_tokens":91,"reasoning_output_tokens":0}}

@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cefb-2664-7ca2-be08-df90cecaefba"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Thanks for clarifying: **one training workshop**, not multiple workshops, and **you have not approved publication**. I won’t publish anything; this environment also has no publishing capability.\n\nA more accurate CV line would be:\n\n> Facilitated one training workshop on [topic] for [audience].\n\nWe can strengthen it with your specific contribution or a documented outcome, without implying repeated experience.\n\nIs this a correction to the fictional example, or are you now describing your own experience?"}}
+{"type":"turn.completed","usage":{"input_tokens":4902,"cached_input_tokens":4480,"cache_write_input_tokens":0,"output_tokens":100,"reasoning_output_tokens":0}}

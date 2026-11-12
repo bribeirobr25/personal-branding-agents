@@ -1,0 +1,7 @@
+Offer a **paid diagnostic**, not an open-ended promise to solve a problem.
+
+Copy and adapt this:
+
+> “Before committing to a larger project, I offer a fixed-fee diagnostic of one clearly defined problem. You’ll receive a concise assessment of likely causes, the key unknowns, and a recommended next step. Any implementation is scoped and agreed separately.”
+
+It gives a buyer a bounded first purchase—and protects you from committing to a solution before you understand the problem.

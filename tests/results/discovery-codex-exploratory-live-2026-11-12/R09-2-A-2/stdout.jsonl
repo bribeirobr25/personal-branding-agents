@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1ceec-72dc-7113-bc38-31e028d45beb"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood—LinkedIn is out of scope, and I won’t request any new profiles. Permission to review the fictional CV remains in place.\n\nI don’t have the CV text yet; you can paste it here whenever you’re ready. What would you like the review to focus on—clarity, suitability for a particular role, or overall positioning?"}}
+{"type":"turn.completed","usage":{"input_tokens":4784,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":75,"reasoning_output_tokens":0}}

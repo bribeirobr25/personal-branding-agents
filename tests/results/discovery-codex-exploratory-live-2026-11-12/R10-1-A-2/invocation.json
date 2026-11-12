@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1)\n(allow default)\n(deny file-read* file-write* (subpath \"/Users\") (subpath \"/private/tmp\") (subpath \"/private/var/folders\") (subpath \"/Volumes\") (subpath \"/private/tmp/personal-branding-agents-codex-20261112\"))\n(allow file-read-metadata)\n(allow file-read* file-write* (subpath \"/private/tmp/discovery-call-b0iv6ibc\"))\n(deny network*)\n(allow network-outbound (remote ip \"localhost:53214\"))\n",
+    "/private/tmp/discovery-call-b0iv6ibc/codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--ignore-rules",
+    "--json",
+    "--color",
+    "never",
+    "-"
+  ],
+  "env": {
+    "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
+    "HOME": "/private/tmp/discovery-call-b0iv6ibc",
+    "CODEX_HOME": "/private/tmp/discovery-call-b0iv6ibc",
+    "TMPDIR": "/private/tmp/discovery-call-b0iv6ibc",
+    "LANG": "en_US.UTF-8"
+  },
+  "private_env_names": [
+    "DISCOVERY_LOOPBACK_TOKEN"
+  ],
+  "cwd": "/private/tmp/discovery-call-b0iv6ibc",
+  "stdin_sha256": "67cb335882e5775242ebf8fb00a29d4c0f0ba363fb24a9d12ec8f62fbf2bde40"
+}

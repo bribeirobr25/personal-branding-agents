@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef1-c808-7ee1-9116-82cedfe843e0"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood—LinkedIn is out of scope, and I won’t request any more profiles. Permission to review the fictional CV remains in place; I haven’t received its contents yet or accessed LinkedIn."}}
+{"type":"turn.completed","usage":{"input_tokens":7695,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":0}}

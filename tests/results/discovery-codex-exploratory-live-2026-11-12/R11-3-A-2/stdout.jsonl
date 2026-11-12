@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef7-fd26-7592-8dd1-2b2c1efa034f"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood—both percentages are excluded. The only confirmed detail, based on your account, is that you participated on the team.\n\nA suitable wording is: **“Participated as a team member on the project.”**\n\nI won’t attribute sales growth, leadership, or specific outcomes to you without further support. This is proposed wording; I haven’t edited your profile."}}
+{"type":"turn.completed","usage":{"input_tokens":4802,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":78,"reasoning_output_tokens":0}}

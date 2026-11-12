@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cefb-aeae-7721-b490-2c1a24a22c07"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood—both figures are excluded. The only supported statement, based on your confirmation, is:\n\n> “Participated as a team member in the project.”\n\nI won’t imply that you led it, caused sales growth, or achieved any particular result."}}
+{"type":"turn.completed","usage":{"input_tokens":4829,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":55,"reasoning_output_tokens":0}}

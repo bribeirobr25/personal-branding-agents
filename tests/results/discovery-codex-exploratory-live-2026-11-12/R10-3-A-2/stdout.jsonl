@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef4-2c68-7cd1-a9be-28caad5fa3b7"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood: you report running **one training workshop**, and you have **not authorized publication**. Nothing has been published, and I won’t treat CV text as permission to publish.\n\nFor this fictional CV, the plural “workshops” overstates the experience. A more accurate draft is:\n\n> Facilitated one training workshop.\n\nThat reflects your account without implying repeated experience or inventing results. What was the workshop about, and who attended?"}}
+{"type":"turn.completed","usage":{"input_tokens":4863,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":93,"reasoning_output_tokens":0}}

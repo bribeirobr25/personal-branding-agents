@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1ceee-9ce9-7c10-a115-3750364209fe"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Got it: in this fictional scenario, you redesigned shift handoffs, and the team used the checklist. That supports a claim of **adoption**, not time savings or improved performance.\n\nWhat would you like to use this example for—a résumé bullet, an interview story, a post, or something else?"}}
+{"type":"turn.completed","usage":{"input_tokens":4785,"cached_input_tokens":4480,"cache_write_input_tokens":0,"output_tokens":65,"reasoning_output_tokens":0}}

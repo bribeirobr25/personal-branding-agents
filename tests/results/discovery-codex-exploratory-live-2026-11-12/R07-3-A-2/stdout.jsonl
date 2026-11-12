@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef5-2cad-79a0-97a0-b7d30e06ed0e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Use this sentence to turn a vague opportunity into a bounded contract:\n\n> “Let’s define one problem, the evidence I’ll need, and a deliverable you can accept or reject against agreed criteria—then I’ll quote a fixed scope and fee.”\n\n**Sell a defined piece of work, not unlimited responsibility for solving everything.**"}}
+{"type":"turn.completed","usage":{"input_tokens":5050,"cached_input_tokens":4480,"cache_write_input_tokens":0,"output_tokens":70,"reasoning_output_tokens":0}}

@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef7-b92c-7e42-ba97-0a8a4e476a99"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro, Sol — vou usar esse nome e continuar em português. Você não compartilhou dados de vendas, e não vou presumir resultados comerciais.\n\nAté aqui, entendi que você quer comunicar, em português, o que aprendeu ao conduzir uma pequena livraria fictícia. Esse resumo está correto ou há algo que gostaria de ajustar?"}}
+{"type":"turn.completed","usage":{"input_tokens":4798,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":74,"reasoning_output_tokens":0}}

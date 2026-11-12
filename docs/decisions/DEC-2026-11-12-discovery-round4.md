@@ -155,3 +155,7 @@ Its historical promotion gate was not changed. Further execution requires
 specific owner authorization and an explicit versioned treatment of the clarified
 R16 oracle in that gate. No prompts, main branch, merge or release were changed.
 **HOLD remains unchanged.**
+
+## Authorized exploratory battery
+
+The separate [108-call exploratory battery](../../tests/results/discovery-codex-exploratory-evaluation-2026-11-12.md) completed and passed all 108 transport/context audits. Its versioned R16 evaluation records ambiguous conversation language as INDETERMINATE and scores names independently. The original pilot verdict remains historical. The review found no definitive behavior failures and three evidence-scope uncertainties. It preferred B in 16 pairs and A in four, with seven ties. The review was open-book and non-independent. Keep B as a candidate and retain HOLD for merge and release.

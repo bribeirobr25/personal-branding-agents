@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef8-d631-75e3-afc9-78fe400f48f1"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood—LinkedIn permission is withdrawn. I won’t review or use it, and I won’t request any new profiles. Your fictional CV remains authorized, but no CV content is present in this conversation yet.\n\nWhat would you like the CV review to help you achieve?"}}
+{"type":"turn.completed","usage":{"input_tokens":4769,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":59,"reasoning_output_tokens":0}}

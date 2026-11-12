@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1ceec-52b4-7203-86c3-b02b80f78492"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Happy to review them as fictional materials. I don’t see a CV or LinkedIn content in this conversation, and I can’t open LinkedIn or retrieve files here. You can paste the CV text and any profile sections you’d like me to examine; I’ll review them directly, without independent source verification.\n\nWhat would you like the review to help achieve—for example, a stronger job application, clearer positioning, or a consistency check? And, optionally, what should I call you?"}}
+{"type":"turn.completed","usage":{"input_tokens":4660,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":101,"reasoning_output_tokens":0}}

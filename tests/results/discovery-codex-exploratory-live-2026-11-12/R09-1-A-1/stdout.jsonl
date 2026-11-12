@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1ceee-f91f-7dc0-bff1-066c8ef7e4a7"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Happy to review them. I don’t see the fictional CV or LinkedIn content in this chat, and I can’t open external profiles or files here. You can paste the CV and any LinkedIn sections you’d like reviewed; I’ll work only from what you share.\n\nWhat would you like me to call you, and what should the review help you achieve—for example, a clearer professional story, a new role, or attracting clients? It’s fine if you’re still exploring."}}
+{"type":"turn.completed","usage":{"input_tokens":4660,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":101,"reasoning_output_tokens":0}}

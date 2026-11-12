@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1ceed-f0ee-7d43-8063-e1ff97760918"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Understood. We’ll use only **“Participated in a team sales project.”** Both percentages are excluded, and we won’t imply that you led the project or personally drove its results."}}
+{"type":"turn.completed","usage":{"input_tokens":7699,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":43,"reasoning_output_tokens":0}}

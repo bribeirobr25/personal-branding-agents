@@ -1,0 +1,1107 @@
+{
+  "status": "PASS",
+  "scope": "transport/context integrity, NOT behavioral review",
+  "checked_calls": 108,
+  "checks": [
+    {
+      "label": "R09-2-A-1",
+      "request_sha256": "70b5c9fe2dddd3111231655006fa13c6ba4ff28e6f50c39c81acaba8129a6464",
+      "response_sse_sha256": "3f9952ce2e3755b36cdea07da65eef625ac61a657e77ed087e9b3888f65f268c",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-2-A-2",
+      "request_sha256": "ac6c58f1fc57e4de825590d582dd2d32c2ee4caff5eb9e08de4ff4fe2cad6e15",
+      "response_sse_sha256": "a397473200c6bd44340559afdc9f5b8751fa09e4cab75cabec107dae81af3639",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-2-A-1",
+      "request_sha256": "8c08a5ddf57f8a67c185bda499b9f907d2f994b77580da4ed880a985eb624265",
+      "response_sse_sha256": "c3b99b6e9a4e1c92cab4d6df5a4c01a7d991b2642ddcdc952e8748b933e97623",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-2-A-2",
+      "request_sha256": "064b6e272314b46e03f7eec071af6836e81346e10c434bfbd8c71db77f63ec46",
+      "response_sse_sha256": "9d282d3f15f9903084de8de714ed2ae4b7396d5b388d9e9ee747532748fd0451",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-A-1",
+      "request_sha256": "c83d78598774f22896485a8a278293a3ab6276cbff791a2ecaaae49d3bbf782e",
+      "response_sse_sha256": "36e5e4c41f4d3850adf56f3cbe1940209e2cce3a5bcab7cfe9df4bfdaca209ee",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-A-2",
+      "request_sha256": "e5ca4f5f3625fd94756d3fda318615ea71d6245e40e35db7cfb00d5e8caa249f",
+      "response_sse_sha256": "3e3daf8048dddb394e8a264fdd2b73b4cff64182dcc9b99ff178cbd1946d5e27",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-2-A-1",
+      "request_sha256": "8510184e9085916e39f99ebb7326633bc2b425f9c14d616c7c7a2cba5d830aa0",
+      "response_sse_sha256": "9ae7bb7d082b3a15a11deb3c6ffa483e6808b638aa1da145c9ead531857ff67e",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-2-A-2",
+      "request_sha256": "9874f99382250e87dd1561c8efd8d597677106686ef909dd88f233ed4e1e6387",
+      "response_sse_sha256": "f08c556932183f466ed1aba9a9d632bdb2be8108447dd88bf00a30b2c39963ff",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-2-B-1",
+      "request_sha256": "72570ff2b1e3cd8eadd86c29a69ae401c84c379e327df4ad9c45e4c2182e88b0",
+      "response_sse_sha256": "e1dc1a23eb2e5d0501a65879bf2d87f68d1a22dc8dfbfdd446dc057ab6dce5a8",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-2-B-2",
+      "request_sha256": "25c660570f3266d6b338f9b848c2a84e9ff477d035aebd036b814e84aea2c588",
+      "response_sse_sha256": "82f443c17369765071c3daa394ccf7e6251db24aa752d93c476bc3b9ae337391",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-2-B-1",
+      "request_sha256": "10909e347b6cbb83af56414f9795f2a2eb7001897bce8b5eeea98c17033d8f33",
+      "response_sse_sha256": "80bc299d68d3a54234cdd836ca89362729a09cc5baf7652c4e269e63ae3ad8cb",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-2-B-2",
+      "request_sha256": "236fe680c8fb4159792710d4d7ebc76788fe13d5e91deb99b38c3abcad31e388",
+      "response_sse_sha256": "5e8ac30e9324faa632acfe177407d0626453f70d51de59c2920e5fe7e45d62ee",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-2-A-1",
+      "request_sha256": "96e97989e71411d5c95dd4306b66c92b43c5f30fecee49a308a60ba4fdec94ea",
+      "response_sse_sha256": "b4f8c1d013004048dd02c954c93908c91b84ab7e64b92d6ac264a7042a5d8e98",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-2-A-2",
+      "request_sha256": "0150952247d2187ccfea776a5772c8d60526a8b6de7e96c462fbb828dbaa2c77",
+      "response_sse_sha256": "c46bc8e38677f51032cb3198125b6c8e75c71cdc44e3826819833a8ce0d62ce7",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-3-B-1",
+      "request_sha256": "636a4a523da6be4d99a791a94e861d029f4e48b788c4cdf589d00e645f05263a",
+      "response_sse_sha256": "a790d39a137423befd37e4efc9a3ad823218cccf644c81e8a8a6322d1e44e5f6",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-3-B-2",
+      "request_sha256": "262d5aa0f0f5558d9958377e7fc2afa8b09b9a11424c182112f2349f57751bc9",
+      "response_sse_sha256": "cfeeb172d88f070e7b27eee28e8d3db3d38e07019631ae6e474d6b13f3ff5079",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-2-A-1",
+      "request_sha256": "a305909fb0c67ad727f506aae1b2a3853afa631cfc794376512890c4aaca18c7",
+      "response_sse_sha256": "9f53f5f27c86344c1dafbb466e9520524c66b340b2afad0c43235c99d2011c09",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-2-A-2",
+      "request_sha256": "d5e4c0755f77ac25a25718dba7b59fc6ad36b14f3cf5dcb92ec56b4d52721514",
+      "response_sse_sha256": "226b7dd76da4d643f665ab114a48ef0e868dcd4f0b08f8c3543158ca56bf8add",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-B-1",
+      "request_sha256": "636a4a523da6be4d99a791a94e861d029f4e48b788c4cdf589d00e645f05263a",
+      "response_sse_sha256": "7a7f36901812e81a5a0e9e95e52c75733931967e37faf4d313b2077d24012eb3",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-1-B-2",
+      "request_sha256": "668f12d3cd0830b48415602fae65ebdfd91f8549c3381e27583f9a9a0dee3c4e",
+      "response_sse_sha256": "c0d796412d37e7b603c5b7f290abfbefc43d53c8aea6fec6f4237d87c3c2b086",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-1-A-1",
+      "request_sha256": "70b5c9fe2dddd3111231655006fa13c6ba4ff28e6f50c39c81acaba8129a6464",
+      "response_sse_sha256": "69374afd9aa4eec8323717ea5db2f4683b4be5b1c09e8f35906577e79ccb39a7",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-1-A-2",
+      "request_sha256": "24ac3658639989fc29eedc701ebc209656598a5be1865ad1d8792e1cc71ca8ed",
+      "response_sse_sha256": "60f64eba42e21b7345fbf549841ebd2fe94e5b12591f73c93568f6d170dd6c80",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-3-B-1",
+      "request_sha256": "69669ebb28996d478dae7cb6e34f05995ae5005697646adff7f0baaa9f153987",
+      "response_sse_sha256": "d8eb76e0e28439e63ada724c5cb069f3676c839fdaca12847786963d599afc6d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-3-B-2",
+      "request_sha256": "e999fb4b047e18ac9262aaba2247b3d2bc89001da4db0e14f3a1d7017cbfcef2",
+      "response_sse_sha256": "ac2655e7a053e34e8023d803d5ed8cbb9e87ea9c047bf2d5329d7270f8eaced0",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-3-A-1",
+      "request_sha256": "c83d78598774f22896485a8a278293a3ab6276cbff791a2ecaaae49d3bbf782e",
+      "response_sse_sha256": "986321a33cbbcfcab4e3d86a582f2bf4fe69ff6d4a8c6b0897dbcfb475694213",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-3-A-2",
+      "request_sha256": "c4c47e59d5563f72161ad1bbc0996fe806f16b3d542961b86a7966c70ab710f0",
+      "response_sse_sha256": "615354196d1b3f9dc9b2eacc06dfa3328e0c6a44f1cf983e39afc97662cb3cda",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-1-B-1",
+      "request_sha256": "69669ebb28996d478dae7cb6e34f05995ae5005697646adff7f0baaa9f153987",
+      "response_sse_sha256": "75d4656afd7b609d1ff169110d73e44780abf42d246ab59aba8683db5c8c3bd3",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-1-B-2",
+      "request_sha256": "ca963149409c8bb675d0b62be8a132862d63a3d8e3377c59d1c3ffce1a0e0878",
+      "response_sse_sha256": "9158188a4626c8d2ce7a85f95a4e467b4910a611bcfd2ef613f45a0071ec0cc7",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-3-A-1",
+      "request_sha256": "a305909fb0c67ad727f506aae1b2a3853afa631cfc794376512890c4aaca18c7",
+      "response_sse_sha256": "be8ddf50341167ae3eb455994a9791b8f7e16a6ac7f630b017dc8a5fa03ac0bc",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-3-A-2",
+      "request_sha256": "2e9a634e2e6d34fed30344fffe72f3e0e931d3df12f27248a2fb2fe19cf3c1a2",
+      "response_sse_sha256": "dd27bc81ac4a1a92a9ecc7cf823fa489a9440e2d2873a88c5a97e393e625bd85",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-1-A-1",
+      "request_sha256": "808c725fa7e6b9eaa894e7feda902ba35e6d9cad69ea5d05c611b7fc64b642be",
+      "response_sse_sha256": "4dbde5b078d80da280a89dd50b279647fa1577c5fc02f707451ba202dd90eca0",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-1-A-2",
+      "request_sha256": "bea379fa0a79aa203e746fd253039b2e83a75ae60ca1cbe2216b076223990ee4",
+      "response_sse_sha256": "6f4533b79f273bc2031b0b1cca1f69c5f663c8aababc42a384b1238845292165",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-A-1",
+      "request_sha256": "dcefd7644e3e184507202ec943edda2849a224d127794eb9a6e71e7b78a319c2",
+      "response_sse_sha256": "95fa0142c2d33a9fa67787792cfc452037391deec29781241ecfd33591f13e56",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-A-2",
+      "request_sha256": "cf1d8541e6bde55192432928b6adea64a086353ba646b5d657cf828ea8c65bcc",
+      "response_sse_sha256": "2235150277a75be9e1c31ca291b406c3603f1e81f51d1f65b91dfd75bd24fc30",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-1-A-1",
+      "request_sha256": "8c08a5ddf57f8a67c185bda499b9f907d2f994b77580da4ed880a985eb624265",
+      "response_sse_sha256": "ea2d28fa82599e09ace4e24d032d75f0ba580e1078573a246b62b3dad31a3a8d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-1-A-2",
+      "request_sha256": "092b89c7224cb3c32dd4bf2abfea0ec2d2806e118bd0255ae57dd6446ef8d5b7",
+      "response_sse_sha256": "acd83df1f548e999f21aae0ba1276f6d00fa6d7a7a49ca67f3f8464bfd83ea27",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-3-B-1",
+      "request_sha256": "9c91780f2289def6c3144b0db11b44c531cdb7e67b2810fee1fb48230f0a13f8",
+      "response_sse_sha256": "4d958ac53ab069f5e6f8b910105c4c4ccb1b1a373aa500bec051fdbe6c761c65",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-3-B-2",
+      "request_sha256": "320c07a0f058f31631d334596cca12563d8573b0e91391c1fa41f332bb5910f2",
+      "response_sse_sha256": "453351d5376cb241bfcbcc543a329f9708f6040d8fe45858c3c6d2b3aba2ec58",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-2-B-1",
+      "request_sha256": "ba5ee7d4185d256ea82bfbc41b3c5a16d08d64aeabb9592c61997c79465f1259",
+      "response_sse_sha256": "ae4954df80122868a8da90227b7e9a120b318a1e39a6fa0df02994fdd7355ea5",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-2-B-2",
+      "request_sha256": "3fc1bbf5351067b0d74916c009f81f2df9d5486b8b39fa711c3fa953a9d4b9a1",
+      "response_sse_sha256": "5ff8a7bfe4c143020d8e24167ee2c2c40089b9f99046698fa4de514363139289",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-B-1",
+      "request_sha256": "ba5ee7d4185d256ea82bfbc41b3c5a16d08d64aeabb9592c61997c79465f1259",
+      "response_sse_sha256": "608b6ac2133938722a9f65a25b3838dd6c0e0c98546f510b2ba567a6c50fdd62",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-1-B-2",
+      "request_sha256": "54229b2e95e40dfecd34b51cd98c8b05903863ac3ea1d2198ec477c4237da926",
+      "response_sse_sha256": "ec6638cca8109857d41771f4feedf4f60cb71702813dcef22eca0ce796625b73",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-A-1",
+      "request_sha256": "a305909fb0c67ad727f506aae1b2a3853afa631cfc794376512890c4aaca18c7",
+      "response_sse_sha256": "5b9a9cc2708040c855466037a3eaaa298090ad137000f5f553a20ed0119deb97",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-A-2",
+      "request_sha256": "07a1c3a0e874776154b5953dee9ef29aa2eafca7c6b4e26696e5eab4912a279c",
+      "response_sse_sha256": "f62b3e42a71aa03a7cbb5f3f1f2ea183036a5e31c9163015351c2876a78f4341",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-3-B-1",
+      "request_sha256": "502bdf32340c5c884410920e07dd5ee03489318a2e590ad5aae7aa1827ce7529",
+      "response_sse_sha256": "657a8193cf029f2b2f84c44ed202160e61bbb0edff8f5830b97b7df9f0f7c2dc",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-3-B-2",
+      "request_sha256": "68b3f488e8b7c71b408372a2442c3f8fd200fa5b3cafab61bdb1a6655b123a32",
+      "response_sse_sha256": "2f629e267a44bcdeb8dca39e7157f827588a3ef51ef2fb2a1ab68421f6e8dbaa",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-3-A-1",
+      "request_sha256": "8c08a5ddf57f8a67c185bda499b9f907d2f994b77580da4ed880a985eb624265",
+      "response_sse_sha256": "183346e68439e9c61cb29c3dfd20c6721c035df231f2672e18095389eec1ba64",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-3-A-2",
+      "request_sha256": "2015ce335ae519fa4c9a944968dbafcf9485da73c1a0ca2b37ad4fe0a96ae5ae",
+      "response_sse_sha256": "849126fbf9e30bc9d46f28f80a7d63547fdfe8f3cd9fb2505ae654b27bf9d162",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-2-B-1",
+      "request_sha256": "d9e21087767834462792fcfead14c709073564e686f1a4032d5defaaa2311e5a",
+      "response_sse_sha256": "0f88dfdfe7a3c4a1f9586fec9504ae00fb5dfb9491573a471c9a52dbd43453d7",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-2-B-2",
+      "request_sha256": "3c0858f2a96a29cf8f44cfa436f48bdb7ad0bc691b4d3421bceeeac37bb75f18",
+      "response_sse_sha256": "b83726e73dfdfefded53e2b9449b43760601b9062b9427f0afbfb623e580df92",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-2-B-1",
+      "request_sha256": "9c91780f2289def6c3144b0db11b44c531cdb7e67b2810fee1fb48230f0a13f8",
+      "response_sse_sha256": "8b85da992fa5c622d58345981ba4d95d3818b05e3c9bf0e892586d873b1ba02f",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-2-B-2",
+      "request_sha256": "22460163cee36b9c98da936026aa185942408bb4c0fe8d067cf10e92e5efd91c",
+      "response_sse_sha256": "8f0efc6051760ec9b5a8e793852f5c50a3cf3b14dae5cfe29e1a810c794e62e8",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-2-B-1",
+      "request_sha256": "12d2493c31220bed8710518d1b3ef665f0d59cc216bcd5ebd6d2f47442fad223",
+      "response_sse_sha256": "4678f54df9ecc34e61b4525b43603780da0f17fd1618eaea41641afb0551cc1a",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-2-B-2",
+      "request_sha256": "99ea06f75f07128cd5f01c110c9ae9bbe88c23754e0146165bf3a019f241f751",
+      "response_sse_sha256": "d6b32dc74c0d528ef14fe6e6d4d8d03eb367ac6486858bdcbfbc9b3b44be05e1",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-3-A-1",
+      "request_sha256": "8510184e9085916e39f99ebb7326633bc2b425f9c14d616c7c7a2cba5d830aa0",
+      "response_sse_sha256": "337c25f7a5e341a48ff1d1aaf6ed6f070ea263a3f9bdd8b70b9fe79f9bf35b3a",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-3-A-2",
+      "request_sha256": "813e9c73cc384bb56115cfacbe46996012630bf1aef4ba4c44852d3a7c047c40",
+      "response_sse_sha256": "4918353abe54b998df4e4987a1cc1c03e5b3ef26511bfef6342157db49fa3d0a",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-2-B-1",
+      "request_sha256": "636a4a523da6be4d99a791a94e861d029f4e48b788c4cdf589d00e645f05263a",
+      "response_sse_sha256": "972f11b65672a0458c954aa94e06db3c185a5248857c7cede3ffefec6091c94d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-2-B-2",
+      "request_sha256": "98c8332adf9b62482187fab90130442ced4b9c53d74cf7415f3326e70cba7683",
+      "response_sse_sha256": "3f8d5a634453ee44507d579573ecb21886ea0ce25e236d78159202c636a34dd5",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-1-A-1",
+      "request_sha256": "96e97989e71411d5c95dd4306b66c92b43c5f30fecee49a308a60ba4fdec94ea",
+      "response_sse_sha256": "eb0b286a3fbd669e78216a7cead4fb7bbe5354fa827eca58d4d9d6e320228b2a",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-1-A-2",
+      "request_sha256": "d1c7a1a0112d22cf60f9940168f94474909ea8913973609b4f779a8128adf612",
+      "response_sse_sha256": "2fb66581201f5c17250725ac25f1ee04799fddb037331b2dd079b4737f4d14ef",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-3-A-1",
+      "request_sha256": "808c725fa7e6b9eaa894e7feda902ba35e6d9cad69ea5d05c611b7fc64b642be",
+      "response_sse_sha256": "e3cea953dc0ff24ca89f8143aa8407c4f9c1f31b1f56597330fdd7df0b9be01e",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-3-A-2",
+      "request_sha256": "ba89ebe0eea4f2ca7a9c6a3284242c1af123c759868bca2c802a6e1eb30dd49d",
+      "response_sse_sha256": "fc272e07bf34e7ec8c98ca9e7a4dc6aaa019a7e432844f38803bf3e5992a3491",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-3-B-1",
+      "request_sha256": "d9e21087767834462792fcfead14c709073564e686f1a4032d5defaaa2311e5a",
+      "response_sse_sha256": "a9786772fbb884f6c8cbfaa23d0ae2452e711a8d5dff7f5928c978e93e99952b",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-3-B-2",
+      "request_sha256": "779dd7eee07c46bd40add67491f69f817c5febda085f10b22a92d9b0e68fdddb",
+      "response_sse_sha256": "14011537a83775c4424c425597057d44128fe409d93670dcba1aee4533488ba5",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-1-B-1",
+      "request_sha256": "9c91780f2289def6c3144b0db11b44c531cdb7e67b2810fee1fb48230f0a13f8",
+      "response_sse_sha256": "b015735bbd82a2dd1d92c24368a103eb1a9aa04ef3ee0446bc02c5bf50bd3035",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-1-B-2",
+      "request_sha256": "c32052207f58da69068cb5709e76b81d79c938d0f8f953509d40a1aaef36388e",
+      "response_sse_sha256": "7142317ae185542f9f39e367b74b590b477f10b56387a5fbddf6d49bbd21009e",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-B-1",
+      "request_sha256": "d9e21087767834462792fcfead14c709073564e686f1a4032d5defaaa2311e5a",
+      "response_sse_sha256": "6d5ff4c2e25f3966f12f25640cfb7b925cc1a335ab6f73519f2e01421cc80d61",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R01-1-B-2",
+      "request_sha256": "fd097d7260222f83bfeb51342bbd141e2c436de9c2263141820a3baec1b312a3",
+      "response_sse_sha256": "47f79be73b88cd480ed7f9341a8751d85c1219d62e0a15c4aedb09873457a1b7",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-3-B-1",
+      "request_sha256": "10909e347b6cbb83af56414f9795f2a2eb7001897bce8b5eeea98c17033d8f33",
+      "response_sse_sha256": "19d6c3c42d77d90230290d4b3109216b46c98bbfdb2d365ae68098c02df1924d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-3-B-2",
+      "request_sha256": "f36687dbcc93cc21cab972de633efb8deb5cba377fb268be4c4ef9fe16e1f689",
+      "response_sse_sha256": "6f1b4d0f94e97a623280439d1d49f7321152df49130b4c959226602b03ef3bbf",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-1-B-1",
+      "request_sha256": "12d2493c31220bed8710518d1b3ef665f0d59cc216bcd5ebd6d2f47442fad223",
+      "response_sse_sha256": "1235d370e26940c0d9c35f390402ac407d73ac9710277f4f4f76c9e0e6b83e78",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-1-B-2",
+      "request_sha256": "fb41e144d5eddec5b824cb6b37060a24fce62c133b871b8ca1f660bc13f23322",
+      "response_sse_sha256": "cce9525ca2ac3ac75a00afb6c750bebb8c5d8df831f20c00fca3e7fa7989d7c4",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-1-B-1",
+      "request_sha256": "10909e347b6cbb83af56414f9795f2a2eb7001897bce8b5eeea98c17033d8f33",
+      "response_sse_sha256": "a1bb30b00d5b9570a1b0c89032009818ba7f3c97f89da5f34807c275f8298633",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-1-B-2",
+      "request_sha256": "c6432d63bba548de4bda557e15b2325a076fe4e09a257501b812e4b3e24dbe10",
+      "response_sse_sha256": "5007afb4d84c3d50f18a0920e40b5e316c25d56b849ced8dd60111f085465cd5",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-2-A-1",
+      "request_sha256": "808c725fa7e6b9eaa894e7feda902ba35e6d9cad69ea5d05c611b7fc64b642be",
+      "response_sse_sha256": "3e6b692fe086b5e8e66713b576a736fabf1e20cee3a4f707cfaceb6e398f9098",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-2-A-2",
+      "request_sha256": "05ec09266a171b7d85ba3b95219bc8f0d18be5e25d22c75eb2f6639279ac3d5f",
+      "response_sse_sha256": "53eca480479dbdd43792d236cb98dcae981f3b6c7c8384adf97b0b9c29622523",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-3-A-1",
+      "request_sha256": "dcefd7644e3e184507202ec943edda2849a224d127794eb9a6e71e7b78a319c2",
+      "response_sse_sha256": "17ce3f6ef39d2142a13220015734a96d405a08a1a5cf2f5ab12edc7855e8cb7d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-3-A-2",
+      "request_sha256": "6b13a71a5f0216a9652da9c543760c3e720b9a7ee703cc42aedff6731db9ca5e",
+      "response_sse_sha256": "b4abf31d51405b3bd880ad66afa4c0cf6c6d260778608dbe8fce4b20c37c2367",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-3-A-1",
+      "request_sha256": "c098f9cd1d9efc1c75349741ec57082c43f4bb340f2a4412ac220794707cde6a",
+      "response_sse_sha256": "11f8841119250caefb7ee03ca1196e81b2704fa989e69a77e7d4183a236d4e02",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-3-A-2",
+      "request_sha256": "24831d6526fd7e90d3c4c1403ec125b0c87b1a6f35cc51395641ac3216a05ff2",
+      "response_sse_sha256": "1b70260d2bdf76d1232f2e7c32d52a562cc5ecf2353447a39d35bbb22a3a366b",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-1-A-1",
+      "request_sha256": "c098f9cd1d9efc1c75349741ec57082c43f4bb340f2a4412ac220794707cde6a",
+      "response_sse_sha256": "bb00750aef61fafbe6a1f5c06655ce4d5b13e86c36d70fcb7a0175916d9648bb",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-1-A-2",
+      "request_sha256": "cb65e77ab47a9ace04ac0f03421ca0a65e51f09f81691dace213349be03a61a2",
+      "response_sse_sha256": "acbacedcea2c52697218384b22753c575c711c3dbde5feefa5e71efcdbc8156b",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-3-B-1",
+      "request_sha256": "72570ff2b1e3cd8eadd86c29a69ae401c84c379e327df4ad9c45e4c2182e88b0",
+      "response_sse_sha256": "2f912c7c5c8c19628b859cf7a0eafdd6223a78419b96e47d1e1f152b1b202479",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-3-B-2",
+      "request_sha256": "96bd2b58e6d9a6596439e698843028773316495d9c78d30603eee3058c21492d",
+      "response_sse_sha256": "e00a43025e76ceff611c9713fa0e63ed1b6c898b757fca372a270b1640ba919a",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-3-A-1",
+      "request_sha256": "70b5c9fe2dddd3111231655006fa13c6ba4ff28e6f50c39c81acaba8129a6464",
+      "response_sse_sha256": "9408f331eb321aec673591bbc10ec545d44bcda116ed5010ceae66056bf98201",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R09-3-A-2",
+      "request_sha256": "c93f22c4a7272e5e7a975b47b81aeb497e8c8472bc11b527e5b02445f8b81838",
+      "response_sse_sha256": "c92326fbc6e918188d0ad9cae71ca1fc1778c40ae1a5fb2f02e4acabf5952440",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-2-B-1",
+      "request_sha256": "69669ebb28996d478dae7cb6e34f05995ae5005697646adff7f0baaa9f153987",
+      "response_sse_sha256": "e66fca069e1056be6bde31c1a8d981e44289323e928c1549a27198802e75e967",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-2-B-2",
+      "request_sha256": "eacbdfa6ebe27ded5c3c920423410957fed1b3d903353b2774d19064487f6030",
+      "response_sse_sha256": "fa7da89d761bc57bd7aa98b51d4b654c93542e2fb6509452bcf2974d1b297ab4",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-3-B-1",
+      "request_sha256": "12d2493c31220bed8710518d1b3ef665f0d59cc216bcd5ebd6d2f47442fad223",
+      "response_sse_sha256": "b932974b0f91b8f07c71efa23a46cbe275fdaa54e926ddf3009798a74f37da5d",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-3-B-2",
+      "request_sha256": "717a3d7c036b8fbaebe862b4316e317185a2ac16062ac2bea3c94a74cc3854d3",
+      "response_sse_sha256": "e661eacce495e56206d3da6e2e974ef25452d49cbe5691ec20a0e9546b983328",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-1-B-1",
+      "request_sha256": "72570ff2b1e3cd8eadd86c29a69ae401c84c379e327df4ad9c45e4c2182e88b0",
+      "response_sse_sha256": "eb448d99df8965d0bbb809955c14cee4806d11d443c45cec9aa5cbf019489347",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R03-1-B-2",
+      "request_sha256": "538d382fc31e8196881659ea5a079572f815d547336b7f4f12a91a130652453b",
+      "response_sse_sha256": "1bfa3d37bb7e2c7c139a8e4ef187551f9028bf4e268cc76eadb7dbf0d3a85123",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-2-A-1",
+      "request_sha256": "c83d78598774f22896485a8a278293a3ab6276cbff791a2ecaaae49d3bbf782e",
+      "response_sse_sha256": "50fb7c525620a394c2320a9f243ad5fbcc4d259a9f6a5cedb648ac80397a20dc",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R13-2-A-2",
+      "request_sha256": "dc2adf5b23a11e34be44e6cb7c6d9e719c81c47674920bc294af803f34f28d42",
+      "response_sse_sha256": "938228f85de1deb80d5bb002192b104b4cd66936088e5e14189ed90bb00da6ed",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-2-B-1",
+      "request_sha256": "502bdf32340c5c884410920e07dd5ee03489318a2e590ad5aae7aa1827ce7529",
+      "response_sse_sha256": "7dd7e493fd0da81731cca946d0bc217ffa52ad0ff3f643740d0f773f4d2d4e6b",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-2-B-2",
+      "request_sha256": "5bc932e5148a73bed316aec58e2773cb111752fd158df0853f5cba6e66acd571",
+      "response_sse_sha256": "566bcf285615f098b67302ed91d5997bad30cb51adb8602d6a1a7af59628a2bf",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-3-A-1",
+      "request_sha256": "96e97989e71411d5c95dd4306b66c92b43c5f30fecee49a308a60ba4fdec94ea",
+      "response_sse_sha256": "077fbaf72c9d9738d9a5374fed4aeac5d23ba6f04caa150563c096ee7a314b86",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R14-3-A-2",
+      "request_sha256": "a760bd51cae53ca1774c6b7b2fedc890d0714d2148d2195fbb5c880e7e1eba7b",
+      "response_sse_sha256": "93a63ef17aab453c32f84b24c013368da0c1027258dbc12bd3ad16200383070e",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-1-A-1",
+      "request_sha256": "8510184e9085916e39f99ebb7326633bc2b425f9c14d616c7c7a2cba5d830aa0",
+      "response_sse_sha256": "e11d1f1a7daf320f6b0405835fef02e8020365e465d4a2ace53083f689f3311e",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R10-1-A-2",
+      "request_sha256": "f3afc2cf950c84aad7b8f1cfe19f1369d94241d9d4bd980cf4b6ab157de14853",
+      "response_sse_sha256": "427a4bc2ae0ca29a555d3e4cbbdf9c3d8c52803402ed351b80862ea27d031824",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-3-B-1",
+      "request_sha256": "ba5ee7d4185d256ea82bfbc41b3c5a16d08d64aeabb9592c61997c79465f1259",
+      "response_sse_sha256": "db1baa23b420b6f0c9146d0aaa16f9df1c21c9acb2a5254be891767093b0cce9",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-3-B-2",
+      "request_sha256": "1957cb980cb3043088e9051b2e5073510c1dade0098b69795bd02494fcb30d04",
+      "response_sse_sha256": "3ed9238e84121907e57b97906c17b33b237f62a00c8c6866cfe172988f56e8e0",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-2-A-1",
+      "request_sha256": "c098f9cd1d9efc1c75349741ec57082c43f4bb340f2a4412ac220794707cde6a",
+      "response_sse_sha256": "3df63d3087d0ab54cf4d016baa243245ab488711e73df16a97f9704a4aceb989",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R11-2-A-2",
+      "request_sha256": "dc9a737d8ba8f2313548e45a4e98eb5de79bcccd19247c8270e5c3926686b6fa",
+      "response_sse_sha256": "c5ac79c893080d846552ab92dfe7121662b922fa1b9c1ee24c7f8aa7a8af0405",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-2-A-1",
+      "request_sha256": "dcefd7644e3e184507202ec943edda2849a224d127794eb9a6e71e7b78a319c2",
+      "response_sse_sha256": "781ee2ced7c4175774f0c0ae39c75f10bc19267e74d84f300a9d30f64c26cc53",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R16-2-A-2",
+      "request_sha256": "8d43530b730ca6edcee9e840e29a259babdd5addd6cda0806d9b365f6a66102c",
+      "response_sse_sha256": "0f9fff497936f20924a643dab4d69e63ee75fa37a1e65b08b64b607554531c44",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-1-B-1",
+      "request_sha256": "502bdf32340c5c884410920e07dd5ee03489318a2e590ad5aae7aa1827ce7529",
+      "response_sse_sha256": "7794d6b26c9ae50a0cfa01482f1319f5fe926a91813ef116c80b3a54e36d2754",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    },
+    {
+      "label": "R07-1-B-2",
+      "request_sha256": "74253c7e0e56de4dfd2b851ac6384dbf2e5a0f2c01acd294b9621d702291424c",
+      "response_sse_sha256": "37627d84ee5d3b4bb16c5788c9298b839cfaafae11c0c65194ac59d99086cb48",
+      "current_turn_and_own_actual_history": "PASS",
+      "tools_empty": "PASS",
+      "frozen_prompt": "PASS",
+      "os_controls": "PASS",
+      "billing_preflight": "PASS"
+    }
+  ],
+  "aggregate": {
+    "A": {
+      "calls": 54,
+      "words": 4198,
+      "input_tokens": 256132,
+      "output_tokens": 5680,
+      "median_seconds": 8.460214603925124
+    },
+    "B": {
+      "calls": 54,
+      "words": 3112,
+      "input_tokens": 413003,
+      "output_tokens": 4298,
+      "median_seconds": 7.846585895982571
+    }
+  },
+  "outcome_unknown": [],
+  "not_sent": [],
+  "behavioral_winner": null,
+  "independent_review": "NOT_RUN"
+}

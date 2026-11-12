@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef2-1451-7e21-9ff1-0f27e22ddc51"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Claro, Sol — seguimos em português. Você não compartilhou dados de vendas; não vou presumir números nem resultados.\n\nSó para esclarecer: a livraria é imaginária, usada para contar histórias, ou é uma loja real especializada em ficção?"}}
+{"type":"turn.completed","usage":{"input_tokens":7685,"cached_input_tokens":7424,"cache_write_input_tokens":0,"output_tokens":56,"reasoning_output_tokens":0}}

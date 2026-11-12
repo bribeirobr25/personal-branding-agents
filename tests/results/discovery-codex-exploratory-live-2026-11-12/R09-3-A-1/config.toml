@@ -1,0 +1,41 @@
+project_doc_max_bytes = 0
+web_search = "disabled"
+personality = "none"
+cli_auth_credentials_store = "file"
+check_for_update_on_startup = false
+model = "gpt-6.1-sol"
+model_provider = "bounded"
+model_instructions_file = "/private/tmp/discovery-call-28w5sdrp/instructions.txt"
+[model_providers.bounded]
+name = "Bounded ChatGPT CLI transport"
+base_url = "http://127.0.0.1:53065/v1"
+wire_api = "responses"
+requires_openai_auth = false
+env_key = "DISCOVERY_LOOPBACK_TOKEN"
+request_max_retries = 0
+stream_max_retries = 0
+supports_websockets = false
+[features]
+shell_tool = false
+unified_exec = false
+apps = false
+plugins = false
+remote_plugin = false
+hooks = false
+memories = false
+multi_agent = false
+skill_search = false
+shell_snapshot = false
+image_generation = false
+browser_use = false
+computer_use = false
+code_mode = false
+code_mode_host = false
+tool_suggest = false
+workspace_dependencies = false
+[skills]
+bundled.enabled = false
+include_instructions = false
+[memories]
+use_memories = false
+generate_memories = false

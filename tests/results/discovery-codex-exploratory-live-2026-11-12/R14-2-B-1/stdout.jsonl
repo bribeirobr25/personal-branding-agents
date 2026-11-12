@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef3-bba1-7d53-969d-6e4e974b086b"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"We can focus on your product-management work and leave the conference talk out. Its date remains unresolved—2022 in the fictional bio versus 2023 in the CV—but that needn’t block an unrelated discussion.\n\nWhat’s one product you’ve worked on, and what was your role in shaping it?"}}
+{"type":"turn.completed","usage":{"input_tokens":7605,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":65,"reasoning_output_tokens":0}}

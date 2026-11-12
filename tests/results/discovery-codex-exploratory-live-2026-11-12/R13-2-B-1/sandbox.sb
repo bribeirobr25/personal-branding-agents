@@ -1,0 +1,7 @@
+(version 1)
+(allow default)
+(deny file-read* file-write* (subpath "/Users") (subpath "/private/tmp") (subpath "/private/var/folders") (subpath "/Volumes") (subpath "/private/tmp/personal-branding-agents-codex-20261112"))
+(allow file-read-metadata)
+(allow file-read* file-write* (subpath "/private/tmp/discovery-call-mkfj7n_j"))
+(deny network*)
+(allow network-outbound (remote ip "localhost:52733"))

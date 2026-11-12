@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cefc-4f23-75e1-95af-93b7df03fe96"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Offer a **paid diagnostic**, not an open-ended promise to solve a problem.\n\nCopy and adapt this:\n\n> “Before committing to a larger project, I offer a fixed-fee diagnostic of one clearly defined problem. You’ll receive a concise assessment of likely causes, the key unknowns, and a recommended next step. Any implementation is scoped and agreed separately.”\n\nIt gives a buyer a bounded first purchase—and protects you from committing to a solution before you understand the problem."}}
+{"type":"turn.completed","usage":{"input_tokens":7800,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":98,"reasoning_output_tokens":0}}

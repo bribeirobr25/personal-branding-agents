@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a1cef9-3150-7f31-bc24-d63621c49e84"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `gpt-6.1-sol` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"Thanks for clarifying. The accurate CV wording is:\n\n> Ran one training workshop.\n\nThis avoids implying multiple workshops or unsupported outcomes. I’m treating this as your statement, not an independently verified achievement. You have not approved publication, and nothing has been published."}}
+{"type":"turn.completed","usage":{"input_tokens":7750,"cached_input_tokens":7424,"cache_write_input_tokens":0,"output_tokens":56,"reasoning_output_tokens":0}}
