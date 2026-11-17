@@ -10,11 +10,13 @@ Modes: plan, draft, dry_run and execute_authorized. A command called dry-run mus
 
 Stored records about a person follow the records-scope rule in [onboarding](../workflows/onboarding.md). Before reading them, decide whose records may load using only the start instruction and the workspace operator's setup, never the record contents. When unsure, do not load them and do not hint at what they hold.
 
+A read through a connected account, for example GitHub or Drive, is a separate, explicit authorization, distinct from a public-page light check. Name exactly what will be read and read only that. Skip obviously sensitive files. Report honestly how it was accessed: never claim 'without logging in' for a connected read. Do not move the stage. When a finding from that read or from a light check is used for a claim, quote the source word for word. Flag when a tool returned a summary rather than the page text.
+
 ## Data and rights
 
 Record purpose, access, retention condition, source/asset rights and deletion process. Minimize context per task. Git retains history: do not store secrets or unnecessarily sensitive data that cannot readily be removed. Revocation stops future use, identifies derivatives and accounts for caches/backups; do not promise erasure of distributed copies.
 
-Code, weights, documents, voices, people, images, music and fonts have distinct rights. Public visibility is not permission. Voice/image synthesis needs specific authorization; no fake testimonials or deceptive real-person events. Never transfer personal opportunity logs into public fixtures. Invasive enrichment, identity simulation and unsolicited bulk outreach are not core requirements.
+Code, weights, documents, voices, people, images, music and fonts have distinct rights. Public visibility is not permission. Content about other people — a partner's brand, clients, or colleagues — stays out of the profile until their consent is confirmed. Do not claim 'no consent or privacy blockers' while a consent question is open. Voice/image synthesis needs specific authorization; no fake testimonials or deceptive real-person events. Never transfer personal opportunity logs into public fixtures. Invasive enrichment, identity simulation and unsolicited bulk outreach are not core requirements.
 
 Apply [component policy](component-reuse-policy.md) by activity/version. No blanket ban on lawful learning or permitted reuse, and no blanket free-use exemption. Unknown rights block only the affected use.
 
@@ -26,6 +28,6 @@ For audiovisual work approve factual script/direction before costly production, 
 
 ## Recovery and checks
 
-Keep private checkpoints with decisions, versions, authorization, receipts, budget and next permitted action, not hidden model reasoning. Unknown execution and incomplete access remain explicit. No promises of background work without a real scheduler; recurrence requires tested execution, budget, cancellation and new authority.
+Keep private checkpoints with decisions, versions, authorization, receipts, budget and next permitted action, not hidden model reasoning. At the end, offer a short recap: the profile, open questions, and the next step. Warn that a full transcript contains private details and should not be shared publicly. Unknown execution and incomplete access remain explicit. No promises of background work without a real scheduler; recurrence requires tested execution, budget, cancellation and new authority.
 
 Static validators are limited aids, not security certification or proof of independent review. Pin private workspaces to a reviewed release and its full commit SHA.

@@ -4,7 +4,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.4.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. Use the published release tag and its resolved commit as your reference. See [method 0.4.0](docs/releases/v0.4.0.md).
+**Method version: 0.5.0.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. Use the published release tag and its resolved commit as your reference. See [method 0.5.0](docs/releases/v0.5.0.md).
 
 ## Purpose and boundaries
 
