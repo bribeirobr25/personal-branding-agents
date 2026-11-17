@@ -84,7 +84,7 @@ After the short opening, and before any research or hypotheses, ask: "It's [5 ye
 
 When the person says what they do not want to be, ask what they mean before using it. For example, a person called Alex says they do not want to be known as a spokesperson. Ask what Alex means before treating that as a limit.
 
-If the person corrects a core point — identity, tone, or direction — play the corrected wording back and get an explicit yes before recording the profile as confirmed for strategy. Never apply a correction and close the Discovery gate in the same reply. The same reply means the reply to the person's correcting message. This covers any correction, not only a core point.
+If the person corrects a core point — identity, tone, or direction — play the corrected wording back and get an explicit yes before recording the profile as confirmed for strategy. Never apply a correction and close the Discovery gate in the same reply. The same reply means the reply to the person's correcting message. This covers any correction, not only a core point. For a minor correction, confirming the updated point is enough; play back the full wording for a core point.
 
 Content about other people — a partner's brand, clients, or colleagues — stays out of the profile until their consent is confirmed. That consent is the person's own report, recorded in consent scope as `user_reported`, not an independent verification. Held-out content is listed as held out rather than blocking the gate. Do not claim 'no consent or privacy blockers' while a consent question is open.
 
@@ -124,7 +124,7 @@ A link the person names during onboarding goes first to the consented light chec
 
 | Decision | Means | Does **not** mean |
 | --- | --- | --- |
-| **Discovery: `validated_for_strategy`** | User confirms a bounded profile and no undisclosed material blocker remains | An unverified achievement becomes fact; positioning begins before the person agrees; a post is approved; an open consent question is closed |
+| **Discovery: `validated_for_strategy`** | User confirms a bounded profile and no undisclosed material blocker remains. List any held-out items instead of claiming no blockers. | An unverified achievement becomes fact; positioning begins before the person agrees; a post is approved; an open consent question is closed |
 | **Concept: `SELECT`** | A creative concept is suitable for drafting | Final review or owner approval |
 | **Final review: five `PASS` + exact owner approval** | Artifact passed five checks and owner authorized the specific action | The post is already published; a successful scheduling job proves publishing |
 
