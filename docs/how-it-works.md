@@ -1,6 +1,6 @@
 # How it works: from your first conversation to outcomes
 
-**Applies to:** public Personal Branding Agents method **v0.5.0** (prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime.
+**Applies to:** public Personal Branding Agents method **v0.5.1** (prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime.
 
 ## In one minute
 
