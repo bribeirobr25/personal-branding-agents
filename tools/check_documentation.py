@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-METHOD_VERSION = "0.5.1"
+METHOD_VERSION = "0.5.2"
 CONTRACT_VERSION = "0.2.0"
 
 
