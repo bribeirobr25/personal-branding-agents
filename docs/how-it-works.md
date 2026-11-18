@@ -39,8 +39,8 @@ flowchart TD
     G -->|Corrections| H["Update only affected claims and permissions"]
     H --> F
     G -->|Not yet / in a hurry| I["One limited useful next step; Discovery pending"]
-    G -->|Explicit confirmation + no material blocker| ASK["Ask whether to begin positioning"]
-    ASK -->|Person agrees| J["5. Positioning Strategist: options and GoalMap"]
+    G -->|Explicit confirmation + no material blocker| ASK["Closing Discovery: profile, held out, open questions, labelled directions, one question"]
+    ASK -->|Person chooses a direction| J["5. Positioning Strategist: options and GoalMap"]
     J --> K{"User validates direction?"}
     K -->|Adjust| J
     K -->|Yes| L["6. Storyteller: story and evidence"]
