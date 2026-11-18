@@ -1,6 +1,6 @@
 # How it works: from your first conversation to outcomes
 
-**Applies to:** public Personal Branding Agents method **v0.5.2** (prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime.
+**Applies to:** public Personal Branding Agents method **v0.5.3** (prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime.
 
 ## In one minute
 
@@ -88,7 +88,9 @@ If the person corrects a core point — identity, tone, or direction — play th
 
 Content about other people — a partner's brand, clients, or colleagues — stays out of the profile until their consent is confirmed. Ask that consent question in the first reply after the material appears. Do not stack it with the proof-points line or the validation question. That consent is the person's own report, recorded in consent scope as `user_reported`, not an independent verification. Name the held-out items and say the gate can close with them held out, never that nothing blocks. Do not claim 'no consent or privacy blockers' while a consent question is open.
 
-After the Discovery gate closes, follow [Closing Discovery](../workflows/onboarding.md#closing-discovery): the confirmed profile, separating what sources showed from what the person said; held-out items, each with what would resolve it; open questions; labelled directions that never mention a held-out item, even conditionally; and one question that includes an "or stop here" option, then wait. If the person answers "a mix", ask which part to explore first.
+After the Discovery gate closes, follow [Closing Discovery](../workflows/onboarding.md#closing-discovery): the confirmed profile, separating what sources showed from what the person said; held-out items, each with what would resolve it; open questions; labelled directions that never mention a held-out item, even conditionally, and that may be labelled refresh or change of direction; and one question that includes an "or stop here" option, then wait. If the person answers "a mix", ask which part to explore first.
+
+Five asks are optional and happen once, with no fixed count, and none is a gate. When you summarize existing public presence, from a public read or a connected read, add a tentative read of what it connects the person with today, and let them say keep, refresh, or move away. If that summary is already the validation reply, keep the sentence and ask once later. If they say they will never do something, ask whether that is a lasting conviction or a current feeling, and record which as `user_reported`. You may ask what people already come to them for, recorded as `user_reported`, paraphrased by default with no names; a third party's verbatim words only with that third party's consent, and never in a public file or example. If they tell a story as proof, ask what made it work there and where it might not work. If the goal sounds like a mission, ask once about their own outcome. Do not stack these asks with consent, proof points, validation, or the future-self question, and do not put them in the first message.
 
 At the end, offer a short recap: the profile, open questions, and the next step. Warn that a full transcript contains private details and should not be shared publicly.
 
@@ -151,7 +153,7 @@ The five final gates are **factual accuracy, strategic relevance, editorial clar
 7. **User:** approves a particular artifact, version and intended destination. Only then may the separately supported action occur.
 8. **Performance Analyst:** interprets real responses and recommends one next experiment, without treating impressions as business results.
 
-## What ships in v0.5.2, and what does not
+## What ships in v0.5.3, and what does not
 
 **Shipped:** portable role prompts, two workflows, contracts, templates, fictional examples and static documentation validation. **Not shipped:** an autonomous orchestrator service, independent worker runtime, live account connectors, scheduler, guaranteed long-term memory, social posting service or automatic analytics. The host may supply tools, but their availability and authority must be established, not assumed.
 
@@ -169,4 +171,8 @@ Method 0.5.1 adds Discovery fixes from a test run, and contract version stays 0.
 
 Method 0.5.2 adds Discovery wording fixes, and contract version stays 0.2.0 ([method 0.5.2](releases/v0.5.2.md)). It does not change positioning.
 
-**Further reading:** [architecture](architecture.md) · [delegation contracts](agent-contracts.md) · [onboarding](../workflows/onboarding.md) · [content cycle](../workflows/content-cycle.md) · [quality gates](quality-gates.md) · [version 0.5.2](releases/v0.5.2.md).
+## What 0.5.3 adds
+
+Method 0.5.3 adds five optional Discovery asks, and contract version stays 0.2.0 ([method 0.5.3](releases/v0.5.3.md)). It does not change positioning.
+
+**Further reading:** [architecture](architecture.md) · [delegation contracts](agent-contracts.md) · [onboarding](../workflows/onboarding.md) · [content cycle](../workflows/content-cycle.md) · [quality gates](quality-gates.md) · [version 0.5.3](releases/v0.5.3.md).
