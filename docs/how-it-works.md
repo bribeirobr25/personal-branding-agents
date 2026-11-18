@@ -88,7 +88,7 @@ If the person corrects a core point — identity, tone, or direction — play th
 
 Content about other people — a partner's brand, clients, or colleagues — stays out of the profile until their consent is confirmed. That consent is the person's own report, recorded in consent scope as `user_reported`, not an independent verification. Held-out content is listed as held out rather than blocking the gate. Do not claim 'no consent or privacy blockers' while a consent question is open.
 
-After the Discovery gate closes, ask whether to begin positioning. Give no unrequested positioning statements. If a phase is not built in the method yet, say so plainly and label any output provisional.
+After the Discovery gate closes, follow [Closing Discovery](../workflows/onboarding.md#closing-discovery): the confirmed profile, held-out items, open questions, labelled directions, and one question, then wait.
 
 At the end, offer a short recap: the profile, open questions, and the next step. Warn that a full transcript contains private details and should not be shared publicly.
 
@@ -104,7 +104,7 @@ At the end, offer a short recap: the profile, open questions, and the next step.
 | “I don't want to share documents.” | Continue by conversation, label reports correctly | Researcher optional; no unauthorized access |
 | “I do not want to be known as a spokesperson.” | Ask what they mean before using that limit. A person called Alex saying this is not yet a positioning rule. | None |
 | “My role in that project was different.” | The person's current words win for this run. This covers facts about the person, never records scope, access or consent. Append a user correction. Do not edit the prior log or decision record. Update only affected claims. If the correction changes identity, tone, or direction, play the corrected wording back and get an explicit yes. Do not close the Discovery gate in the same reply. The same reply means the reply to the person's correcting message. This covers any correction, not only a core point. | Researcher if new evidence is needed and that step is authorized |
-| “Yes, this profile represents me.” | Check explicit bounded confirmation and material evidence/consent blockers. Third-party consent is the person's own report, recorded in consent scope as `user_reported`, not an independent verification. Held-out content is listed as held out rather than blocking the gate. Do not claim 'no consent or privacy blockers' while a consent question is open. If this reply also applies a correction, do not close the gate yet. The same reply means the reply to the person's correcting message. This covers any correction, not only a core point. If the gate closes, ask whether to begin positioning, and give no positioning statement they did not request. | Positioning Strategist only after they agree |
+| “Yes, this profile represents me.” | Check explicit bounded confirmation and material evidence/consent blockers. Third-party consent is the person's own report, recorded in consent scope as `user_reported`, not an independent verification. Held-out content is listed as held out rather than blocking the gate. Do not claim 'no consent or privacy blockers' while a consent question is open. If this reply also applies a correction, do not close the gate yet. The same reply means the reply to the person's correcting message. This covers any correction, not only a core point. If the gate closes, follow [Closing Discovery](../workflows/onboarding.md#closing-discovery): the confirmed profile, held-out items, open questions, labelled directions, and one question, then wait. | Positioning Strategist only after they agree |
 | End of the session | Offer a short recap: the profile, open questions, and the next step. Warn that a full transcript contains private details and should not be shared publicly. | None |
 | “I prefer private mentoring over public visibility.” | Update goal; don't force a publishing plan | Positioning Strategist |
 | “Tell the story behind this decision.” | Preserve actual role, choice, observation and lesson | Storyteller |
@@ -150,7 +150,7 @@ The five final gates are **factual accuracy, strategic relevance, editorial clar
 7. **User:** approves a particular artifact, version and intended destination. Only then may the separately supported action occur.
 8. **Performance Analyst:** interprets real responses and recommends one next experiment, without treating impressions as business results.
 
-## What ships in v0.5.0, and what does not
+## What ships in v0.5.1, and what does not
 
 **Shipped:** portable role prompts, two workflows, contracts, templates, fictional examples and static documentation validation. **Not shipped:** an autonomous orchestrator service, independent worker runtime, live account connectors, scheduler, guaranteed long-term memory, social posting service or automatic analytics. The host may supply tools, but their availability and authority must be established, not assumed.
 
@@ -160,8 +160,8 @@ Actual personal data, source links, transcripts, evidence, approvals and perform
 
 Method 0.4.0 added the onboarding lessons on this page, including the short-opening rule from a real run. Contract version stays 0.2.0. Templates and the shared lifecycle are unchanged. See [method 0.4.0](releases/v0.4.0.md). The prior Discovery note remains [method 0.3.0](releases/v0.3.0.md).
 
-## What 0.5.0 adds
+## What 0.5.1 adds
 
-Method 0.5.0 adds the onboarding fixes on this page from a live test run of v0.4.0. It keeps the short opening and exceptions (a)-(d). Contract version stays 0.2.0. Templates and the shared lifecycle are unchanged. See [method 0.5.0](releases/v0.5.0.md).
+Method 0.5.1 adds Discovery fixes from a test run, and contract version stays 0.2.0 ([method 0.5.1](releases/v0.5.1.md)).
 
-**Further reading:** [architecture](architecture.md) · [delegation contracts](agent-contracts.md) · [onboarding](../workflows/onboarding.md) · [content cycle](../workflows/content-cycle.md) · [quality gates](quality-gates.md) · [version 0.5.0](releases/v0.5.0.md).
+**Further reading:** [architecture](architecture.md) · [delegation contracts](agent-contracts.md) · [onboarding](../workflows/onboarding.md) · [content cycle](../workflows/content-cycle.md) · [quality gates](quality-gates.md) · [version 0.5.1](releases/v0.5.1.md).
