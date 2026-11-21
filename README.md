@@ -4,7 +4,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.6.0.** Contract version: 0.3.0. This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. See [method 0.6.0](docs/releases/v0.6.0.md). **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+**Method version: 0.6.0.** Contract version: 0.3.0. Use the published release tag and its resolved commit as your reference. This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. See [method 0.6.0](docs/releases/v0.6.0.md). **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
 ## Purpose and boundaries
 

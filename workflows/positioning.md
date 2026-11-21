@@ -248,7 +248,7 @@ Positioning reads what already exists. It adds no new intake form, and it doesn'
 | Consent scope | Discovery checkpoint | Unchanged. Third-party material stays out until consent is reported, and that consent is recorded as `user_reported`. |
 | Capacity constraints mentioned so far | GoalMap constraints | Constraints only. Not a channel plan. |
 
-**Optional inputs Positioning may ask for, once each and not as gates.** Draft open question 6 is unanswered, so these stay optional. They are not required, and they are not dropped:
+**Optional inputs Positioning may ask for, once each and not as gates.** Open question 6 (§9) is unanswered, so these stay optional. They are not required, and they are not dropped:
 
 - How work usually finds the person now: being seen in public, or people who already know them. Kinds only, no names, numbers or money.
 - What they'd still choose to work on years from now, even with little attention. A check on staying power, not a gate.
@@ -418,7 +418,7 @@ Applied here as the shape of the private working copy in §4.2. The blank public
 
 - **"Here's what I'd weigh, you decide."** The Orchestrator lays out the options, what supports each one, what each gives up, and which it would lean toward and why. Recommend by (a) strength of evidence, (b) fit with the stated outcome and route, and (c) who already reaches the person. Say which of those decided it. The person chooses. A recommendation is labelled as one.
 - **No lecturing and no moralizing.** Explain a concept in a sentence or two only when the next choice depends on it. Don't tell the person what a "real" brand needs.
-- **No universal formulas.** There is no required number of audiences, pillars, candidates, proof points or steps, and no fill-in sentence. Give as many options as the evidence supports, which may be one, or none with the reason. Draft open question 4 asked about a soft upper limit. None is added.
+- **No universal formulas.** There is no required number of audiences, pillars, candidates, proof points or steps, and no fill-in sentence. Give as many options as the evidence supports, which may be one, or none with the reason. Open question 4 (§9) asked about a soft upper limit. None is added.
 - **Trust from examinable work.** Prefer proof that someone could look at and judge for themselves (decisions, write-ups, artifacts, how a problem was reasoned through) over titles, employers or status. A title is context. It is not proof of individual contribution.
 - **Routes are the person's.** Don't assume audience growth, a funnel or a course is the route. Relationship routes (partnerships, consulting, advisory, speaking, building ventures) are as valid as products or employment. Keep any route open that the person hasn't declined.
 - **Learning is a valid position.** A person can position around what they are learning or building, labelled honestly, without claiming expertise they don't have.
@@ -566,7 +566,7 @@ The close should still be short. One line per item is the default, and an empty 
 - Record `positioned` and the validated version. Keep earlier versions, because a positioning is revisable. A material change creates a new version that needs its own validation (§6.1).
 - The handoff note says what the next phase may use, what it must not use, and what it inherits as open (including Discovery's carried-forward questions). If the validated wording is `warned`, the handoff carries that wording with each of its risks. Any `may_use` entry that is `warned` wording carries a required risk note for each risk. A `may_use` entry that rests on a self-reported figure or fact carries `self-reported this session, not verified`. `may_use` does not list set-aside wording. Set-aside wording goes to `must_not_use`, or it is omitted. `may_use` does not list a company or team result worded as a personal result without the person's role stated. (see §9, items 26 and 28, and 17)
 - If the next phase isn't built, say so. Positioning offers no public copy in the meantime (§1.3).
-- Do not write a decision-log entry from this close. Draft open question 10, whether a dated decision-log entry plus a pointer to the person's message is enough to count as owner validation, is unanswered. The validation this phase records is the person's own message, as §6.1 defines it. A strategic decision-log entry waits for a separate decision by the owner. This file does not invent an `authority_ref`.
+- Do not write a decision-log entry from this close. Open question 10 (§9), whether a dated decision-log entry plus a pointer to the person's message is enough to count as owner validation, is unanswered. The validation this phase records is the person's own message, as §6.1 defines it. A strategic decision-log entry waits for a separate decision by the owner. This file does not invent an `authority_ref`.
 
 ### 6.4 Ending without `positioned`
 
@@ -680,7 +680,7 @@ Not in method 0.6.0:
 2. The expression plan (themes, channels, voice, offers, funnels, public profile copy). Named only as a later phase. Not built.
 3. A rewrite of the blank [positioning template](../templates/positioning.md). The working-copy shape is §4.2.
 4. Machine-checked tokens for `warned`, held-out types, or `direction_open_question`.
-5. Independent review, a published tag, or a claim that the forced-case simulations were a general validation.
+5. Independent review, or a claim that the forced-case simulations were a general validation.
 
 `positioned` in a run of this conduct is a lifecycle mark in the private working copy after section 6. It is not publication approval.
 
