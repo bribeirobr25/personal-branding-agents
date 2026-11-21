@@ -1,6 +1,6 @@
 # Positioning phase
 
-**Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+Draft method 0.6.0, contract 0.3.0. Unreleased. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
 **Language:** this procedure is in English. The conversation follows the language the person is using.
 
@@ -96,7 +96,7 @@ The result is a decision aid that later phases build on. It is not a piece of co
 | Audience, problem space, contribution, limits, proof, differentiation, positioning sentence, what was rejected, what is held open | **Positioning** (this conduct) | This workflow. Draft method 0.6.0. Not independently validated. |
 | Themes or pillars, channels, languages per channel, voice, cadence as an experiment, first story candidates | **Expression plan**, the remainder of today's "Sixth phase" | **Not built.** Named only as a placeholder. Q2 stays open. |
 | **Offers, funnels, lead capture, pricing, course or product design** | **Expression plan** (see §9, item 18) | **Not built.** Positioning records only which *routes* the person keeps open (§4.2). It designs none of them. |
-| **Public profile copy** (headline, bio, About text) and posts | **Expression plan** decides channel and voice. The **content cycle** then drafts and reviews (StoryBrief, concepts, SELECT, Channel Editor, five gates, exact owner approval). | Content cycle built (`workflows/content-cycle.md`). It needs a known channel, so it can't run until the expression plan exists. |
+| **Public profile copy** (headline, bio, About text) and posts | **Expression plan** decides channel and voice. The **content cycle** then drafts and reviews (StoryBrief, concepts, SELECT, Channel Editor, five gates, exact owner approval). | Content cycle built (`workflows/content-cycle.md`). It starts after Positioning closes or stops, once a channel exists. |
 | Visual identity, naming, design | None | Out of scope for the method. Say so if asked. |
 | Measuring whether the positioning works | Performance Analyst, after confirmed actions | Built (evaluation protocol). Positioning only names the success signals. |
 
@@ -251,8 +251,8 @@ Positioning reads what already exists. It adds no new intake form, and it doesn'
 **Optional inputs Positioning may ask for, once each and not as gates.** Draft open question 6 is unanswered, so these stay optional. They are not required, and they are not dropped:
 
 - How work usually finds the person now: being seen in public, or people who already know them. Kinds only, no names, numbers or money.
-- Which theme they would still want to work on in a few years even if few people reacted. A sustainability check, not a gate.
-- Realistic time available and the medium they are comfortable with, asked only when it changes the positioning.
+- What they'd still choose to work on years from now, even with little attention. A check on staying power, not a gate.
+- How much time they can give, and which format suits them. Ask only if it changes the positioning.
 
 Do not quote third-party method text.
 
@@ -553,7 +553,7 @@ Send this only when part 2 holds, a candidate has been chosen (§2.1), and this 
 9. **Carried from Discovery.** Discovery's open questions that are still open, by name, including a positioning question named as next and not yet asked, such as market or time. If none remain, say none.
 10. **What comes next**, named but not asked. For example:
     - themes, channels, voice, and any offer or funnel in the expression plan (say it isn't built, if it isn't);
-    - a first story through the content cycle once a channel exists;
+    - a first story through the content cycle after Positioning closes or stops, once a channel exists;
     - a private action.
 11. **One question.** Record this exact version as your working positioning, change something, or stop here. When the check is `warned`, the question names each risk in the same sentence, for example "Record A2, which carries these risks: …". That question is not used to close a company or team result worded as a personal result without the person's role stated. That wording blocks the close (§6.1). The question always includes stopping. "Change X" follows the "yes, but change X" rule (§6.1).
 
@@ -642,7 +642,7 @@ Items 1–11 stay open. This draft does not decide them. Items 12–29 are the c
 3. **Pillars.** The working shape drops numbered pillars. Whether the blank template drops them too stays open. This draft does not rewrite the blank template.
 4. **Candidate count.** As many as the evidence supports; one is fine. No soft upper limit is added. Whether to add one later stays open.
 5. **Routes field.** This conduct records routes to the outcome as preferred, open, or declined, and designs none. Whether routes should leave this phase entirely stays open.
-6. **The three optional Positioning asks** in section 3 (where opportunities arrive today, the sustainability check, time and medium). Keep all three, some, or none? This question stays open. They stay optional, not gates.
+6. **The three optional Positioning asks** in section 3 (how work finds them now, staying power, time and format). Keep all three, some, or none? This question stays open. They stay optional, not gates.
 7. **Contract.** Contract 0.3.0 machine-checks `record_state`: `working`, `validated`, `superseded`. The values `warned`, `own_undisputed_fact`, and `direction_open_question` are non-canonical, pending enum checks. They are not contract tokens.
 8. **`intake` → `positioned`.** This conduct allows Positioning without authorized research, as long as `researched` is recorded only when research happened. The shared lifecycle string is not rewritten. Whether to change that string stays open. See §4.4.
 9. **Release bundling.** Discovery de-duplication is not in this draft. Discovery wording stays as in method 0.5.3, aside from the hand-off into Positioning. Whether de-duplication ships later stays open.

@@ -17,7 +17,7 @@ The public core contains generic methods and independently fictional examples. R
 1. Read [AGENTS.md](AGENTS.md), [architecture](docs/architecture.md) and [privacy](docs/security-and-privacy.md).
 2. Use the [Orchestrator](agents/orchestrator.md) and [progressive onboarding](workflows/onboarding.md). Share only authorized information. A CV, account connection and public posting are optional.
 3. Copy blank [templates](templates/) into your own private workspace. Establish a [GoalMap](templates/goal-map.md), evidence and knowledge banks before claiming expertise.
-4. After a chosen direction, follow [Positioning](workflows/positioning.md). The [content cycle](workflows/content-cycle.md) starts once a channel exists: story, distinct concepts, selection, channel draft, five final gates and exact human approval. Until the expression plan is built, the person names the channel.
+4. After a chosen direction, follow [Positioning](workflows/positioning.md). The [content cycle](workflows/content-cycle.md) starts after Positioning closes or stops, once a channel exists: story, distinct concepts, selection, channel draft, five final gates and exact human approval. Until the expression plan is built, the person names the channel.
 5. Publish manually only when authorized. Record an actual receipt or URL; measure only available observations.
 6. Preserve a [checkpoint](templates/run-checkpoint.json) so another session can resume without pretending to remember hidden context.
 

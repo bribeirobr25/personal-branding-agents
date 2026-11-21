@@ -255,6 +255,13 @@ class PositioningPhaseV3Tests(unittest.TestCase):
         self.assertNotIn("If the positioning phase is not built in this setup", onboarding)
         self.assertIn("Five Discovery asks are optional and asked once", onboarding)
         self.assertIn("`validated_for_strategy`", onboarding)
+        trigger = "after Positioning closes or stops, once a channel exists"
+        self.assertIn(trigger, onboarding)
+        self.assertIn(trigger, self.text)
+        orchestrator = (ROOT / "agents" / "orchestrator.md").read_text(encoding="utf-8")
+        self.assertIn(trigger, orchestrator)
+        for rel in ("README.md", "CHANGELOG.md", "docs/releases/v0.6.0.md", "docs/how-it-works.md"):
+            self.assertIn(trigger, (ROOT / rel).read_text(encoding="utf-8"), rel)
 
 
 if __name__ == "__main__":

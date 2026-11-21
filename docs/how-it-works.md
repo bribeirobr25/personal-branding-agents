@@ -177,6 +177,6 @@ Method 0.5.3 adds five optional Discovery asks, and contract version stays 0.2.0
 
 ## What 0.6.0 adds
 
-Method 0.6.0 adds the Positioning phase and moves the contract to 0.3.0 ([method 0.6.0](releases/v0.6.0.md)). Discovery wording stays the 0.5.3 procedure, aside from the hand-off after a chosen direction. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+Method 0.6.0 adds the Positioning phase and moves the contract to 0.3.0 ([method 0.6.0](releases/v0.6.0.md)). Discovery wording stays the 0.5.3 procedure, aside from the hand-off after a chosen direction. The content cycle starts after Positioning closes or stops, once a channel exists. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
 **Further reading:** [architecture](architecture.md) · [delegation contracts](agent-contracts.md) · [onboarding](../workflows/onboarding.md) · [Positioning](../workflows/positioning.md) · [content cycle](../workflows/content-cycle.md) · [quality gates](quality-gates.md) · [version 0.6.0](releases/v0.6.0.md).

@@ -238,7 +238,7 @@ If the person asks what else you need, give the summary to confirm, the held-out
 
 If they choose a direction, do that in a later reply, not in Closing Discovery. Follow [Positioning](positioning.md) for audience, problem, proof, differentiation, and the positioning sentence. Channels, voice, cadence, themes, offers, and public profile copy are a later phase and are not built. When the specialists are role-played by one model, say so.
 
-Set up a private workspace using `templates/` outside this public repository. Choose up to three evidenced story ideas and begin [content cycle](content-cycle.md) after Positioning closes or stops; publish only with explicit human approval.
+Set up a private workspace using `templates/` outside this public repository. Choose up to three evidenced story ideas and begin [content cycle](content-cycle.md) after Positioning closes or stops, once a channel exists; publish only with explicit human approval.
 
 ## Branches / fallback behavior
 
