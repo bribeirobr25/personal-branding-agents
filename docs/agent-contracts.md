@@ -1,6 +1,8 @@
-# Delegation and record contracts: method 0.2.0
+# Delegation and record contracts: contract 0.3.0
 
 Prompt-first specifications, not an enforced worker runtime. See [machine-readable vocabulary](../contracts/framework.json). All specialists return to Orchestrator. It authorizes minimum necessary context and presents validated results to the user.
+
+Contract 0.3.0 adds Positioning `record_state`: working / validated / superseded. The 0.2.0 envelope, evidence statuses, content states, final gates, and approval fields are unchanged. `validated` on a Positioning record is not an `ApprovalRecord`.
 
 ## Stable envelope
 
@@ -22,6 +24,7 @@ Use stable IDs, version and source references. Unknown values remain null with a
 | Record | Required content beyond ID/version | Invariant |
 | --- | --- | --- |
 | GoalMap | outcome, audience, constraints, desired/avoided associations, proof gaps, success signals, validation | Goal chosen by the user |
+| PositioningRecord | chosen direction, audience, problem, contribution, proof with status, candidates, what was set aside, what is held open, validation pointer, handoff | The person chooses; validation is not publication approval |
 | EvidenceRecord | source/version/locator, claim, verification scope/status, coverage, observation time, rights | Existence is not impact |
 | StoryBrief | problem, context, personal role, decision/experiment, result/observation, limits, lesson, evidence, disclosure | No invented outcome |
 | CreativeBrief | goal/audience, central claim, proof, current voice, channel/language, constraints, intended action | Material claim change creates a new brief |

@@ -14,7 +14,7 @@ Before a channel draft: create a StoryBrief, compare genuinely different concept
 
 ## Shared lifecycle
 
-Onboarding: `intake -> researched -> positioned`, with user validation before positioning.
+Onboarding: `intake -> researched -> positioned`, with user validation before positioning. Positioning conduct is [the positioning workflow](workflows/positioning.md). Discovery in [onboarding](workflows/onboarding.md) stays the method 0.5.3 procedure, with a hand-off after a direction is chosen.
 Content: `idea -> researched -> briefed -> concept_selected -> drafted -> reviewed -> approved -> published -> measured`.
 Optional authorized scheduling: `approved -> scheduled -> published`. Block/revise decisions do not erase the last confirmed content state. Read [migration guidance](docs/releases/v0.2.0.md) before converting legacy records.
 

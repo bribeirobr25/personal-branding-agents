@@ -9,8 +9,8 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-METHOD_VERSION = "0.5.3"
-CONTRACT_VERSION = "0.2.0"
+METHOD_VERSION = "0.6.0"
+CONTRACT_VERSION = "0.3.0"
 
 
 def require(condition: bool, message: str) -> None:
@@ -27,6 +27,7 @@ def validate_contract(contract: dict) -> None:
         "evidence_status": {"verified", "user_reported", "unverified", "contradictory", "outdated"},
         "concept_decision": {"SELECT", "REVISE", "BLOCK"},
         "final_gate_result": {"PASS", "REVISE", "BLOCK"},
+        "record_state": {"working", "validated", "superseded"},
     }
     for key, values in expected.items():
         require(set(contract.get(key, [])) == values, f"Incorrect vocabulary: {key}")
@@ -61,6 +62,9 @@ def run(root: Path, inventory: Path | None) -> dict:
     contract = json.loads(local["contracts/framework.json"].read_text(encoding="utf-8"))
     require(manifest.get("method_version") == METHOD_VERSION, "Method version mismatch")
     require(manifest.get("contract_version") == CONTRACT_VERSION, "Manifest contract mismatch")
+    for rel in ("templates/approval-record.json", "templates/reuse-decision.json", "templates/run-checkpoint.json"):
+        embedded = json.loads(local[rel].read_text(encoding="utf-8"))
+        require(embedded.get("contract_version") == CONTRACT_VERSION, f"Template contract mismatch: {rel}")
     require(manifest.get("implementation_level") == "prompt-first", "Unsupported implementation claim")
     validate_contract(contract)
     for path in manifest.get("templates", []):
