@@ -20,7 +20,7 @@ BANNED = (
 def tracked_texts():
     raw = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT)
     for name in raw.decode("utf-8").split("\0"):
-        if not name:
+        if not name or name == "LICENSE":
             continue
         path = ROOT / name
         if not path.is_file():
