@@ -4,7 +4,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.5.3.** This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. Use the published release tag and its resolved commit as your reference. See [method 0.5.3](docs/releases/v0.5.3.md).
+**Method version: 0.6.0 (unreleased draft).** Contract version: 0.3.0. This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. This draft is not a published tag. The last published tag is v0.5.3. See [method 0.6.0](docs/releases/v0.6.0.md). **Status:** tested only with forced-case simulations, using the same model family; not independently validated.
 
 ## Purpose and boundaries
 
@@ -17,7 +17,7 @@ The public core contains generic methods and independently fictional examples. R
 1. Read [AGENTS.md](AGENTS.md), [architecture](docs/architecture.md) and [privacy](docs/security-and-privacy.md).
 2. Use the [Orchestrator](agents/orchestrator.md) and [progressive onboarding](workflows/onboarding.md). Share only authorized information. A CV, account connection and public posting are optional.
 3. Copy blank [templates](templates/) into your own private workspace. Establish a [GoalMap](templates/goal-map.md), evidence and knowledge banks before claiming expertise.
-4. Follow the [content cycle](workflows/content-cycle.md): story, distinct concepts, selection, channel draft, five final gates and exact human approval.
+4. After a chosen direction, follow [Positioning](workflows/positioning.md). Then follow the [content cycle](workflows/content-cycle.md): story, distinct concepts, selection, channel draft, five final gates and exact human approval.
 5. Publish manually only when authorized. Record an actual receipt or URL; measure only available observations.
 6. Preserve a [checkpoint](templates/run-checkpoint.json) so another session can resume without pretending to remember hidden context.
 
@@ -43,6 +43,7 @@ The Orchestrator remains the sole user-facing agent. Every specialist returns to
 ## Method map
 
 - [Knowledge and positioning](docs/knowledge-and-positioning.md): goals, credibility, interests, voice and reference libraries.
+- [Positioning](workflows/positioning.md): the draft Positioning phase. Discovery stays in [onboarding](workflows/onboarding.md).
 - [Creative methods](docs/creative-methods.md) and [concept gate](docs/creative-concept-gate.md): diversity, opening, promise/payoff, rubric and accessibility.
 - [Contracts](docs/agent-contracts.md), [contract vocabulary](contracts/framework.json) and [manifest](framework-manifest.json): portable records and states.
 - [Evaluation](docs/evaluation-protocol.md): measuring results and deciding what to try next.
