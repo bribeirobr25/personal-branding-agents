@@ -4,7 +4,7 @@
 
 Validate understanding before positioning. Record desired outcome and horizon, what is not a goal, priority audience, desired reputation, current proof, actions that earn that reputation, learning gaps and success signals. A current job title is not a universal objective. A recommendation may be to improve work or evidence rather than publish.
 
-Capacity is a constraint: time, energy, language, comfort with media, accessibility and exposure limits. Start with one manageable cycle. Choose a primary channel and a secondary adaptation only when useful. Avoid simultaneously promoting every topic or project. A positioning statement remains a hypothesis until the owner validates it.
+Capacity is a constraint: time, energy, language, comfort with media, accessibility and exposure limits. Start with one manageable cycle. Choose a primary channel and a secondary adaptation only when useful. Avoid simultaneously promoting every topic or project. A positioning statement remains a hypothesis until the owner validates it. The Positioning conduct is [the positioning workflow](../workflows/positioning.md).
 
 Map audience problem -> useful contribution -> contextual proof -> appropriate next action. Separate evergreen identity from current opportunity goals. For a contrasting opinion, record the perceived common practice, the actual alternative defended, evidence and situations where it does not apply. Do not invent consensus or opposition.
 
