@@ -1,8 +1,6 @@
 # Changelog
 
-## 0.6.0 — unreleased draft
-
-Draft only. Not merged, not tagged, and not a release.
+## 0.6.0 - 2026-11-21
 
 - Adds the Positioning phase (`workflows/positioning.md`), method 0.6.0, contract 0.3.0.
 - Keeps the Discovery phase as published in method 0.5.3 (`workflows/onboarding.md`), with a hand-off into Positioning after a direction is chosen.

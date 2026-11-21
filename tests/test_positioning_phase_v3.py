@@ -18,8 +18,11 @@ class PositioningPhaseV3Tests(unittest.TestCase):
 
     def test_status_is_shared(self):
         self.assertIn(STATUS, self.text)
+        self.assertIn("Method 0.6.0, contract 0.3.0.", self.text)
         self.assertIn("method 0.6.0", self.text.casefold())
         self.assertIn("contract 0.3.0", self.text.casefold())
+        self.assertNotIn("Draft method 0.6.0", self.text)
+        self.assertNotIn("unreleased", self.text.casefold())
         for rel in (
             "README.md",
             "CHANGELOG.md",
@@ -28,6 +31,9 @@ class PositioningPhaseV3Tests(unittest.TestCase):
         ):
             other = (ROOT / rel).read_text(encoding="utf-8")
             self.assertIn(STATUS, other, rel)
+            self.assertNotIn("unreleased", other.casefold(), rel)
+            self.assertNotIn("unreleased draft", other.casefold(), rel)
+        self.assertIn("## 0.6.0 - 2026-11-21", (ROOT / "CHANGELOG.md").read_text(encoding="utf-8"))
         self.assertNotIn("The lock stays method 0.5.3 and contract 0.2.0", self.text)
 
     def test_own_fact_is_self_reported(self):

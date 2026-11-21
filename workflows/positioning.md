@@ -1,6 +1,6 @@
 # Positioning phase
 
-Draft method 0.6.0, contract 0.3.0. Unreleased. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+Method 0.6.0, contract 0.3.0. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
 **Language:** this procedure is in English. The conversation follows the language the person is using.
 
@@ -59,7 +59,7 @@ Discovery already exists. Positioning had a lifecycle name and no conduct. This 
 | What follows a chosen direction | [onboarding](onboarding.md) "Sixth phase" | Split. Positioning takes audience, problem, proof, differentiation and the statement. Channels, voice, cadence and themes wait for a later phase (section 1.3). |
 | Positioning Strategist role | [positioning strategist](../agents/positioning-strategist.md) | Kept as the specialist. "Who speaks" gives the role this workflow. |
 | GoalMap | [knowledge and positioning](../docs/knowledge-and-positioning.md); [GoalMap template](../templates/goal-map.md) | Positioning completes the GoalMap in the private working copy and validates only what section 6.1 allows. |
-| Positioning template, marked "DRAFT, pending human validation" | [positioning template](../templates/positioning.md) | The working-copy shape is section 4. The blank public template is not rewritten in this draft. |
+| Positioning template, marked "DRAFT, pending human validation" | [positioning template](../templates/positioning.md) | The working-copy shape is section 4. The blank public template is not rewritten in method 0.6.0. |
 | Fictional positioning example | [fictional example](../examples/fictional-client/positioning.md) | Not replaced. The Alex example in section 5.4 stays inside this file. |
 | Two-part gate style, "a correction and a gate close never share a reply", held-out items named, "or stop here" | onboarding Discovery gate and Closing Discovery | Reused for Closing Positioning (section 6). |
 
@@ -93,7 +93,7 @@ The result is a decision aid that later phases build on. It is not a piece of co
 
 | Topic | Owner | Built in the method today? |
 | --- | --- | --- |
-| Audience, problem space, contribution, limits, proof, differentiation, positioning sentence, what was rejected, what is held open | **Positioning** (this conduct) | This workflow. Draft method 0.6.0. Not independently validated. |
+| Audience, problem space, contribution, limits, proof, differentiation, positioning sentence, what was rejected, what is held open | **Positioning** (this conduct) | This workflow. Method 0.6.0. Not independently validated. |
 | Themes or pillars, channels, languages per channel, voice, cadence as an experiment, first story candidates | **Expression plan**, the remainder of today's "Sixth phase" | **Not built.** Named only as a placeholder. Q2 stays open. |
 | **Offers, funnels, lead capture, pricing, course or product design** | **Expression plan** (see §9, item 18) | **Not built.** Positioning records only which *routes* the person keeps open (§4.2). It designs none of them. |
 | **Public profile copy** (headline, bio, About text) and posts | **Expression plan** decides channel and voice. The **content cycle** then drafts and reviews (StoryBrief, concepts, SELECT, Channel Editor, five gates, exact owner approval). | Content cycle built (`workflows/content-cycle.md`). It starts after Positioning closes or stops, once a channel exists. |
@@ -389,13 +389,13 @@ handoff:
   inherited_open_questions: []
 ```
 
-`method_ref` records the method version and the commit actually in use. This draft is method 0.6.0, contract 0.3.0, and it is unreleased, so do not invent a release tag.
+`method_ref` records the method version and the commit actually in use. This file is method 0.6.0, contract 0.3.0. Do not invent a release tag.
 
 Routes are recorded as the working shape specifies. Open question 5 is unanswered. Recording a route is not designing it, and it is not a decision that routes must stay in this phase forever.
 
 ### 4.3 Proposed changes to the blank positioning template
 
-Applied here as the shape of the private working copy in §4.2. The blank public `templates/positioning.md` is not rewritten in this draft.
+Applied here as the shape of the private working copy in §4.2. The blank public `templates/positioning.md` is not rewritten in method 0.6.0.
 
 - Keep, as fields: the status line, Goals, Target audiences, "Proof and differentiation" with Evidence ID / Verified? / Public use permitted?, Anti-positioning and boundaries, Alternatives and trade-offs, Human review.
 - Replace "Positioning hypothesis: one concise, truthful sentence" with **Candidates**, each with what it rests on, its trade-off and its state. A single candidate is allowed.
@@ -620,10 +620,10 @@ The close should still be short. One line per item is the default, and an empty 
 | Lives in this public method | Lives only in the private workspace |
 | --- | --- |
 | This file: purpose, entry, inputs, conversation principles, gate, Closing Positioning, failure modes | Filled Positioning records, GoalMaps, help-with paraphrases, candidate wording, rejected options |
-| The blank [positioning template](../templates/positioning.md) and [GoalMap template](../templates/goal-map.md). The working-copy shape is §4.2. The blank template is not rewritten in this draft. | Validation receipts (pointers to the person's own messages) |
+| The blank [positioning template](../templates/positioning.md) and [GoalMap template](../templates/goal-map.md). The working-copy shape is §4.2. The blank template is not rewritten in method 0.6.0. | Validation receipts (pointers to the person's own messages) |
 | The independently invented Alex example in §5.4, and the separate fictional example under [examples](../examples/fictional-client/positioning.md) | Real audiences, clients, referrers, routes, opportunity channels |
 | The PositioningRecord row in [delegation contracts](../docs/agent-contracts.md) | Third-party consent records (`user_reported`) |
-| The draft release note [method 0.6.0](../docs/releases/v0.6.0.md) | Test ledgers, simulation logs, and the provenance of ideas |
+| The release note [method 0.6.0](../docs/releases/v0.6.0.md) | Test ledgers, simulation logs, and the provenance of ideas |
 
 Rules carried over unchanged:
 
@@ -635,19 +635,19 @@ Rules carried over unchanged:
 
 ## 9. Design rationale
 
-Items 1–11 stay open. This draft does not decide them. Items 12–29 are the conduct this draft applies. No person is named: each item states the rule and why that option was kept.
+Items 1–11 stay open. Method 0.6.0 does not decide them. Items 12–29 are the conduct method 0.6.0 applies. No person is named: each item states the rule and why that option was kept.
 
 1. **File layout.** Positioning is `workflows/positioning.md`. It is not a seventh section of [onboarding](onboarding.md).
 2. **The later phase.** "Expression plan" is the placeholder name for themes, channels, and voice. This conduct keeps that placeholder and does not design the phase. Another name, or no named phase until it is designed, stays open.
-3. **Pillars.** The working shape drops numbered pillars. Whether the blank template drops them too stays open. This draft does not rewrite the blank template.
+3. **Pillars.** The working shape drops numbered pillars. Whether the blank template drops them too stays open. Method 0.6.0 does not rewrite the blank template.
 4. **Candidate count.** As many as the evidence supports; one is fine. No soft upper limit is added. Whether to add one later stays open.
 5. **Routes field.** This conduct records routes to the outcome as preferred, open, or declined, and designs none. Whether routes should leave this phase entirely stays open.
 6. **The three optional Positioning asks** in section 3 (how work finds them now, staying power, time and format). Keep all three, some, or none? This question stays open. They stay optional, not gates.
 7. **Contract.** Contract 0.3.0 machine-checks `record_state`: `working`, `validated`, `superseded`. The values `warned`, `own_undisputed_fact`, and `direction_open_question` are non-canonical, pending enum checks. They are not contract tokens.
 8. **`intake` → `positioned`.** This conduct allows Positioning without authorized research, as long as `researched` is recorded only when research happened. The shared lifecycle string is not rewritten. Whether to change that string stays open. See §4.4.
-9. **Release bundling.** Discovery de-duplication is not in this draft. Discovery wording stays as in method 0.5.3, aside from the hand-off into Positioning. Whether de-duplication ships later stays open.
+9. **Release bundling.** Discovery de-duplication is not in method 0.6.0. Discovery wording stays as in method 0.5.3, aside from the hand-off into Positioning. Whether de-duplication ships later stays open.
 10. **Validation record.** The validation this phase records is the person's own message, as §6.1 defines it. A separate decision note is not invented here, and `authority_ref` is not invented here. Whether a dated private note plus a pointer to that message should also be required stays open.
-11. **How far the check goes.** The status line is the claim this draft makes: **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated. A broader check is not claimed.
+11. **How far the check goes.** The status line is the claim method 0.6.0 makes: **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated. A broader check is not claimed.
 
 The conduct keeps the more conservative option in each case, except item 17, which is the less conservative option (see item 17). The role-less company or team result is not part of that less-conservative option. That warning-only option, and that block, are decided.
 
@@ -672,9 +672,9 @@ The conduct keeps the more conservative option in each case, except item 17, whi
 
 ## 10. Version
 
-This file is draft method 0.6.0 and contract 0.3.0. It is unreleased. It is not a tag, a merge, or a release. Discovery in [onboarding](onboarding.md) is the method 0.5.3 procedure, unchanged aside from the hand-off into this file. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+This file is method 0.6.0 and contract 0.3.0. Discovery in [onboarding](onboarding.md) is the method 0.5.3 procedure, unchanged aside from the hand-off into this file. **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
-Not in this draft:
+Not in method 0.6.0:
 
 1. Discovery de-duplication. Discovery wording stays as published in method 0.5.3, plus the hand-off named in onboarding.
 2. The expression plan (themes, channels, voice, offers, funnels, public profile copy). Named only as a later phase. Not built.

@@ -1,6 +1,6 @@
 # How it works: from your first conversation to outcomes
 
-**Applies to:** public Personal Branding Agents method **v0.6.0** (unreleased draft, prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md), [Positioning](../workflows/positioning.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime. Discovery in onboarding is the method 0.5.3 procedure, with a hand-off into Positioning.
+**Applies to:** public Personal Branding Agents method **v0.6.0** (prompt-first). This is a practical guide to the [Orchestrator](../agents/orchestrator.md), [conversational onboarding](../workflows/onboarding.md), [Positioning](../workflows/positioning.md) and [content cycle](../workflows/content-cycle.md), not an additional workflow or an autonomous runtime. Discovery in onboarding is the method 0.5.3 procedure, with a hand-off into Positioning.
 
 ## In one minute
 
@@ -153,9 +153,9 @@ The five final gates are **factual accuracy, strategic relevance, editorial clar
 7. **User:** approves a particular artifact, version and intended destination. Only then may the separately supported action occur.
 8. **Performance Analyst:** interprets real responses and recommends one next experiment, without treating impressions as business results.
 
-## What ships in this draft, and what does not
+## What ships in method 0.6.0, and what does not
 
-**In this unreleased draft:** portable role prompts, three workflow documents (Discovery, Positioning, and the content cycle), contracts, templates, fictional examples and static documentation validation. **Not shipped:** an autonomous orchestrator service, independent worker runtime, live account connectors, scheduler, guaranteed long-term memory, social posting service or automatic analytics. The host may supply tools, but their availability and authority must be established, not assumed. The last published tag remains v0.5.3.
+**In method 0.6.0:** portable role prompts, three workflow documents (Discovery, Positioning, and the content cycle), contracts, templates, fictional examples and static documentation validation. **Not shipped:** an autonomous orchestrator service, independent worker runtime, live account connectors, scheduler, guaranteed long-term memory, social posting service or automatic analytics. The host may supply tools, but their availability and authority must be established, not assumed.
 
 Actual personal data, source links, transcripts, evidence, approvals and performance records belong in each user's **private workspace**, not this public repository. At the end, offer a short recap: the profile, open questions, and the next step. Warn that a full transcript contains private details and should not be shared publicly.
 
@@ -173,7 +173,7 @@ Method 0.5.2 adds Discovery wording fixes, and contract version stays 0.2.0 ([me
 
 ## What 0.5.3 adds
 
-Method 0.5.3 adds five optional Discovery asks, and contract version stays 0.2.0 ([method 0.5.3](releases/v0.5.3.md)). That note does not itself change positioning. Method 0.6.0 is the draft that adds Positioning.
+Method 0.5.3 adds five optional Discovery asks, and contract version stays 0.2.0 ([method 0.5.3](releases/v0.5.3.md)). That note does not itself change positioning. Method 0.6.0 adds Positioning.
 
 ## What 0.6.0 adds
 

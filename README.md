@@ -4,7 +4,7 @@
 
 An evidence-led, prompt-first framework for professional reputation, useful communication and learning.
 
-**Method version: 0.6.0 (unreleased draft).** Contract version: 0.3.0. This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. This draft is not a published tag. The last published tag is v0.5.3. See [method 0.6.0](docs/releases/v0.6.0.md). **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
+**Method version: 0.6.0.** Contract version: 0.3.0. This repository contains role instructions, workflows, templates, a machine-readable contract vocabulary. It does **not** ship autonomous workers, account connectors, a scheduler, a memory service or automatic social publishing. See [method 0.6.0](docs/releases/v0.6.0.md). **Status:** Not validated. Checked only with forced-case simulations on one model family (same-model and structural only). The full forced run did not meet its safety bar; a targeted re-test of the fix met it. Not independently validated.
 
 ## Purpose and boundaries
 
@@ -43,7 +43,7 @@ The Orchestrator remains the sole user-facing agent. Every specialist returns to
 ## Method map
 
 - [Knowledge and positioning](docs/knowledge-and-positioning.md): goals, credibility, interests, voice and reference libraries.
-- [Positioning](workflows/positioning.md): the draft Positioning phase. Discovery stays in [onboarding](workflows/onboarding.md).
+- [Positioning](workflows/positioning.md): the Positioning phase. Discovery stays in [onboarding](workflows/onboarding.md).
 - [Creative methods](docs/creative-methods.md) and [concept gate](docs/creative-concept-gate.md): diversity, opening, promise/payoff, rubric and accessibility.
 - [Contracts](docs/agent-contracts.md), [contract vocabulary](contracts/framework.json) and [manifest](framework-manifest.json): portable records and states.
 - [Evaluation](docs/evaluation-protocol.md): measuring results and deciding what to try next.
